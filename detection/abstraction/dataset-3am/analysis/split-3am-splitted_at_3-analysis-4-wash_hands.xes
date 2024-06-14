@@ -1,0 +1,3872 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<extension name="Lifecycle" prefix="lifecycle" uri="http://www.xes-standard.org/lifecycle.xesext" />
+	<extension name="Organizational" prefix="org" uri="http://www.xes-standard.org/org.xesext" />
+	<string key="origin" value="csv" />
+	<trace>
+		<string key="concept:name" value="2020-03-16 00:00:00+00:00" />
+		<string key="traceId" value="117" />
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-16T20:04:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="1571" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="87" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-16T20:04:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1572" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="88" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-16T20:04:00+00:00" />
+			<string key="Activity" value="go_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1573" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="89" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="get_food_from_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-16T20:04:00+00:00" />
+			<string key="Activity" value="get_food_from_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="1574" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="90" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="get_food_from_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-16T20:05:00+00:00" />
+			<string key="Activity" value="get_food_from_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1576" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="92" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-16T22:29:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="1629" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="147" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-16T22:29:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1630" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="148" />
+			<int key="@@case_index" value="0" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2020-03-17 00:00:00+00:00" />
+		<string key="traceId" value="130" />
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-17T04:02:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="1671" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="189" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-17T04:02:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1672" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="190" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-17T19:53:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="1720" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="236" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-17T19:53:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1721" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="237" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-17T19:53:00+00:00" />
+			<string key="Activity" value="go_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1722" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="238" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<string key="concept:name" value="get_food_from_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-17T19:53:00+00:00" />
+			<string key="Activity" value="get_food_from_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="1723" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="239" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<string key="concept:name" value="get_food_from_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-17T19:54:00+00:00" />
+			<string key="Activity" value="get_food_from_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1725" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="241" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T01:00:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="1781" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="297" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T01:00:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1782" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="298" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T02:19:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="1820" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="336" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T02:19:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1821" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="337" />
+			<int key="@@case_index" value="1" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2020-03-18 00:00:00+00:00" />
+		<string key="traceId" value="141" />
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T04:23:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="1868" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="384" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T04:23:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1869" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="385" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T04:23:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="1871" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="387" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T04:23:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1872" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="388" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T04:23:00+00:00" />
+			<string key="Activity" value="go_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1873" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="389" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T04:24:00+00:00" />
+			<string key="Activity" value="go_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1874" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="390" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="concept:name" value="get_food_from_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T04:24:00+00:00" />
+			<string key="Activity" value="get_food_from_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="1875" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="391" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="concept:name" value="get_food_from_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T04:25:00+00:00" />
+			<string key="Activity" value="get_food_from_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1877" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="393" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T05:33:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="1920" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="436" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T05:33:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1921" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="437" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T06:50:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="1967" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="483" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T06:50:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1968" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="484" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T19:12:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2039" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="555" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T19:12:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2040" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="556" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T19:12:00+00:00" />
+			<string key="Activity" value="go_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2041" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="557" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="concept:name" value="get_food_from_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T19:12:00+00:00" />
+			<string key="Activity" value="get_food_from_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2042" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="558" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="concept:name" value="get_food_from_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T19:13:00+00:00" />
+			<string key="Activity" value="get_food_from_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2044" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="560" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T20:39:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2077" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="594" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T20:39:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2078" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="595" />
+			<int key="@@case_index" value="2" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2020-03-19 00:00:00+00:00" />
+		<string key="traceId" value="163" />
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-20T01:03:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2159" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="677" />
+			<int key="@@case_index" value="3" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-20T01:03:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2160" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="678" />
+			<int key="@@case_index" value="3" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2020-03-20 00:00:00+00:00" />
+		<string key="traceId" value="162" />
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-20T07:01:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2181" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="697" />
+			<int key="@@case_index" value="4" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-20T07:01:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2182" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="698" />
+			<int key="@@case_index" value="4" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-20T07:01:00+00:00" />
+			<string key="Activity" value="go_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2183" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="699" />
+			<int key="@@case_index" value="4" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-20T07:02:00+00:00" />
+			<string key="Activity" value="go_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2184" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="700" />
+			<int key="@@case_index" value="4" />
+		</event>
+		<event>
+			<string key="concept:name" value="get_food_from_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-20T07:02:00+00:00" />
+			<string key="Activity" value="get_food_from_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2185" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="701" />
+			<int key="@@case_index" value="4" />
+		</event>
+		<event>
+			<string key="concept:name" value="get_food_from_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-20T07:03:00+00:00" />
+			<string key="Activity" value="get_food_from_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2187" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="703" />
+			<int key="@@case_index" value="4" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-20T20:51:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2279" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="795" />
+			<int key="@@case_index" value="4" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-20T20:51:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2280" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="796" />
+			<int key="@@case_index" value="4" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-20T20:51:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2282" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="798" />
+			<int key="@@case_index" value="4" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-20T20:51:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2283" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="799" />
+			<int key="@@case_index" value="4" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-20T20:51:00+00:00" />
+			<string key="Activity" value="go_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2284" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="800" />
+			<int key="@@case_index" value="4" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-20T20:52:00+00:00" />
+			<string key="Activity" value="go_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2285" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="801" />
+			<int key="@@case_index" value="4" />
+		</event>
+		<event>
+			<string key="concept:name" value="get_food_from_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-20T20:52:00+00:00" />
+			<string key="Activity" value="get_food_from_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2286" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="802" />
+			<int key="@@case_index" value="4" />
+		</event>
+		<event>
+			<string key="concept:name" value="get_food_from_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-20T20:53:00+00:00" />
+			<string key="Activity" value="get_food_from_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2288" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="804" />
+			<int key="@@case_index" value="4" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2020-03-21 00:00:00+00:00" />
+		<string key="traceId" value="178" />
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-21T04:29:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2348" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="866" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-21T04:29:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2349" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="867" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-21T19:21:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2390" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="906" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-21T19:21:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2391" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="907" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-21T19:21:00+00:00" />
+			<string key="Activity" value="go_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2392" />
+			<string key="reference:case:concept:name" value="cook_and_eat" />
+			<int key="@@index" value="908" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-21T19:22:00+00:00" />
+			<string key="Activity" value="go_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2393" />
+			<string key="reference:case:concept:name" value="cook_and_eat" />
+			<int key="@@index" value="909" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="concept:name" value="get_ingredients_from_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-21T19:22:00+00:00" />
+			<string key="Activity" value="get_ingredients_from_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2394" />
+			<string key="reference:case:concept:name" value="cook_and_eat" />
+			<int key="@@index" value="910" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="concept:name" value="get_ingredients_from_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-21T19:23:00+00:00" />
+			<string key="Activity" value="get_ingredients_from_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2396" />
+			<string key="reference:case:concept:name" value="cook_and_eat" />
+			<int key="@@index" value="912" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-21T22:57:00+00:00" />
+			<string key="Activity" value="go_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2454" />
+			<string key="reference:case:concept:name" value="cook_and_eat" />
+			<int key="@@index" value="970" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="concept:name" value="put_meal_to_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-21T22:57:00+00:00" />
+			<string key="Activity" value="put_meal_to_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2455" />
+			<string key="reference:case:concept:name" value="cook_and_eat" />
+			<int key="@@index" value="971" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="concept:name" value="put_meal_to_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-21T23:00:00+00:00" />
+			<string key="Activity" value="put_meal_to_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2457" />
+			<string key="reference:case:concept:name" value="cook_and_eat" />
+			<int key="@@index" value="973" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T01:06:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2530" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="1046" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T01:06:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2531" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="1047" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T01:06:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2533" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="1049" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T01:06:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2534" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="1050" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T01:06:00+00:00" />
+			<string key="Activity" value="go_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2535" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="1051" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T01:07:00+00:00" />
+			<string key="Activity" value="go_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2536" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="1052" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="concept:name" value="get_food_from_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T01:07:00+00:00" />
+			<string key="Activity" value="get_food_from_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2537" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="1053" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="concept:name" value="get_food_from_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T01:08:00+00:00" />
+			<string key="Activity" value="get_food_from_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2539" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="1055" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T03:15:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2597" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="1113" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T03:15:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2598" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="1114" />
+			<int key="@@case_index" value="5" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2020-03-22 00:00:00+00:00" />
+		<string key="traceId" value="197" />
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T04:57:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2629" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="1145" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T04:57:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2630" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="1146" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T04:57:00+00:00" />
+			<string key="Activity" value="go_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2631" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="1147" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="get_food_from_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T04:57:00+00:00" />
+			<string key="Activity" value="get_food_from_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2632" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="1148" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="get_food_from_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T04:58:00+00:00" />
+			<string key="Activity" value="get_food_from_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2634" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="1150" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T05:23:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2667" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="1183" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T05:23:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2668" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="1184" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T07:40:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2719" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="1235" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T07:40:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2720" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="1236" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T07:40:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2722" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="1238" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T07:40:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2723" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="1239" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T07:40:00+00:00" />
+			<string key="Activity" value="go_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2724" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="1240" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T07:41:00+00:00" />
+			<string key="Activity" value="go_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2725" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="1241" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="get_food_from_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T07:41:00+00:00" />
+			<string key="Activity" value="get_food_from_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2726" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="1242" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="get_food_from_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T07:42:00+00:00" />
+			<string key="Activity" value="get_food_from_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2728" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="1244" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T09:21:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2787" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="1303" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T09:21:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2788" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="1304" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T12:36:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2854" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="1370" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T12:36:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2855" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="1371" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T12:36:00+00:00" />
+			<string key="Activity" value="go_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2856" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="1372" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T12:37:00+00:00" />
+			<string key="Activity" value="go_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2857" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="1373" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="get_food_from_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T12:37:00+00:00" />
+			<string key="Activity" value="get_food_from_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2858" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="1374" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="get_food_from_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T12:38:00+00:00" />
+			<string key="Activity" value="get_food_from_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2860" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="1376" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T13:05:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2882" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="1398" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T13:05:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2883" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="1399" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T14:10:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2929" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="1445" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T14:10:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2930" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="1446" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T16:04:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2988" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="1504" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T16:04:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2989" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="1505" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T16:04:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2991" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="1507" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T16:04:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2992" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="1508" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T16:04:00+00:00" />
+			<string key="Activity" value="go_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2993" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="1509" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="get_food_from_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T16:04:00+00:00" />
+			<string key="Activity" value="get_food_from_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2994" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="1510" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="get_food_from_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T16:05:00+00:00" />
+			<string key="Activity" value="get_food_from_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2996" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="1512" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T17:50:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3054" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="1570" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T17:50:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3055" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="1571" />
+			<int key="@@case_index" value="6" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2020-03-23 00:00:00+00:00" />
+		<string key="traceId" value="235" />
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-23T20:24:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3125" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="1641" />
+			<int key="@@case_index" value="7" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-23T20:24:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3126" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="1642" />
+			<int key="@@case_index" value="7" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-23T20:24:00+00:00" />
+			<string key="Activity" value="go_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3127" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="1643" />
+			<int key="@@case_index" value="7" />
+		</event>
+		<event>
+			<string key="concept:name" value="get_food_from_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-23T20:24:00+00:00" />
+			<string key="Activity" value="get_food_from_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3128" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="1644" />
+			<int key="@@case_index" value="7" />
+		</event>
+		<event>
+			<string key="concept:name" value="get_food_from_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-23T20:25:00+00:00" />
+			<string key="Activity" value="get_food_from_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3130" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="1646" />
+			<int key="@@case_index" value="7" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-23T23:41:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3171" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="1688" />
+			<int key="@@case_index" value="7" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-23T23:41:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3172" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="1689" />
+			<int key="@@case_index" value="7" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2020-03-24 00:00:00+00:00" />
+		<string key="traceId" value="244" />
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-24T05:10:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3205" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="1723" />
+			<int key="@@case_index" value="8" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-24T05:10:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3206" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="1724" />
+			<int key="@@case_index" value="8" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-24T20:40:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3261" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="1777" />
+			<int key="@@case_index" value="8" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-24T20:40:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3262" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="1778" />
+			<int key="@@case_index" value="8" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-24T20:40:00+00:00" />
+			<string key="Activity" value="go_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3263" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="1779" />
+			<int key="@@case_index" value="8" />
+		</event>
+		<event>
+			<string key="concept:name" value="get_food_from_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-24T20:40:00+00:00" />
+			<string key="Activity" value="get_food_from_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3264" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="1780" />
+			<int key="@@case_index" value="8" />
+		</event>
+		<event>
+			<string key="concept:name" value="get_food_from_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-24T20:41:00+00:00" />
+			<string key="Activity" value="get_food_from_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3266" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="1782" />
+			<int key="@@case_index" value="8" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T01:46:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3306" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="1823" />
+			<int key="@@case_index" value="8" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T01:46:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3307" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="1824" />
+			<int key="@@case_index" value="8" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T02:51:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3360" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="1876" />
+			<int key="@@case_index" value="8" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T02:51:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3361" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="1877" />
+			<int key="@@case_index" value="8" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2020-03-25 00:00:00+00:00" />
+		<string key="traceId" value="257" />
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T04:32:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3395" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="1911" />
+			<int key="@@case_index" value="9" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T04:32:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3396" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="1912" />
+			<int key="@@case_index" value="9" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T04:32:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3398" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="1914" />
+			<int key="@@case_index" value="9" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T04:32:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3399" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="1915" />
+			<int key="@@case_index" value="9" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T04:32:00+00:00" />
+			<string key="Activity" value="go_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3400" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="1916" />
+			<int key="@@case_index" value="9" />
+		</event>
+		<event>
+			<string key="concept:name" value="get_food_from_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T04:32:00+00:00" />
+			<string key="Activity" value="get_food_from_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3401" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="1917" />
+			<int key="@@case_index" value="9" />
+		</event>
+		<event>
+			<string key="concept:name" value="get_food_from_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T04:33:00+00:00" />
+			<string key="Activity" value="get_food_from_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3403" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="1919" />
+			<int key="@@case_index" value="9" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T05:56:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3460" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="1976" />
+			<int key="@@case_index" value="9" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T05:56:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3461" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="1977" />
+			<int key="@@case_index" value="9" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T08:09:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3509" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="2025" />
+			<int key="@@case_index" value="9" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T08:09:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3510" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="2026" />
+			<int key="@@case_index" value="9" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T19:25:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3561" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="2077" />
+			<int key="@@case_index" value="9" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T19:25:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3562" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="2078" />
+			<int key="@@case_index" value="9" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T19:25:00+00:00" />
+			<string key="Activity" value="go_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3563" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="2079" />
+			<int key="@@case_index" value="9" />
+		</event>
+		<event>
+			<string key="concept:name" value="get_food_from_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T19:25:00+00:00" />
+			<string key="Activity" value="get_food_from_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3564" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="2080" />
+			<int key="@@case_index" value="9" />
+		</event>
+		<event>
+			<string key="concept:name" value="get_food_from_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T19:26:00+00:00" />
+			<string key="Activity" value="get_food_from_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3566" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="2082" />
+			<int key="@@case_index" value="9" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T20:52:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3601" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="2117" />
+			<int key="@@case_index" value="9" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T20:52:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3602" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="2118" />
+			<int key="@@case_index" value="9" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2020-03-26 00:00:00+00:00" />
+		<string key="traceId" value="276" />
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-27T01:27:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3674" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="2192" />
+			<int key="@@case_index" value="10" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-27T01:27:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3675" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="2193" />
+			<int key="@@case_index" value="10" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2020-03-27 00:00:00+00:00" />
+		<string key="traceId" value="275" />
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-27T07:03:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3684" />
+			<string key="reference:case:concept:name" value="eat_warm" />
+			<int key="@@index" value="2200" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-27T07:03:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3685" />
+			<string key="reference:case:concept:name" value="eat_warm" />
+			<int key="@@index" value="2201" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-27T07:03:00+00:00" />
+			<string key="Activity" value="go_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3686" />
+			<string key="reference:case:concept:name" value="eat_warm" />
+			<int key="@@index" value="2202" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-27T07:04:00+00:00" />
+			<string key="Activity" value="go_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3687" />
+			<string key="reference:case:concept:name" value="eat_warm" />
+			<int key="@@index" value="2203" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-27T20:09:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3767" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="2283" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-27T20:09:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3768" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="2284" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-27T20:09:00+00:00" />
+			<string key="Activity" value="go_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3769" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="2285" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-27T20:10:00+00:00" />
+			<string key="Activity" value="go_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3770" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="2286" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<string key="concept:name" value="get_food_from_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-27T20:10:00+00:00" />
+			<string key="Activity" value="get_food_from_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3771" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="2287" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<string key="concept:name" value="get_food_from_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-27T20:10:00+00:00" />
+			<string key="Activity" value="get_food_from_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3773" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="2289" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-27T21:22:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3808" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="2324" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-27T21:22:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3809" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="2325" />
+			<int key="@@case_index" value="11" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2020-03-28 00:00:00+00:00" />
+		<string key="traceId" value="290" />
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-28T10:37:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3868" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="2386" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-28T10:37:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3869" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="2387" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-28T17:00:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3890" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="2406" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-28T17:00:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3891" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="2407" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-28T17:00:00+00:00" />
+			<string key="Activity" value="go_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3892" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="2408" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<string key="concept:name" value="get_food_from_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-28T17:00:00+00:00" />
+			<string key="Activity" value="get_food_from_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3893" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="2409" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<string key="concept:name" value="get_food_from_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-28T17:01:00+00:00" />
+			<string key="Activity" value="get_food_from_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3895" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="2411" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-28T20:45:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3980" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="2496" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-28T20:45:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3981" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="2497" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-28T20:45:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3983" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="2499" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-28T20:45:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3984" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="2500" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-28T20:45:00+00:00" />
+			<string key="Activity" value="go_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3985" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="2501" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<string key="concept:name" value="get_food_from_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-28T20:45:00+00:00" />
+			<string key="Activity" value="get_food_from_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3986" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="2502" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<string key="concept:name" value="get_food_from_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-28T20:47:00+00:00" />
+			<string key="Activity" value="get_food_from_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3988" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="2504" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-28T22:58:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4063" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="2579" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-28T22:58:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4064" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="2580" />
+			<int key="@@case_index" value="12" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2020-03-29 00:00:00+00:00" />
+		<string key="traceId" value="308" />
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T08:34:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4122" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="2638" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T08:34:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4123" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="2639" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T10:49:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4163" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="2679" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T10:49:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4164" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="2680" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T10:49:00+00:00" />
+			<string key="Activity" value="go_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4165" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="2681" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T10:50:00+00:00" />
+			<string key="Activity" value="go_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4166" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="2682" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="get_food_from_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T10:50:00+00:00" />
+			<string key="Activity" value="get_food_from_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4167" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="2683" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="get_food_from_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T10:51:00+00:00" />
+			<string key="Activity" value="get_food_from_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4169" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="2685" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T12:57:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4235" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="2751" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T12:57:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4236" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="2752" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T14:54:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4282" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="2798" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T14:54:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4283" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="2799" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T14:54:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4285" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="2801" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T14:54:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4286" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="2802" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T14:54:00+00:00" />
+			<string key="Activity" value="go_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4287" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="2803" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T14:55:00+00:00" />
+			<string key="Activity" value="go_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4288" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="2804" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="get_food_from_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T14:55:00+00:00" />
+			<string key="Activity" value="get_food_from_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4289" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="2805" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="get_food_from_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T14:55:00+00:00" />
+			<string key="Activity" value="get_food_from_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4291" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="2807" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T17:55:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4391" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="2907" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T17:55:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4392" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="2908" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T19:23:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4416" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="2932" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T19:23:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4417" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="2933" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T19:23:00+00:00" />
+			<string key="Activity" value="go_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4418" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="2934" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T19:24:00+00:00" />
+			<string key="Activity" value="go_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4419" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="2935" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="get_food_from_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T19:24:00+00:00" />
+			<string key="Activity" value="get_food_from_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4420" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="2936" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="get_food_from_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T19:25:00+00:00" />
+			<string key="Activity" value="get_food_from_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4422" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="2938" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T21:12:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4480" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="2999" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T21:12:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4481" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="3000" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T23:18:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4530" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="3046" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T23:18:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4531" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="3047" />
+			<int key="@@case_index" value="13" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2020-03-30 00:00:00+00:00" />
+		<string key="traceId" value="343" />
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-30T18:46:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4586" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="3102" />
+			<int key="@@case_index" value="14" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-30T18:46:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4587" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="3103" />
+			<int key="@@case_index" value="14" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-30T18:46:00+00:00" />
+			<string key="Activity" value="go_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4588" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="3104" />
+			<int key="@@case_index" value="14" />
+		</event>
+		<event>
+			<string key="concept:name" value="get_food_from_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-30T18:46:00+00:00" />
+			<string key="Activity" value="get_food_from_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4589" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="3105" />
+			<int key="@@case_index" value="14" />
+		</event>
+		<event>
+			<string key="concept:name" value="get_food_from_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-30T18:47:00+00:00" />
+			<string key="Activity" value="get_food_from_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4591" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="3107" />
+			<int key="@@case_index" value="14" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-30T22:51:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4667" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="3183" />
+			<int key="@@case_index" value="14" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-30T22:51:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4668" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="3184" />
+			<int key="@@case_index" value="14" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2020-03-31 00:00:00+00:00" />
+		<string key="traceId" value="353" />
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-31T04:31:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4701" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="3229" />
+			<int key="@@case_index" value="15" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-31T04:31:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4702" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="3230" />
+			<int key="@@case_index" value="15" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-31T18:48:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4743" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="3269" />
+			<int key="@@case_index" value="15" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-31T18:48:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4744" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="3270" />
+			<int key="@@case_index" value="15" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-31T18:48:00+00:00" />
+			<string key="Activity" value="go_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4745" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="3271" />
+			<int key="@@case_index" value="15" />
+		</event>
+		<event>
+			<string key="concept:name" value="get_food_from_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-31T18:48:00+00:00" />
+			<string key="Activity" value="get_food_from_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4746" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="3272" />
+			<int key="@@case_index" value="15" />
+		</event>
+		<event>
+			<string key="concept:name" value="get_food_from_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-31T18:49:00+00:00" />
+			<string key="Activity" value="get_food_from_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4748" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="3274" />
+			<int key="@@case_index" value="15" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T01:28:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4805" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="3331" />
+			<int key="@@case_index" value="15" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T01:28:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4806" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="3332" />
+			<int key="@@case_index" value="15" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T01:57:00+00:00" />
+			<string key="Activity" value="go_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4834" />
+			<string key="reference:case:concept:name" value="cook_and_eat" />
+			<int key="@@index" value="3350" />
+			<int key="@@case_index" value="15" />
+		</event>
+		<event>
+			<string key="concept:name" value="get_ingredients_from_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T01:57:00+00:00" />
+			<string key="Activity" value="get_ingredients_from_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4835" />
+			<string key="reference:case:concept:name" value="cook_and_eat" />
+			<int key="@@index" value="3351" />
+			<int key="@@case_index" value="15" />
+		</event>
+		<event>
+			<string key="concept:name" value="get_ingredients_from_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T01:58:00+00:00" />
+			<string key="Activity" value="get_ingredients_from_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4837" />
+			<string key="reference:case:concept:name" value="cook_and_eat" />
+			<int key="@@index" value="3353" />
+			<int key="@@case_index" value="15" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2020-04-01 00:00:00+00:00" />
+		<string key="traceId" value="363" />
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T03:23:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4873" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="3389" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T03:23:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4874" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="3390" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T04:39:00+00:00" />
+			<string key="Activity" value="go_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4903" />
+			<string key="reference:case:concept:name" value="cook_and_eat" />
+			<int key="@@index" value="3419" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="put_meal_to_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T04:39:00+00:00" />
+			<string key="Activity" value="put_meal_to_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4904" />
+			<string key="reference:case:concept:name" value="cook_and_eat" />
+			<int key="@@index" value="3420" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="put_meal_to_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T04:41:00+00:00" />
+			<string key="Activity" value="put_meal_to_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4906" />
+			<string key="reference:case:concept:name" value="cook_and_eat" />
+			<int key="@@index" value="3422" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T05:53:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4932" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="3448" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T05:53:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4933" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="3449" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T06:21:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4952" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="3468" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T06:21:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4953" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="3469" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T06:21:00+00:00" />
+			<string key="Activity" value="go_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4954" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="3470" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="get_food_from_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T06:21:00+00:00" />
+			<string key="Activity" value="get_food_from_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4955" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="3471" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="get_food_from_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T06:22:00+00:00" />
+			<string key="Activity" value="get_food_from_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4957" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="3473" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T06:42:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4994" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="3510" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T06:42:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4995" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="3511" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T07:39:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5028" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="3544" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T07:39:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5029" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="3545" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T20:08:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5087" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="3603" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T20:08:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5088" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="3604" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T20:08:00+00:00" />
+			<string key="Activity" value="go_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5089" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="3605" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="get_food_from_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T20:08:00+00:00" />
+			<string key="Activity" value="get_food_from_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5090" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="3606" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="get_food_from_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T20:09:00+00:00" />
+			<string key="Activity" value="get_food_from_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5092" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="3608" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T21:33:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5128" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="3644" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T21:33:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5129" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="3645" />
+			<int key="@@case_index" value="16" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2020-04-02 00:00:00+00:00" />
+		<string key="traceId" value="386" />
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-02T08:29:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5154" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="3670" />
+			<int key="@@case_index" value="17" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-02T08:29:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5155" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="3671" />
+			<int key="@@case_index" value="17" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2020-04-03 00:00:00+00:00" />
+		<string key="traceId" value="389" />
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-03T05:02:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5202" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="3718" />
+			<int key="@@case_index" value="18" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-03T05:02:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5203" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="3719" />
+			<int key="@@case_index" value="18" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-03T06:45:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5229" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="3745" />
+			<int key="@@case_index" value="18" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-03T06:45:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5230" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="3746" />
+			<int key="@@case_index" value="18" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-03T06:45:00+00:00" />
+			<string key="Activity" value="go_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5231" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="3747" />
+			<int key="@@case_index" value="18" />
+		</event>
+		<event>
+			<string key="concept:name" value="get_food_from_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-03T06:45:00+00:00" />
+			<string key="Activity" value="get_food_from_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5232" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="3748" />
+			<int key="@@case_index" value="18" />
+		</event>
+		<event>
+			<string key="concept:name" value="get_food_from_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-03T06:46:00+00:00" />
+			<string key="Activity" value="get_food_from_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5234" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="3750" />
+			<int key="@@case_index" value="18" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-03T23:35:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5304" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="3820" />
+			<int key="@@case_index" value="18" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-03T23:35:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5305" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="3821" />
+			<int key="@@case_index" value="18" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-03T23:35:00+00:00" />
+			<string key="Activity" value="go_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5306" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="3822" />
+			<int key="@@case_index" value="18" />
+		</event>
+		<event>
+			<string key="concept:name" value="get_food_from_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-03T23:35:00+00:00" />
+			<string key="Activity" value="get_food_from_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5307" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="3823" />
+			<int key="@@case_index" value="18" />
+		</event>
+		<event>
+			<string key="concept:name" value="get_food_from_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-03T23:36:00+00:00" />
+			<string key="Activity" value="get_food_from_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5309" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="3825" />
+			<int key="@@case_index" value="18" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-04T00:56:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5345" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="3861" />
+			<int key="@@case_index" value="18" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-04T00:56:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5346" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="3862" />
+			<int key="@@case_index" value="18" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2020-04-04 00:00:00+00:00" />
+		<string key="traceId" value="400" />
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-04T11:52:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5371" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="3887" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-04T11:52:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5372" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="3888" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-04T18:43:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5432" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="3948" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-04T18:43:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5433" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="3949" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-04T18:43:00+00:00" />
+			<string key="Activity" value="go_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5434" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="3950" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="concept:name" value="get_food_from_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-04T18:43:00+00:00" />
+			<string key="Activity" value="get_food_from_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5435" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="3951" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="concept:name" value="get_food_from_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-04T18:44:00+00:00" />
+			<string key="Activity" value="get_food_from_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5437" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="3953" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-04T21:07:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5497" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="4013" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-04T21:07:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5498" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="4014" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-04T23:29:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5563" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="4079" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-04T23:29:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5564" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="4080" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-04T23:29:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5566" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="4082" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-04T23:29:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5567" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="4083" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-04T23:29:00+00:00" />
+			<string key="Activity" value="go_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5568" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="4084" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="concept:name" value="get_food_from_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-04T23:29:00+00:00" />
+			<string key="Activity" value="get_food_from_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5569" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="4085" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="concept:name" value="get_food_from_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-04T23:30:00+00:00" />
+			<string key="Activity" value="get_food_from_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5571" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="4087" />
+			<int key="@@case_index" value="19" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2020-04-05 00:00:00+00:00" />
+		<string key="traceId" value="418" />
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T06:30:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5633" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="4149" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T06:30:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5634" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="4150" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T08:48:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5682" />
+			<string key="reference:case:concept:name" value="eat_warm" />
+			<int key="@@index" value="4198" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T08:48:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5683" />
+			<string key="reference:case:concept:name" value="eat_warm" />
+			<int key="@@index" value="4199" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T08:48:00+00:00" />
+			<string key="Activity" value="go_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5684" />
+			<string key="reference:case:concept:name" value="eat_warm" />
+			<int key="@@index" value="4200" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T10:42:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5753" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="4269" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T10:42:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5754" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="4270" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T12:03:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5795" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="4311" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T12:03:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5796" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="4312" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T12:03:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5798" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="4314" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T12:03:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5799" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="4315" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T12:03:00+00:00" />
+			<string key="Activity" value="go_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5800" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="4316" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="get_food_from_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T12:03:00+00:00" />
+			<string key="Activity" value="get_food_from_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5801" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="4317" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="get_food_from_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T12:04:00+00:00" />
+			<string key="Activity" value="get_food_from_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5803" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="4319" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T14:10:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5872" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="4388" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T14:10:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5873" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="4389" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T16:17:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5928" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="4444" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T16:17:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5929" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="4445" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T16:17:00+00:00" />
+			<string key="Activity" value="go_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5930" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="4446" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="get_food_from_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T16:17:00+00:00" />
+			<string key="Activity" value="get_food_from_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5931" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="4447" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="get_food_from_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T16:18:00+00:00" />
+			<string key="Activity" value="get_food_from_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5933" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="4449" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T16:45:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5966" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="4482" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T16:45:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5967" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="4483" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T17:59:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="6003" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="4519" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T17:59:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="6004" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="4520" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T19:40:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="6052" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="4568" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T19:40:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="6053" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="4569" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T19:40:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="6055" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="4571" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T19:40:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="6056" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="4572" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T19:40:00+00:00" />
+			<string key="Activity" value="go_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="6057" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="4573" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T19:41:00+00:00" />
+			<string key="Activity" value="go_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="6058" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="4574" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="get_food_from_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T19:41:00+00:00" />
+			<string key="Activity" value="get_food_from_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="6059" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="4575" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="get_food_from_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T19:42:00+00:00" />
+			<string key="Activity" value="get_food_from_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="6061" />
+			<string key="reference:case:concept:name" value="eat_cold" />
+			<int key="@@index" value="4577" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T21:07:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="6117" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="4633" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T21:07:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="6118" />
+			<string key="reference:case:concept:name" value="wc" />
+			<int key="@@index" value="4634" />
+			<int key="@@case_index" value="20" />
+		</event>
+	</trace>
+</log>

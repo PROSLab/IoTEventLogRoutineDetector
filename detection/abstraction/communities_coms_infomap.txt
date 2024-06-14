@@ -1,0 +1,15 @@
+change_clothes:112	go_wardrobe,change_clothes,go_shoe_shelf,dress_up_outdoor,go_workplace,work,dress_down_outdoor,finish_walk,go_outside,get_food,walk_outside
+get_water:240	go_kitchen_shelf,get_glass,go_kitchen_sink,get_water,drink_water,put_plate_to_sink,pack_goods,wash_dishes
+wc_do:134	go_bathroom_sink,switch_computer_off,go_wc,wc_do,wc_flush
+wash_hands:192	wash_hands,go_fridge,get_food_from_fridge,get_ingredients_from_fridge,put_meal_to_fridge
+go_tv:59	go_tv,switch_tv_on,go_tv_chair,do_watch_tv,switch_tv_off
+go_windows:6	go_windows,raise_blinds,open_windows,close_windows,lower_blinds
+go_bed:47	brush_teeth,go_bed,sleep_in_bed,go_to start
+go_computer:86	go_computer,switch_computer_on,go_computer_chair,use_the_computer
+go_dining_table:65	get_bread,go_dining_table,eat_cold_meal,eat_warm_meal
+go_oven:8	get_ingredients_from_shelf,go_oven,use_oven,pack_food
+get_clothes:30	get_clothes,go_bathtub,have_bath
+get_cold_warm_food:4	get_cold_warm_food,go_micro,use_micro
+interact_with_man:38	go_entrace,interact_with_man
+do_exercise:12	go_exercise_place,do_exercise
+go_chair:4	go_chair,rest_in_chair

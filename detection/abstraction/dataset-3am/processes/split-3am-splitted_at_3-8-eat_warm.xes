@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<extension name="Organizational" prefix="org" uri="http://www.xes-standard.org/org.xesext" />
+	<extension name="Lifecycle" prefix="lifecycle" uri="http://www.xes-standard.org/lifecycle.xesext" />
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<string key="origin" value="csv" />
+	<trace>
+		<string key="concept:name" value="2020-03-27 00:00:00+00:00" />
+		<string key="traceId" value="275" />
+		<event>
+			<int key="index" value="2199" />
+			<string key="concept:name" value="go_bathroom_sink" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-27T07:03:00+00:00" />
+			<string key="Activity" value="go_bathroom_sink" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3683" />
+			<string key="reference:case:concept:name" value="eat_warm" />
+			<int key="@@index" value="2199" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<int key="index" value="2200" />
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-27T07:03:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3684" />
+			<string key="reference:case:concept:name" value="eat_warm" />
+			<int key="@@index" value="2200" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<int key="index" value="2201" />
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-27T07:03:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3685" />
+			<string key="reference:case:concept:name" value="eat_warm" />
+			<int key="@@index" value="2201" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<int key="index" value="2202" />
+			<string key="concept:name" value="go_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-27T07:03:00+00:00" />
+			<string key="Activity" value="go_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3686" />
+			<string key="reference:case:concept:name" value="eat_warm" />
+			<int key="@@index" value="2202" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<int key="index" value="2203" />
+			<string key="concept:name" value="go_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-27T07:04:00+00:00" />
+			<string key="Activity" value="go_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3687" />
+			<string key="reference:case:concept:name" value="eat_warm" />
+			<int key="@@index" value="2203" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<int key="index" value="2204" />
+			<string key="concept:name" value="get_cold_warm_food" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-27T07:04:00+00:00" />
+			<string key="Activity" value="get_cold_warm_food" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3688" />
+			<string key="reference:case:concept:name" value="eat_warm" />
+			<int key="@@index" value="2204" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<int key="index" value="2206" />
+			<string key="concept:name" value="get_cold_warm_food" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-27T07:06:00+00:00" />
+			<string key="Activity" value="get_cold_warm_food" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3690" />
+			<string key="reference:case:concept:name" value="eat_warm" />
+			<int key="@@index" value="2206" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<int key="index" value="2207" />
+			<string key="concept:name" value="go_micro" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-27T07:06:00+00:00" />
+			<string key="Activity" value="go_micro" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3691" />
+			<string key="reference:case:concept:name" value="eat_warm" />
+			<int key="@@index" value="2207" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<int key="index" value="2208" />
+			<string key="concept:name" value="use_micro" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-27T07:06:00+00:00" />
+			<string key="Activity" value="use_micro" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3692" />
+			<string key="reference:case:concept:name" value="eat_warm" />
+			<int key="@@index" value="2208" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<int key="index" value="2210" />
+			<string key="concept:name" value="use_micro" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-27T07:08:00+00:00" />
+			<string key="Activity" value="use_micro" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3694" />
+			<string key="reference:case:concept:name" value="eat_warm" />
+			<int key="@@index" value="2210" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<int key="index" value="2211" />
+			<string key="concept:name" value="go_dining_table" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-27T07:08:00+00:00" />
+			<string key="Activity" value="go_dining_table" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3695" />
+			<string key="reference:case:concept:name" value="eat_warm" />
+			<int key="@@index" value="2211" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<int key="index" value="2212" />
+			<string key="concept:name" value="eat_warm_meal" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-27T07:08:00+00:00" />
+			<string key="Activity" value="eat_warm_meal" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3696" />
+			<string key="reference:case:concept:name" value="eat_warm" />
+			<int key="@@index" value="2212" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<int key="index" value="2268" />
+			<string key="concept:name" value="go_dining_table" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-27T19:54:00+00:00" />
+			<string key="Activity" value="go_dining_table" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3753" />
+			<string key="reference:case:concept:name" value="eat_warm" />
+			<int key="@@index" value="2268" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<int key="index" value="2270" />
+			<string key="concept:name" value="go_dining_table" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-27T19:55:00+00:00" />
+			<string key="Activity" value="go_dining_table" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3754" />
+			<string key="reference:case:concept:name" value="eat_warm" />
+			<int key="@@index" value="2270" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<int key="index" value="2272" />
+			<string key="concept:name" value="eat_warm_meal" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-27T20:06:00+00:00" />
+			<string key="Activity" value="eat_warm_meal" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3756" />
+			<string key="reference:case:concept:name" value="eat_warm" />
+			<int key="@@index" value="2272" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<int key="index" value="2273" />
+			<string key="concept:name" value="go_kitchen_sink" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-27T20:06:00+00:00" />
+			<string key="Activity" value="go_kitchen_sink" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3757" />
+			<string key="reference:case:concept:name" value="eat_warm" />
+			<int key="@@index" value="2273" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<int key="index" value="2274" />
+			<string key="concept:name" value="put_plate_to_sink" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-27T20:06:00+00:00" />
+			<string key="Activity" value="put_plate_to_sink" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3758" />
+			<string key="reference:case:concept:name" value="eat_warm" />
+			<int key="@@index" value="2274" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<int key="index" value="2276" />
+			<string key="concept:name" value="put_plate_to_sink" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-27T20:06:00+00:00" />
+			<string key="Activity" value="put_plate_to_sink" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3760" />
+			<string key="reference:case:concept:name" value="eat_warm" />
+			<int key="@@index" value="2276" />
+			<int key="@@case_index" value="11" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2020-04-05 00:00:00+00:00" />
+		<string key="traceId" value="418" />
+		<event>
+			<int key="index" value="4196" />
+			<string key="concept:name" value="go_bathroom_sink" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T08:47:00+00:00" />
+			<string key="Activity" value="go_bathroom_sink" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5680" />
+			<string key="reference:case:concept:name" value="eat_warm" />
+			<int key="@@index" value="4196" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<int key="index" value="4197" />
+			<string key="concept:name" value="go_bathroom_sink" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T08:48:00+00:00" />
+			<string key="Activity" value="go_bathroom_sink" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5681" />
+			<string key="reference:case:concept:name" value="eat_warm" />
+			<int key="@@index" value="4197" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<int key="index" value="4198" />
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T08:48:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5682" />
+			<string key="reference:case:concept:name" value="eat_warm" />
+			<int key="@@index" value="4198" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<int key="index" value="4199" />
+			<string key="concept:name" value="wash_hands" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T08:48:00+00:00" />
+			<string key="Activity" value="wash_hands" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5683" />
+			<string key="reference:case:concept:name" value="eat_warm" />
+			<int key="@@index" value="4199" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<int key="index" value="4200" />
+			<string key="concept:name" value="go_fridge" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T08:48:00+00:00" />
+			<string key="Activity" value="go_fridge" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5684" />
+			<string key="reference:case:concept:name" value="eat_warm" />
+			<int key="@@index" value="4200" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<int key="index" value="4201" />
+			<string key="concept:name" value="get_cold_warm_food" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T08:48:00+00:00" />
+			<string key="Activity" value="get_cold_warm_food" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5685" />
+			<string key="reference:case:concept:name" value="eat_warm" />
+			<int key="@@index" value="4201" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<int key="index" value="4203" />
+			<string key="concept:name" value="get_cold_warm_food" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T08:50:00+00:00" />
+			<string key="Activity" value="get_cold_warm_food" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5687" />
+			<string key="reference:case:concept:name" value="eat_warm" />
+			<int key="@@index" value="4203" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<int key="index" value="4204" />
+			<string key="concept:name" value="go_micro" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T08:50:00+00:00" />
+			<string key="Activity" value="go_micro" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5688" />
+			<string key="reference:case:concept:name" value="eat_warm" />
+			<int key="@@index" value="4204" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<int key="index" value="4205" />
+			<string key="concept:name" value="use_micro" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T08:50:00+00:00" />
+			<string key="Activity" value="use_micro" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5689" />
+			<string key="reference:case:concept:name" value="eat_warm" />
+			<int key="@@index" value="4205" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<int key="index" value="4207" />
+			<string key="concept:name" value="use_micro" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T08:52:00+00:00" />
+			<string key="Activity" value="use_micro" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5691" />
+			<string key="reference:case:concept:name" value="eat_warm" />
+			<int key="@@index" value="4207" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<int key="index" value="4208" />
+			<string key="concept:name" value="go_dining_table" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T08:52:00+00:00" />
+			<string key="Activity" value="go_dining_table" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5692" />
+			<string key="reference:case:concept:name" value="eat_warm" />
+			<int key="@@index" value="4208" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<int key="index" value="4209" />
+			<string key="concept:name" value="go_dining_table" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T08:53:00+00:00" />
+			<string key="Activity" value="go_dining_table" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5693" />
+			<string key="reference:case:concept:name" value="eat_warm" />
+			<int key="@@index" value="4209" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<int key="index" value="4210" />
+			<string key="concept:name" value="eat_warm_meal" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T08:53:00+00:00" />
+			<string key="Activity" value="eat_warm_meal" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5694" />
+			<string key="reference:case:concept:name" value="eat_warm" />
+			<int key="@@index" value="4210" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<int key="index" value="4212" />
+			<string key="concept:name" value="eat_warm_meal" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T09:14:00+00:00" />
+			<string key="Activity" value="eat_warm_meal" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5696" />
+			<string key="reference:case:concept:name" value="eat_warm" />
+			<int key="@@index" value="4212" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<int key="index" value="4213" />
+			<string key="concept:name" value="go_kitchen_sink" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T09:14:00+00:00" />
+			<string key="Activity" value="go_kitchen_sink" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5697" />
+			<string key="reference:case:concept:name" value="eat_warm" />
+			<int key="@@index" value="4213" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<int key="index" value="4214" />
+			<string key="concept:name" value="put_plate_to_sink" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T09:14:00+00:00" />
+			<string key="Activity" value="put_plate_to_sink" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5698" />
+			<string key="reference:case:concept:name" value="eat_warm" />
+			<int key="@@index" value="4214" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<int key="index" value="4216" />
+			<string key="concept:name" value="put_plate_to_sink" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T09:14:00+00:00" />
+			<string key="Activity" value="put_plate_to_sink" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5700" />
+			<string key="reference:case:concept:name" value="eat_warm" />
+			<int key="@@index" value="4216" />
+			<int key="@@case_index" value="20" />
+		</event>
+	</trace>
+</log>

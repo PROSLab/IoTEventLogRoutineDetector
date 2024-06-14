@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<extension name="Lifecycle" prefix="lifecycle" uri="http://www.xes-standard.org/lifecycle.xesext" />
+	<extension name="Organizational" prefix="org" uri="http://www.xes-standard.org/org.xesext" />
+	<string key="origin" value="csv" />
+	<trace>
+		<string key="concept:name" value="2020-03-18 00:00:00+00:00" />
+		<string key="traceId" value="141" />
+		<event>
+			<string key="concept:name" value="go_windows" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T04:55:00+00:00" />
+			<string key="Activity" value="go_windows" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1902" />
+			<string key="reference:case:concept:name" value="Airing_home" />
+			<int key="@@index" value="418" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="concept:name" value="raise_blinds" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T04:55:00+00:00" />
+			<string key="Activity" value="raise_blinds" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="1903" />
+			<string key="reference:case:concept:name" value="Airing_home" />
+			<int key="@@index" value="419" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="concept:name" value="raise_blinds" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T04:55:00+00:00" />
+			<string key="Activity" value="raise_blinds" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1905" />
+			<string key="reference:case:concept:name" value="Airing_home" />
+			<int key="@@index" value="421" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="concept:name" value="open_windows" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T04:55:00+00:00" />
+			<string key="Activity" value="open_windows" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="1906" />
+			<string key="reference:case:concept:name" value="Airing_home" />
+			<int key="@@index" value="422" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="concept:name" value="open_windows" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T04:55:00+00:00" />
+			<string key="Activity" value="open_windows" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1907" />
+			<string key="reference:case:concept:name" value="Airing_home" />
+			<int key="@@index" value="423" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_windows" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T20:40:00+00:00" />
+			<string key="Activity" value="go_windows" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2083" />
+			<string key="reference:case:concept:name" value="Airing_home_end" />
+			<int key="@@index" value="599" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="concept:name" value="close_windows" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T20:40:00+00:00" />
+			<string key="Activity" value="close_windows" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2084" />
+			<string key="reference:case:concept:name" value="Airing_home_end" />
+			<int key="@@index" value="600" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="concept:name" value="close_windows" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T20:40:00+00:00" />
+			<string key="Activity" value="close_windows" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2086" />
+			<string key="reference:case:concept:name" value="Airing_home_end" />
+			<int key="@@index" value="602" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="concept:name" value="lower_blinds" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T20:40:00+00:00" />
+			<string key="Activity" value="lower_blinds" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2087" />
+			<string key="reference:case:concept:name" value="Airing_home_end" />
+			<int key="@@index" value="603" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="concept:name" value="lower_blinds" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T20:40:00+00:00" />
+			<string key="Activity" value="lower_blinds" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2088" />
+			<string key="reference:case:concept:name" value="Airing_home_end" />
+			<int key="@@index" value="604" />
+			<int key="@@case_index" value="2" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2020-03-22 00:00:00+00:00" />
+		<string key="traceId" value="197" />
+		<event>
+			<string key="concept:name" value="go_windows" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T14:10:00+00:00" />
+			<string key="Activity" value="go_windows" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2931" />
+			<string key="reference:case:concept:name" value="Airing_home" />
+			<int key="@@index" value="1447" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="raise_blinds" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T14:10:00+00:00" />
+			<string key="Activity" value="raise_blinds" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2932" />
+			<string key="reference:case:concept:name" value="Airing_home" />
+			<int key="@@index" value="1448" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="raise_blinds" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T14:10:00+00:00" />
+			<string key="Activity" value="raise_blinds" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2934" />
+			<string key="reference:case:concept:name" value="Airing_home" />
+			<int key="@@index" value="1450" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="open_windows" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T14:10:00+00:00" />
+			<string key="Activity" value="open_windows" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2935" />
+			<string key="reference:case:concept:name" value="Airing_home" />
+			<int key="@@index" value="1451" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="open_windows" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T14:10:00+00:00" />
+			<string key="Activity" value="open_windows" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2936" />
+			<string key="reference:case:concept:name" value="Airing_home" />
+			<int key="@@index" value="1452" />
+			<int key="@@case_index" value="6" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2020-03-23 00:00:00+00:00" />
+		<string key="traceId" value="235" />
+		<event>
+			<string key="concept:name" value="go_windows" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-23T18:48:00+00:00" />
+			<string key="Activity" value="go_windows" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3107" />
+			<string key="reference:case:concept:name" value="Airing_home_end" />
+			<int key="@@index" value="1623" />
+			<int key="@@case_index" value="7" />
+		</event>
+		<event>
+			<string key="concept:name" value="close_windows" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-23T18:48:00+00:00" />
+			<string key="Activity" value="close_windows" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3108" />
+			<string key="reference:case:concept:name" value="Airing_home_end" />
+			<int key="@@index" value="1624" />
+			<int key="@@case_index" value="7" />
+		</event>
+		<event>
+			<string key="concept:name" value="close_windows" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-23T18:48:00+00:00" />
+			<string key="Activity" value="close_windows" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3110" />
+			<string key="reference:case:concept:name" value="Airing_home_end" />
+			<int key="@@index" value="1626" />
+			<int key="@@case_index" value="7" />
+		</event>
+		<event>
+			<string key="concept:name" value="lower_blinds" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-23T18:48:00+00:00" />
+			<string key="Activity" value="lower_blinds" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3111" />
+			<string key="reference:case:concept:name" value="Airing_home_end" />
+			<int key="@@index" value="1627" />
+			<int key="@@case_index" value="7" />
+		</event>
+		<event>
+			<string key="concept:name" value="lower_blinds" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-23T18:48:00+00:00" />
+			<string key="Activity" value="lower_blinds" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3112" />
+			<string key="reference:case:concept:name" value="Airing_home_end" />
+			<int key="@@index" value="1628" />
+			<int key="@@case_index" value="7" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2020-04-04 00:00:00+00:00" />
+		<string key="traceId" value="400" />
+		<event>
+			<string key="concept:name" value="go_windows" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-04T18:42:00+00:00" />
+			<string key="Activity" value="go_windows" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5424" />
+			<string key="reference:case:concept:name" value="Airing_home" />
+			<int key="@@index" value="3940" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="concept:name" value="raise_blinds" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-04T18:42:00+00:00" />
+			<string key="Activity" value="raise_blinds" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5425" />
+			<string key="reference:case:concept:name" value="Airing_home" />
+			<int key="@@index" value="3941" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="concept:name" value="raise_blinds" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-04T18:42:00+00:00" />
+			<string key="Activity" value="raise_blinds" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5427" />
+			<string key="reference:case:concept:name" value="Airing_home" />
+			<int key="@@index" value="3943" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="concept:name" value="open_windows" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-04T18:42:00+00:00" />
+			<string key="Activity" value="open_windows" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5428" />
+			<string key="reference:case:concept:name" value="Airing_home" />
+			<int key="@@index" value="3944" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="concept:name" value="open_windows" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-04T18:42:00+00:00" />
+			<string key="Activity" value="open_windows" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5429" />
+			<string key="reference:case:concept:name" value="Airing_home" />
+			<int key="@@index" value="3945" />
+			<int key="@@case_index" value="19" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2020-04-05 00:00:00+00:00" />
+		<string key="traceId" value="418" />
+		<event>
+			<string key="concept:name" value="go_windows" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T08:47:00+00:00" />
+			<string key="Activity" value="go_windows" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5674" />
+			<string key="reference:case:concept:name" value="Airing_home_end" />
+			<int key="@@index" value="4190" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="close_windows" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T08:47:00+00:00" />
+			<string key="Activity" value="close_windows" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5675" />
+			<string key="reference:case:concept:name" value="Airing_home_end" />
+			<int key="@@index" value="4191" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="close_windows" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T08:47:00+00:00" />
+			<string key="Activity" value="close_windows" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5677" />
+			<string key="reference:case:concept:name" value="Airing_home_end" />
+			<int key="@@index" value="4193" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="lower_blinds" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T08:47:00+00:00" />
+			<string key="Activity" value="lower_blinds" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5678" />
+			<string key="reference:case:concept:name" value="Airing_home_end" />
+			<int key="@@index" value="4194" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="lower_blinds" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T08:47:00+00:00" />
+			<string key="Activity" value="lower_blinds" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5679" />
+			<string key="reference:case:concept:name" value="Airing_home_end" />
+			<int key="@@index" value="4195" />
+			<int key="@@case_index" value="20" />
+		</event>
+	</trace>
+</log>

@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<extension name="Lifecycle" prefix="lifecycle" uri="http://www.xes-standard.org/lifecycle.xesext" />
+	<extension name="Organizational" prefix="org" uri="http://www.xes-standard.org/org.xesext" />
+	<string key="origin" value="csv" />
+	<trace>
+		<string key="concept:name" value="singleton" />
+		<string key="traceId" value="178" />
+		<event>
+			<string key="concept:name" value="get_ingredients_from_shelf" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-21T19:23:00+00:00" />
+			<string key="Activity" value="get_ingredients_from_shelf" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2398" />
+			<string key="reference:case:concept:name" value="cook_and_eat" />
+			<int key="@@index" value="914" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="concept:name" value="get_ingredients_from_shelf" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-21T19:25:00+00:00" />
+			<string key="Activity" value="get_ingredients_from_shelf" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2400" />
+			<string key="reference:case:concept:name" value="cook_and_eat" />
+			<int key="@@index" value="916" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_oven" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-21T19:25:00+00:00" />
+			<string key="Activity" value="go_oven" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2401" />
+			<string key="reference:case:concept:name" value="cook_and_eat" />
+			<int key="@@index" value="917" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="concept:name" value="use_oven" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-21T19:25:00+00:00" />
+			<string key="Activity" value="use_oven" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2402" />
+			<string key="reference:case:concept:name" value="cook_and_eat" />
+			<int key="@@index" value="918" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="concept:name" value="use_oven" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-21T20:10:00+00:00" />
+			<string key="Activity" value="use_oven" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2404" />
+			<string key="reference:case:concept:name" value="cook_and_eat" />
+			<int key="@@index" value="920" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_oven" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-21T20:40:00+00:00" />
+			<string key="Activity" value="go_oven" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2409" />
+			<string key="reference:case:concept:name" value="cook_and_eat" />
+			<int key="@@index" value="925" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_oven" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-21T20:41:00+00:00" />
+			<string key="Activity" value="go_oven" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2410" />
+			<string key="reference:case:concept:name" value="cook_and_eat" />
+			<int key="@@index" value="926" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="concept:name" value="pack_food" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-21T20:41:00+00:00" />
+			<string key="Activity" value="pack_food" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2411" />
+			<string key="reference:case:concept:name" value="cook_and_eat" />
+			<int key="@@index" value="927" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_oven" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-21T22:52:00+00:00" />
+			<string key="Activity" value="go_oven" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2450" />
+			<string key="reference:case:concept:name" value="cook_and_eat" />
+			<int key="@@index" value="961" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_oven" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-21T22:53:00+00:00" />
+			<string key="Activity" value="go_oven" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2451" />
+			<string key="reference:case:concept:name" value="cook_and_eat" />
+			<int key="@@index" value="967" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="concept:name" value="pack_food" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-21T22:57:00+00:00" />
+			<string key="Activity" value="pack_food" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2453" />
+			<string key="reference:case:concept:name" value="cook_and_eat" />
+			<int key="@@index" value="969" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="concept:name" value="get_ingredients_from_shelf" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T01:58:00+00:00" />
+			<string key="Activity" value="get_ingredients_from_shelf" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4839" />
+			<string key="reference:case:concept:name" value="cook_and_eat" />
+			<int key="@@index" value="3355" />
+			<int key="@@case_index" value="15" />
+		</event>
+		<event>
+			<string key="concept:name" value="get_ingredients_from_shelf" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T02:01:00+00:00" />
+			<string key="Activity" value="get_ingredients_from_shelf" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4841" />
+			<string key="reference:case:concept:name" value="cook_and_eat" />
+			<int key="@@index" value="3357" />
+			<int key="@@case_index" value="15" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_oven" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T02:01:00+00:00" />
+			<string key="Activity" value="go_oven" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4842" />
+			<string key="reference:case:concept:name" value="cook_and_eat" />
+			<int key="@@index" value="3358" />
+			<int key="@@case_index" value="15" />
+		</event>
+		<event>
+			<string key="concept:name" value="use_oven" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T02:01:00+00:00" />
+			<string key="Activity" value="use_oven" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4843" />
+			<string key="reference:case:concept:name" value="cook_and_eat" />
+			<int key="@@index" value="3359" />
+			<int key="@@case_index" value="15" />
+		</event>
+		<event>
+			<string key="concept:name" value="use_oven" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T02:47:00+00:00" />
+			<string key="Activity" value="use_oven" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4845" />
+			<string key="reference:case:concept:name" value="cook_and_eat" />
+			<int key="@@index" value="3361" />
+			<int key="@@case_index" value="15" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_oven" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T03:16:00+00:00" />
+			<string key="Activity" value="go_oven" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4850" />
+			<string key="reference:case:concept:name" value="cook_and_eat" />
+			<int key="@@index" value="3366" />
+			<int key="@@case_index" value="15" />
+		</event>
+		<event>
+			<string key="concept:name" value="pack_food" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T03:16:00+00:00" />
+			<string key="Activity" value="pack_food" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4851" />
+			<string key="reference:case:concept:name" value="cook_and_eat" />
+			<int key="@@index" value="3367" />
+			<int key="@@case_index" value="15" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_oven" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T04:33:00+00:00" />
+			<string key="Activity" value="go_oven" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4900" />
+			<string key="reference:case:concept:name" value="cook_and_eat" />
+			<int key="@@index" value="3415" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="pack_food" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T04:39:00+00:00" />
+			<string key="Activity" value="pack_food" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4902" />
+			<string key="reference:case:concept:name" value="cook_and_eat" />
+			<int key="@@index" value="3418" />
+			<int key="@@case_index" value="16" />
+		</event>
+	</trace>
+</log>

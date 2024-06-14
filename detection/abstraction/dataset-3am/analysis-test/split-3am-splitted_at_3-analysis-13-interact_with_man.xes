@@ -1,0 +1,756 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<extension name="Lifecycle" prefix="lifecycle" uri="http://www.xes-standard.org/lifecycle.xesext" />
+	<extension name="Organizational" prefix="org" uri="http://www.xes-standard.org/org.xesext" />
+	<string key="origin" value="csv" />
+	<trace>
+		<string key="concept:name" value="singleton" />
+		<string key="traceId" value="117" />
+		<event>
+			<string key="concept:name" value="go_entrace" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-16T20:00:00+00:00" />
+			<string key="Activity" value="go_entrace" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1566" />
+			<string key="reference:case:concept:name" value="someone_at_entrace" />
+			<int key="@@index" value="82" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="interact_with_man" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-16T20:00:00+00:00" />
+			<string key="Activity" value="interact_with_man" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="1567" />
+			<string key="reference:case:concept:name" value="someone_at_entrace" />
+			<int key="@@index" value="83" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="interact_with_man" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-16T20:04:00+00:00" />
+			<string key="Activity" value="interact_with_man" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1569" />
+			<string key="reference:case:concept:name" value="someone_at_entrace" />
+			<int key="@@index" value="85" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_entrace" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-17T21:21:00+00:00" />
+			<string key="Activity" value="go_entrace" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1746" />
+			<string key="reference:case:concept:name" value="someone_at_entrace" />
+			<int key="@@index" value="262" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<string key="concept:name" value="interact_with_man" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-17T21:21:00+00:00" />
+			<string key="Activity" value="interact_with_man" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="1747" />
+			<string key="reference:case:concept:name" value="someone_at_entrace" />
+			<int key="@@index" value="263" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<string key="concept:name" value="interact_with_man" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-17T21:24:00+00:00" />
+			<string key="Activity" value="interact_with_man" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1749" />
+			<string key="reference:case:concept:name" value="someone_at_entrace" />
+			<int key="@@index" value="266" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_entrace" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T19:08:00+00:00" />
+			<string key="Activity" value="go_entrace" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2034" />
+			<string key="reference:case:concept:name" value="someone_at_entrace" />
+			<int key="@@index" value="550" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="concept:name" value="interact_with_man" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T19:08:00+00:00" />
+			<string key="Activity" value="interact_with_man" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2035" />
+			<string key="reference:case:concept:name" value="someone_at_entrace" />
+			<int key="@@index" value="551" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="concept:name" value="interact_with_man" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T19:12:00+00:00" />
+			<string key="Activity" value="interact_with_man" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2037" />
+			<string key="reference:case:concept:name" value="someone_at_entrace" />
+			<int key="@@index" value="553" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_entrace" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-20T18:59:00+00:00" />
+			<string key="Activity" value="go_entrace" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2254" />
+			<string key="reference:case:concept:name" value="someone_at_entrace" />
+			<int key="@@index" value="770" />
+			<int key="@@case_index" value="4" />
+		</event>
+		<event>
+			<string key="concept:name" value="interact_with_man" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-20T18:59:00+00:00" />
+			<string key="Activity" value="interact_with_man" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2255" />
+			<string key="reference:case:concept:name" value="someone_at_entrace" />
+			<int key="@@index" value="771" />
+			<int key="@@case_index" value="4" />
+		</event>
+		<event>
+			<string key="concept:name" value="interact_with_man" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-20T19:02:00+00:00" />
+			<string key="Activity" value="interact_with_man" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2257" />
+			<string key="reference:case:concept:name" value="someone_at_entrace" />
+			<int key="@@index" value="773" />
+			<int key="@@case_index" value="4" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_entrace" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-21T14:16:00+00:00" />
+			<string key="Activity" value="go_entrace" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2352" />
+			<string key="reference:case:concept:name" value="someone_at_entrace" />
+			<int key="@@index" value="868" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="concept:name" value="interact_with_man" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-21T14:16:00+00:00" />
+			<string key="Activity" value="interact_with_man" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2353" />
+			<string key="reference:case:concept:name" value="someone_at_entrace" />
+			<int key="@@index" value="869" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="concept:name" value="interact_with_man" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-21T14:18:00+00:00" />
+			<string key="Activity" value="interact_with_man" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2355" />
+			<string key="reference:case:concept:name" value="someone_at_entrace" />
+			<int key="@@index" value="871" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_entrace" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T12:03:00+00:00" />
+			<string key="Activity" value="go_entrace" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2830" />
+			<string key="reference:case:concept:name" value="someone_at_entrace" />
+			<int key="@@index" value="1346" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="interact_with_man" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T12:03:00+00:00" />
+			<string key="Activity" value="interact_with_man" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2831" />
+			<string key="reference:case:concept:name" value="someone_at_entrace" />
+			<int key="@@index" value="1347" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="interact_with_man" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T12:06:00+00:00" />
+			<string key="Activity" value="interact_with_man" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2833" />
+			<string key="reference:case:concept:name" value="someone_at_entrace" />
+			<int key="@@index" value="1351" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_entrace" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-23T23:29:00+00:00" />
+			<string key="Activity" value="go_entrace" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3158" />
+			<string key="reference:case:concept:name" value="someone_at_entrace" />
+			<int key="@@index" value="1674" />
+			<int key="@@case_index" value="7" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_entrace" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-23T23:30:00+00:00" />
+			<string key="Activity" value="go_entrace" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3159" />
+			<string key="reference:case:concept:name" value="someone_at_entrace" />
+			<int key="@@index" value="1675" />
+			<int key="@@case_index" value="7" />
+		</event>
+		<event>
+			<string key="concept:name" value="interact_with_man" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-23T23:30:00+00:00" />
+			<string key="Activity" value="interact_with_man" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3160" />
+			<string key="reference:case:concept:name" value="someone_at_entrace" />
+			<int key="@@index" value="1676" />
+			<int key="@@case_index" value="7" />
+		</event>
+		<event>
+			<string key="concept:name" value="interact_with_man" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-23T23:34:00+00:00" />
+			<string key="Activity" value="interact_with_man" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3162" />
+			<string key="reference:case:concept:name" value="someone_at_entrace" />
+			<int key="@@index" value="1678" />
+			<int key="@@case_index" value="7" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_entrace" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T01:35:00+00:00" />
+			<string key="Activity" value="go_entrace" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3294" />
+			<string key="reference:case:concept:name" value="someone_at_entrace" />
+			<int key="@@index" value="1810" />
+			<int key="@@case_index" value="8" />
+		</event>
+		<event>
+			<string key="concept:name" value="interact_with_man" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T01:35:00+00:00" />
+			<string key="Activity" value="interact_with_man" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3295" />
+			<string key="reference:case:concept:name" value="someone_at_entrace" />
+			<int key="@@index" value="1811" />
+			<int key="@@case_index" value="8" />
+		</event>
+		<event>
+			<string key="concept:name" value="interact_with_man" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T01:38:00+00:00" />
+			<string key="Activity" value="interact_with_man" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3297" />
+			<string key="reference:case:concept:name" value="someone_at_entrace" />
+			<int key="@@index" value="1813" />
+			<int key="@@case_index" value="8" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_entrace" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T19:20:00+00:00" />
+			<string key="Activity" value="go_entrace" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3555" />
+			<string key="reference:case:concept:name" value="someone_at_entrace" />
+			<int key="@@index" value="2071" />
+			<int key="@@case_index" value="9" />
+		</event>
+		<event>
+			<string key="concept:name" value="interact_with_man" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T19:20:00+00:00" />
+			<string key="Activity" value="interact_with_man" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3556" />
+			<string key="reference:case:concept:name" value="someone_at_entrace" />
+			<int key="@@index" value="2072" />
+			<int key="@@case_index" value="9" />
+		</event>
+		<event>
+			<string key="concept:name" value="interact_with_man" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T19:24:00+00:00" />
+			<string key="Activity" value="interact_with_man" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3558" />
+			<string key="reference:case:concept:name" value="someone_at_entrace" />
+			<int key="@@index" value="2074" />
+			<int key="@@case_index" value="9" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_entrace" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-27T20:06:00+00:00" />
+			<string key="Activity" value="go_entrace" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3761" />
+			<string key="reference:case:concept:name" value="someone_at_entrace" />
+			<int key="@@index" value="2277" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_entrace" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-27T20:07:00+00:00" />
+			<string key="Activity" value="go_entrace" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3762" />
+			<string key="reference:case:concept:name" value="someone_at_entrace" />
+			<int key="@@index" value="2278" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<string key="concept:name" value="interact_with_man" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-27T20:07:00+00:00" />
+			<string key="Activity" value="interact_with_man" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3763" />
+			<string key="reference:case:concept:name" value="someone_at_entrace" />
+			<int key="@@index" value="2279" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<string key="concept:name" value="interact_with_man" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-27T20:09:00+00:00" />
+			<string key="Activity" value="interact_with_man" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3765" />
+			<string key="reference:case:concept:name" value="someone_at_entrace" />
+			<int key="@@index" value="2281" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_entrace" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T11:20:00+00:00" />
+			<string key="Activity" value="go_entrace" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4177" />
+			<string key="reference:case:concept:name" value="someone_at_entrace" />
+			<int key="@@index" value="2693" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="interact_with_man" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T11:20:00+00:00" />
+			<string key="Activity" value="interact_with_man" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4178" />
+			<string key="reference:case:concept:name" value="someone_at_entrace" />
+			<int key="@@index" value="2694" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="interact_with_man" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T11:22:00+00:00" />
+			<string key="Activity" value="interact_with_man" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4180" />
+			<string key="reference:case:concept:name" value="someone_at_entrace" />
+			<int key="@@index" value="2698" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_entrace" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T15:13:00+00:00" />
+			<string key="Activity" value="go_entrace" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4299" />
+			<string key="reference:case:concept:name" value="someone_at_entrace" />
+			<int key="@@index" value="2815" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="interact_with_man" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T15:13:00+00:00" />
+			<string key="Activity" value="interact_with_man" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4300" />
+			<string key="reference:case:concept:name" value="someone_at_entrace" />
+			<int key="@@index" value="2816" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="interact_with_man" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T15:16:00+00:00" />
+			<string key="Activity" value="interact_with_man" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4302" />
+			<string key="reference:case:concept:name" value="someone_at_entrace" />
+			<int key="@@index" value="2820" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_entrace" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-30T20:06:00+00:00" />
+			<string key="Activity" value="go_entrace" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4610" />
+			<string key="reference:case:concept:name" value="someone_at_entrace" />
+			<int key="@@index" value="3126" />
+			<int key="@@case_index" value="14" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_entrace" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-30T20:07:00+00:00" />
+			<string key="Activity" value="go_entrace" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4611" />
+			<string key="reference:case:concept:name" value="someone_at_entrace" />
+			<int key="@@index" value="3127" />
+			<int key="@@case_index" value="14" />
+		</event>
+		<event>
+			<string key="concept:name" value="interact_with_man" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-30T20:07:00+00:00" />
+			<string key="Activity" value="interact_with_man" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4612" />
+			<string key="reference:case:concept:name" value="someone_at_entrace" />
+			<int key="@@index" value="3128" />
+			<int key="@@case_index" value="14" />
+		</event>
+		<event>
+			<string key="concept:name" value="interact_with_man" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-30T20:10:00+00:00" />
+			<string key="Activity" value="interact_with_man" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4614" />
+			<string key="reference:case:concept:name" value="someone_at_entrace" />
+			<int key="@@index" value="3130" />
+			<int key="@@case_index" value="14" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_entrace" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T01:28:00+00:00" />
+			<string key="Activity" value="go_entrace" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4807" />
+			<string key="reference:case:concept:name" value="someone_at_entrace" />
+			<int key="@@index" value="3333" />
+			<int key="@@case_index" value="15" />
+		</event>
+		<event>
+			<string key="concept:name" value="interact_with_man" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T01:28:00+00:00" />
+			<string key="Activity" value="interact_with_man" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4808" />
+			<string key="reference:case:concept:name" value="someone_at_entrace" />
+			<int key="@@index" value="3334" />
+			<int key="@@case_index" value="15" />
+		</event>
+		<event>
+			<string key="concept:name" value="interact_with_man" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T01:31:00+00:00" />
+			<string key="Activity" value="interact_with_man" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4810" />
+			<string key="reference:case:concept:name" value="someone_at_entrace" />
+			<int key="@@index" value="3336" />
+			<int key="@@case_index" value="15" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_entrace" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T20:04:00+00:00" />
+			<string key="Activity" value="go_entrace" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5082" />
+			<string key="reference:case:concept:name" value="someone_at_entrace" />
+			<int key="@@index" value="3598" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="interact_with_man" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T20:04:00+00:00" />
+			<string key="Activity" value="interact_with_man" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5083" />
+			<string key="reference:case:concept:name" value="someone_at_entrace" />
+			<int key="@@index" value="3599" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="interact_with_man" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T20:08:00+00:00" />
+			<string key="Activity" value="interact_with_man" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5085" />
+			<string key="reference:case:concept:name" value="someone_at_entrace" />
+			<int key="@@index" value="3601" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_entrace" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-03T06:42:00+00:00" />
+			<string key="Activity" value="go_entrace" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5223" />
+			<string key="reference:case:concept:name" value="someone_at_entrace" />
+			<int key="@@index" value="3739" />
+			<int key="@@case_index" value="18" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_entrace" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-03T06:43:00+00:00" />
+			<string key="Activity" value="go_entrace" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5224" />
+			<string key="reference:case:concept:name" value="someone_at_entrace" />
+			<int key="@@index" value="3740" />
+			<int key="@@case_index" value="18" />
+		</event>
+		<event>
+			<string key="concept:name" value="interact_with_man" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-03T06:43:00+00:00" />
+			<string key="Activity" value="interact_with_man" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5225" />
+			<string key="reference:case:concept:name" value="someone_at_entrace" />
+			<int key="@@index" value="3741" />
+			<int key="@@case_index" value="18" />
+		</event>
+		<event>
+			<string key="concept:name" value="interact_with_man" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-03T06:45:00+00:00" />
+			<string key="Activity" value="interact_with_man" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5227" />
+			<string key="reference:case:concept:name" value="someone_at_entrace" />
+			<int key="@@index" value="3743" />
+			<int key="@@case_index" value="18" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_entrace" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-04T11:52:00+00:00" />
+			<string key="Activity" value="go_entrace" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5373" />
+			<string key="reference:case:concept:name" value="someone_at_entrace" />
+			<int key="@@index" value="3889" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_entrace" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-04T11:53:00+00:00" />
+			<string key="Activity" value="go_entrace" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5374" />
+			<string key="reference:case:concept:name" value="someone_at_entrace" />
+			<int key="@@index" value="3890" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="concept:name" value="interact_with_man" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-04T11:53:00+00:00" />
+			<string key="Activity" value="interact_with_man" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5375" />
+			<string key="reference:case:concept:name" value="someone_at_entrace" />
+			<int key="@@index" value="3891" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="concept:name" value="interact_with_man" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-04T11:56:00+00:00" />
+			<string key="Activity" value="interact_with_man" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5377" />
+			<string key="reference:case:concept:name" value="someone_at_entrace" />
+			<int key="@@index" value="3893" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_entrace" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T11:02:00+00:00" />
+			<string key="Activity" value="go_entrace" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5763" />
+			<string key="reference:case:concept:name" value="someone_at_entrace" />
+			<int key="@@index" value="4279" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="interact_with_man" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T11:02:00+00:00" />
+			<string key="Activity" value="interact_with_man" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5764" />
+			<string key="reference:case:concept:name" value="someone_at_entrace" />
+			<int key="@@index" value="4280" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="interact_with_man" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T11:06:00+00:00" />
+			<string key="Activity" value="interact_with_man" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5766" />
+			<string key="reference:case:concept:name" value="someone_at_entrace" />
+			<int key="@@index" value="4284" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_entrace" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T15:21:00+00:00" />
+			<string key="Activity" value="go_entrace" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5906" />
+			<string key="reference:case:concept:name" value="someone_at_entrace" />
+			<int key="@@index" value="4422" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="interact_with_man" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T15:21:00+00:00" />
+			<string key="Activity" value="interact_with_man" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5907" />
+			<string key="reference:case:concept:name" value="someone_at_entrace" />
+			<int key="@@index" value="4423" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="interact_with_man" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T15:24:00+00:00" />
+			<string key="Activity" value="interact_with_man" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5909" />
+			<string key="reference:case:concept:name" value="someone_at_entrace" />
+			<int key="@@index" value="4427" />
+			<int key="@@case_index" value="20" />
+		</event>
+	</trace>
+</log>

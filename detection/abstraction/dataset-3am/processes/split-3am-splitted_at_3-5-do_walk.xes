@@ -1,0 +1,722 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<extension name="Organizational" prefix="org" uri="http://www.xes-standard.org/org.xesext" />
+	<extension name="Lifecycle" prefix="lifecycle" uri="http://www.xes-standard.org/lifecycle.xesext" />
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<string key="origin" value="csv" />
+	<trace>
+		<string key="concept:name" value="2020-03-22 00:00:00+00:00" />
+		<string key="traceId" value="197" />
+		<event>
+			<int key="index" value="1305" />
+			<string key="concept:name" value="go_wardrobe" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T09:21:00+00:00" />
+			<string key="Activity" value="go_wardrobe" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2789" />
+			<string key="reference:case:concept:name" value="do_walk" />
+			<int key="@@index" value="1305" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<int key="index" value="1306" />
+			<string key="concept:name" value="change_clothes" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T09:21:00+00:00" />
+			<string key="Activity" value="change_clothes" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2790" />
+			<string key="reference:case:concept:name" value="do_walk" />
+			<int key="@@index" value="1306" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<int key="index" value="1308" />
+			<string key="concept:name" value="change_clothes" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T09:26:00+00:00" />
+			<string key="Activity" value="change_clothes" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2792" />
+			<string key="reference:case:concept:name" value="do_walk" />
+			<int key="@@index" value="1308" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<int key="index" value="1309" />
+			<string key="concept:name" value="go_shoe_shelf" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T09:26:00+00:00" />
+			<string key="Activity" value="go_shoe_shelf" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2793" />
+			<string key="reference:case:concept:name" value="do_walk" />
+			<int key="@@index" value="1309" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<int key="index" value="1310" />
+			<string key="concept:name" value="dress_up_outdoor" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T09:26:00+00:00" />
+			<string key="Activity" value="dress_up_outdoor" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2794" />
+			<string key="reference:case:concept:name" value="do_walk" />
+			<int key="@@index" value="1310" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<int key="index" value="1312" />
+			<string key="concept:name" value="dress_up_outdoor" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T09:32:00+00:00" />
+			<string key="Activity" value="dress_up_outdoor" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2796" />
+			<string key="reference:case:concept:name" value="do_walk" />
+			<int key="@@index" value="1312" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<int key="index" value="1313" />
+			<string key="concept:name" value="go_outside" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T09:32:00+00:00" />
+			<string key="Activity" value="go_outside" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2797" />
+			<string key="reference:case:concept:name" value="do_walk" />
+			<int key="@@index" value="1313" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<int key="index" value="1314" />
+			<string key="concept:name" value="walk_outside" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T09:32:00+00:00" />
+			<string key="Activity" value="walk_outside" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2798" />
+			<string key="reference:case:concept:name" value="do_walk" />
+			<int key="@@index" value="1314" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<int key="index" value="1316" />
+			<string key="concept:name" value="walk_outside" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T10:53:00+00:00" />
+			<string key="Activity" value="walk_outside" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2800" />
+			<string key="reference:case:concept:name" value="do_walk" />
+			<int key="@@index" value="1316" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<int key="index" value="1317" />
+			<string key="concept:name" value="go_shoe_shelf" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T10:53:00+00:00" />
+			<string key="Activity" value="go_shoe_shelf" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2801" />
+			<string key="reference:case:concept:name" value="do_walk" />
+			<int key="@@index" value="1317" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<int key="index" value="1318" />
+			<string key="concept:name" value="dress_down_outdoor" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T10:53:00+00:00" />
+			<string key="Activity" value="dress_down_outdoor" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2802" />
+			<string key="reference:case:concept:name" value="do_walk" />
+			<int key="@@index" value="1318" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<int key="index" value="1320" />
+			<string key="concept:name" value="dress_down_outdoor" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T10:59:00+00:00" />
+			<string key="Activity" value="dress_down_outdoor" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2804" />
+			<string key="reference:case:concept:name" value="do_walk" />
+			<int key="@@index" value="1320" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<int key="index" value="1321" />
+			<string key="concept:name" value="go_wardrobe" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T10:59:00+00:00" />
+			<string key="Activity" value="go_wardrobe" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2805" />
+			<string key="reference:case:concept:name" value="do_walk" />
+			<int key="@@index" value="1321" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<int key="index" value="1322" />
+			<string key="concept:name" value="change_clothes" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T10:59:00+00:00" />
+			<string key="Activity" value="change_clothes" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2806" />
+			<string key="reference:case:concept:name" value="do_walk" />
+			<int key="@@index" value="1322" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<int key="index" value="1324" />
+			<string key="concept:name" value="change_clothes" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T11:04:00+00:00" />
+			<string key="Activity" value="change_clothes" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2808" />
+			<string key="reference:case:concept:name" value="do_walk" />
+			<int key="@@index" value="1324" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<int key="index" value="1325" />
+			<string key="concept:name" value="finish_walk" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T11:04:00+00:00" />
+			<string key="Activity" value="finish_walk" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2809" />
+			<string key="reference:case:concept:name" value="do_walk" />
+			<int key="@@index" value="1325" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<int key="index" value="1327" />
+			<string key="concept:name" value="finish_walk" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T11:04:00+00:00" />
+			<string key="Activity" value="finish_walk" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2811" />
+			<string key="reference:case:concept:name" value="do_walk" />
+			<int key="@@index" value="1327" />
+			<int key="@@case_index" value="6" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2020-03-29 00:00:00+00:00" />
+		<string key="traceId" value="308" />
+		<event>
+			<int key="index" value="2862" />
+			<string key="concept:name" value="go_wardrobe" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T16:04:00+00:00" />
+			<string key="Activity" value="go_wardrobe" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4346" />
+			<string key="reference:case:concept:name" value="do_walk" />
+			<int key="@@index" value="2862" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<int key="index" value="2863" />
+			<string key="concept:name" value="go_wardrobe" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T16:05:00+00:00" />
+			<string key="Activity" value="go_wardrobe" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4347" />
+			<string key="reference:case:concept:name" value="do_walk" />
+			<int key="@@index" value="2863" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<int key="index" value="2864" />
+			<string key="concept:name" value="change_clothes" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T16:05:00+00:00" />
+			<string key="Activity" value="change_clothes" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4348" />
+			<string key="reference:case:concept:name" value="do_walk" />
+			<int key="@@index" value="2864" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<int key="index" value="2866" />
+			<string key="concept:name" value="change_clothes" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T16:09:00+00:00" />
+			<string key="Activity" value="change_clothes" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4350" />
+			<string key="reference:case:concept:name" value="do_walk" />
+			<int key="@@index" value="2866" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<int key="index" value="2867" />
+			<string key="concept:name" value="go_shoe_shelf" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T16:09:00+00:00" />
+			<string key="Activity" value="go_shoe_shelf" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4351" />
+			<string key="reference:case:concept:name" value="do_walk" />
+			<int key="@@index" value="2867" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<int key="index" value="2868" />
+			<string key="concept:name" value="go_shoe_shelf" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T16:10:00+00:00" />
+			<string key="Activity" value="go_shoe_shelf" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4352" />
+			<string key="reference:case:concept:name" value="do_walk" />
+			<int key="@@index" value="2868" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<int key="index" value="2869" />
+			<string key="concept:name" value="dress_up_outdoor" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T16:10:00+00:00" />
+			<string key="Activity" value="dress_up_outdoor" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4353" />
+			<string key="reference:case:concept:name" value="do_walk" />
+			<int key="@@index" value="2869" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<int key="index" value="2871" />
+			<string key="concept:name" value="dress_up_outdoor" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T16:15:00+00:00" />
+			<string key="Activity" value="dress_up_outdoor" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4355" />
+			<string key="reference:case:concept:name" value="do_walk" />
+			<int key="@@index" value="2871" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<int key="index" value="2872" />
+			<string key="concept:name" value="go_outside" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T16:15:00+00:00" />
+			<string key="Activity" value="go_outside" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4356" />
+			<string key="reference:case:concept:name" value="do_walk" />
+			<int key="@@index" value="2872" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<int key="index" value="2873" />
+			<string key="concept:name" value="walk_outside" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T16:15:00+00:00" />
+			<string key="Activity" value="walk_outside" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4357" />
+			<string key="reference:case:concept:name" value="do_walk" />
+			<int key="@@index" value="2873" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<int key="index" value="2875" />
+			<string key="concept:name" value="walk_outside" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T17:39:00+00:00" />
+			<string key="Activity" value="walk_outside" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4359" />
+			<string key="reference:case:concept:name" value="do_walk" />
+			<int key="@@index" value="2875" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<int key="index" value="2876" />
+			<string key="concept:name" value="go_shoe_shelf" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T17:39:00+00:00" />
+			<string key="Activity" value="go_shoe_shelf" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4360" />
+			<string key="reference:case:concept:name" value="do_walk" />
+			<int key="@@index" value="2876" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<int key="index" value="2877" />
+			<string key="concept:name" value="go_shoe_shelf" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T17:40:00+00:00" />
+			<string key="Activity" value="go_shoe_shelf" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4361" />
+			<string key="reference:case:concept:name" value="do_walk" />
+			<int key="@@index" value="2877" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<int key="index" value="2878" />
+			<string key="concept:name" value="dress_down_outdoor" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T17:40:00+00:00" />
+			<string key="Activity" value="dress_down_outdoor" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4362" />
+			<string key="reference:case:concept:name" value="do_walk" />
+			<int key="@@index" value="2878" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<int key="index" value="2880" />
+			<string key="concept:name" value="dress_down_outdoor" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T17:45:00+00:00" />
+			<string key="Activity" value="dress_down_outdoor" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4364" />
+			<string key="reference:case:concept:name" value="do_walk" />
+			<int key="@@index" value="2880" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<int key="index" value="2881" />
+			<string key="concept:name" value="go_wardrobe" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T17:45:00+00:00" />
+			<string key="Activity" value="go_wardrobe" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4365" />
+			<string key="reference:case:concept:name" value="do_walk" />
+			<int key="@@index" value="2881" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<int key="index" value="2882" />
+			<string key="concept:name" value="change_clothes" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T17:45:00+00:00" />
+			<string key="Activity" value="change_clothes" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4366" />
+			<string key="reference:case:concept:name" value="do_walk" />
+			<int key="@@index" value="2882" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<int key="index" value="2884" />
+			<string key="concept:name" value="change_clothes" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T17:48:00+00:00" />
+			<string key="Activity" value="change_clothes" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4368" />
+			<string key="reference:case:concept:name" value="do_walk" />
+			<int key="@@index" value="2884" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<int key="index" value="2885" />
+			<string key="concept:name" value="finish_walk" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T17:48:00+00:00" />
+			<string key="Activity" value="finish_walk" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4369" />
+			<string key="reference:case:concept:name" value="do_walk" />
+			<int key="@@index" value="2885" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<int key="index" value="2887" />
+			<string key="concept:name" value="finish_walk" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T17:48:00+00:00" />
+			<string key="Activity" value="finish_walk" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4371" />
+			<string key="reference:case:concept:name" value="do_walk" />
+			<int key="@@index" value="2887" />
+			<int key="@@case_index" value="13" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2020-04-05 00:00:00+00:00" />
+		<string key="traceId" value="418" />
+		<event>
+			<int key="index" value="4344" />
+			<string key="concept:name" value="go_wardrobe" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T12:21:00+00:00" />
+			<string key="Activity" value="go_wardrobe" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5828" />
+			<string key="reference:case:concept:name" value="do_walk" />
+			<int key="@@index" value="4344" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<int key="index" value="4345" />
+			<string key="concept:name" value="change_clothes" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T12:21:00+00:00" />
+			<string key="Activity" value="change_clothes" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5829" />
+			<string key="reference:case:concept:name" value="do_walk" />
+			<int key="@@index" value="4345" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<int key="index" value="4347" />
+			<string key="concept:name" value="change_clothes" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T12:25:00+00:00" />
+			<string key="Activity" value="change_clothes" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5831" />
+			<string key="reference:case:concept:name" value="do_walk" />
+			<int key="@@index" value="4347" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<int key="index" value="4348" />
+			<string key="concept:name" value="go_shoe_shelf" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T12:25:00+00:00" />
+			<string key="Activity" value="go_shoe_shelf" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5832" />
+			<string key="reference:case:concept:name" value="do_walk" />
+			<int key="@@index" value="4348" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<int key="index" value="4349" />
+			<string key="concept:name" value="dress_up_outdoor" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T12:25:00+00:00" />
+			<string key="Activity" value="dress_up_outdoor" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5833" />
+			<string key="reference:case:concept:name" value="do_walk" />
+			<int key="@@index" value="4349" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<int key="index" value="4351" />
+			<string key="concept:name" value="dress_up_outdoor" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T12:31:00+00:00" />
+			<string key="Activity" value="dress_up_outdoor" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5835" />
+			<string key="reference:case:concept:name" value="do_walk" />
+			<int key="@@index" value="4351" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<int key="index" value="4352" />
+			<string key="concept:name" value="go_outside" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T12:31:00+00:00" />
+			<string key="Activity" value="go_outside" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5836" />
+			<string key="reference:case:concept:name" value="do_walk" />
+			<int key="@@index" value="4352" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<int key="index" value="4353" />
+			<string key="concept:name" value="walk_outside" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T12:31:00+00:00" />
+			<string key="Activity" value="walk_outside" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5837" />
+			<string key="reference:case:concept:name" value="do_walk" />
+			<int key="@@index" value="4353" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<int key="index" value="4355" />
+			<string key="concept:name" value="walk_outside" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T13:53:00+00:00" />
+			<string key="Activity" value="walk_outside" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5839" />
+			<string key="reference:case:concept:name" value="do_walk" />
+			<int key="@@index" value="4355" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<int key="index" value="4356" />
+			<string key="concept:name" value="go_shoe_shelf" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T13:53:00+00:00" />
+			<string key="Activity" value="go_shoe_shelf" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5840" />
+			<string key="reference:case:concept:name" value="do_walk" />
+			<int key="@@index" value="4356" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<int key="index" value="4357" />
+			<string key="concept:name" value="dress_down_outdoor" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T13:53:00+00:00" />
+			<string key="Activity" value="dress_down_outdoor" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5841" />
+			<string key="reference:case:concept:name" value="do_walk" />
+			<int key="@@index" value="4357" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<int key="index" value="4359" />
+			<string key="concept:name" value="dress_down_outdoor" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T13:59:00+00:00" />
+			<string key="Activity" value="dress_down_outdoor" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5843" />
+			<string key="reference:case:concept:name" value="do_walk" />
+			<int key="@@index" value="4359" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<int key="index" value="4360" />
+			<string key="concept:name" value="go_wardrobe" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T13:59:00+00:00" />
+			<string key="Activity" value="go_wardrobe" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5844" />
+			<string key="reference:case:concept:name" value="do_walk" />
+			<int key="@@index" value="4360" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<int key="index" value="4361" />
+			<string key="concept:name" value="change_clothes" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T13:59:00+00:00" />
+			<string key="Activity" value="change_clothes" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5845" />
+			<string key="reference:case:concept:name" value="do_walk" />
+			<int key="@@index" value="4361" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<int key="index" value="4363" />
+			<string key="concept:name" value="change_clothes" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T14:04:00+00:00" />
+			<string key="Activity" value="change_clothes" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5847" />
+			<string key="reference:case:concept:name" value="do_walk" />
+			<int key="@@index" value="4363" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<int key="index" value="4364" />
+			<string key="concept:name" value="finish_walk" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T14:04:00+00:00" />
+			<string key="Activity" value="finish_walk" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5848" />
+			<string key="reference:case:concept:name" value="do_walk" />
+			<int key="@@index" value="4364" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<int key="index" value="4366" />
+			<string key="concept:name" value="finish_walk" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T14:04:00+00:00" />
+			<string key="Activity" value="finish_walk" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5850" />
+			<string key="reference:case:concept:name" value="do_walk" />
+			<int key="@@index" value="4366" />
+			<int key="@@case_index" value="20" />
+		</event>
+	</trace>
+</log>

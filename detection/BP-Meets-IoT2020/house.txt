@@ -1,0 +1,128 @@
+Places
+p1 50 50
+p2 1150 50
+p3 50 350
+p4 500 350
+p5 500 50
+p6 1150 350
+p7 700 350
+p8 800 350
+p9 500 150
+p10 500 250
+p11 300 350
+p12 200 350
+p13 500 446
+p14 500 550
+p16 50 700
+p15 500 700
+p17 600 700
+p18 650 700
+p19 400 700
+p30 50 1000
+p21 400 1000
+p22 400 850
+p23 400 950
+p24 650 900
+p25 550 1000
+p26 1100 700
+p27 1150 1000
+p29 650 850
+p20 850 850
+p31 850 1000
+p28 200 700
+p32 1000 700
+p33 450 1000
+p34 650 1000
+p35 1150 700
+wc 750 950
+exercise_place 250 200
+computer 100 750
+start 300 1050
+outside 700 1050
+fridge 900 950
+kitchen_sink 700 800
+kitchen_shelf 1100 900
+tv 1100 400
+tv_chair 950 550
+bed 1000 150
+wardrobe 650 100
+bathtub 150 450
+dining_table 700 600
+dining_chair 700 650
+computer_chair 150 800
+entrace 500 1050
+bathroom_sink 400 650
+chair 300 950
+micro 1000 950
+oven 1100 800
+shoe_shelf 450 750
+windows 1100 500
+workplace 950 1050
+
+Walls
+p1 p5
+p5 p2
+p5 p9
+p1 p3
+p10 p4
+p3 p11
+p12 p4
+p4 p7
+p2 p6
+p8 p6
+p6 p35
+p3 p16
+p16 p30
+p30 p21
+p25 p31
+p31 p27
+p16 p28
+p19 p15
+p17 p18
+p19 p22
+p23 p21
+p18 p29
+p29 p24
+p29 p20
+p20 p31
+p35 p27
+p4 p13
+p14 p15
+p18 p32
+p21 p33
+p34 p25
+p26 p35
+p28 p19
+p11 p12
+
+Position sensors
+s1 80 80 135 type1 False
+s2 470 80 225 type1 False
+s3 80 320 45 type1 False
+s4 470 320 315 type1 False
+s5 530 320 45 type1 False
+s6 530 80 135 type1 False
+s7 1120 80 225 type1 False
+s8 1120 320 315 type1 False
+s9 80 380 135 type1 False
+s10 470 380 225 type1 False
+s11 80 670 45 type1 False
+s12 470 670 315 type1 False
+s13 530 380 135 type1 False
+s14 1120 380 225 type1 False
+s15 530 670 45 type1 False
+s16 1120 670 315 type1 False
+s17 80 730 135 type1 False
+s18 370 730 225 type1 False
+s19 80 970 45 type1 False
+s20 370 970 315 type1 False
+s21 430 730 135 type1 False
+s22 620 730 225 type1 False
+s23 430 970 45 type1 False
+s24 620 970 315 type1 False
+s25 680 880 135 type1 False
+s26 680 730 135 type1 False
+s27 1120 730 225 type1 False
+s28 680 820 45 type1 False
+s29 880 970 45 type1 False
+s30 1120 970 315 type1 False

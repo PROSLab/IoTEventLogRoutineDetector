@@ -1,0 +1,14 @@
+cook_and_eat_BP:10,go_bathroom_sink,wash_hands,go_fridge,get_food_from_fridge,go_kitchen_shelf,get_bread,go_dining_table,eat_cold_meal,go_kitchen_sink,put_plate_to_sink
+sleeping_BP:9,go_wardrobe,get_clothes,change_clothes,go_bathtub,have_bath,go_bathroom_sink,brush_teeth,go_bed,sleep_in_bed
+shop:9,go_wardrobe,change_clothes,go_shoe_shelf,dress_up_outdoor,go_outside,get_food,dress_down_outdoor,go_kitchen_shelf,pack_goods
+work_BP:8,go_wardrobe,change_clothes,go_shoe_shelf,dress_up_outdoor,go_workplace,work,dress_down_outdoor,finish_walk
+drink:5,go_kitchen_shelf,get_glass,go_kitchen_sink,get_water,drink_water
+use_computer:5,go_computer,switch_computer_on,go_computer_chair,use_the_computer,switch_computer_off
+wc:5,go_wc,wc_do,wc_flush,go_bathroom_sink,wash_hands
+housekeeping_BP:4,go_computer,clean,go_book_shelf,go_wardrobe
+relax_BP:3,go_chair,rest_in_chair,go_to start
+Airing_home:3,go_windows,raise_blinds,open_windows
+Airing_home_end:3,go_windows,close_windows,lower_blinds
+someone_at_entrace:2,go_entrace,interact_with_man
+exercise:2,go_exercise_place,do_exercise
+wash_dishes_BP:2,go_kitchen_sink,wash_dishes

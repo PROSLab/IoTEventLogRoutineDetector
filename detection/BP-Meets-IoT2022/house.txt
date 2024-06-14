@@ -1,0 +1,121 @@
+Positions
+p1 50 100
+p2 1300 100
+p6 1300 350
+p18 650 600
+p30 50 1000
+p25 550 1000
+p27 1300 1000
+p34 650 1000
+p35 1300 600
+p17 650 750
+p20 650 650
+p24 1100 700
+p26 1100 800
+p29 1100 900
+p31 1300 800
+p32 1100 1000
+p36 900 350
+p8 900 450
+p37 900 600
+p38 900 250
+p39 900 100
+p40 800 450
+p41 600 450
+p42 600 100
+p43 800 100
+p4 800 150
+p5 800 250
+p3 550 100
+p7 450 100
+start 300 1050
+outside 900 1050
+entrace 600 1050
+workplace 1100 1050
+p9 800 350
+p10 600 350
+p11 700 450
+back_door 500 50
+garage_door 850 50
+garage 1150 50
+kitchen_sink 80 214
+kitchen_shelf 82 296
+oven 80 130
+micro 192 334
+exercise_place 302 664
+fridge 232 122
+dining_table 190 478
+dining_chair 188 528
+tv_chair 380 818
+tv 102 804
+bathtub 1246 638
+wc 1244 700
+bathroom_sink 1164 768
+computer 1200 120
+computer_chair 1200 154
+windows 172 988
+bed 716 870
+wardrobe 1202 852
+shoe_shelf 1202 952
+bathtub2 650 146
+wc2 650 222
+bathroom_sink2 650 306
+bed2 972 528
+wardrobe2 1198 386
+book_shelf 1130 320
+chair 382 734
+
+Walls
+p1 p7
+p3 p43
+p39 p2
+p2 p6
+p36 p6
+p6 p35
+p35 p27
+p27 p34
+p18 p35
+p18 p20
+p17 p34
+p29 p32
+p24 p26
+p26 p31
+p38 p39
+p8 p37
+p43 p4
+p5 p40
+p10 p9
+p40 p11
+p41 p42
+p1 p30
+p30 p25
+
+Sensors
+s1 974 954 315 type1 False
+s2 664 948 90 type1 False
+s3 662 800 90 type1 False
+s4 1074 714 0 type1 False
+s5 878 626 180 type1 False
+s6 676 628 180 type1 False
+s8 624 626 180 type1 False
+s9 440 732 270 type1 False
+s10 438 822 270 type1 False
+s11 520 974 90 type1 False
+s12 272 934 0 type1 False
+s13 104 620 90 type1 False
+s14 314 490 180 type1 False
+s15 220 352 0 type1 False
+s16 570 126 270 type1 False
+s17 484 202 270 type1 False
+s18 454 350 315 type1 False
+s21 580 530 90 type1 False
+s22 850 564 0 type1 False
+s23 918 464 0 type1 False
+s25 1218 332 0 type1 False
+s26 1200 200 0 type1 False
+s28 916 222 180 type1 False
+s29 774 272 0 type1 False
+s30 810 112 90 type1 False
+s31 714 420 270 type1 False
+Temp 250 800 0 Temperatura True
+

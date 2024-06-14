@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<extension name="Organizational" prefix="org" uri="http://www.xes-standard.org/org.xesext" />
+	<extension name="Lifecycle" prefix="lifecycle" uri="http://www.xes-standard.org/lifecycle.xesext" />
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<string key="origin" value="csv" />
+	<trace>
+		<string key="concept:name" value="2020-03-22 00:00:00+00:00" />
+		<string key="traceId" value="197" />
+		<event>
+			<int key="index" value="1185" />
+			<string key="concept:name" value="go_kitchen_sink" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T05:23:00+00:00" />
+			<string key="Activity" value="go_kitchen_sink" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2669" />
+			<string key="reference:case:concept:name" value="do_the_dishes" />
+			<int key="@@index" value="1185" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<int key="index" value="1186" />
+			<string key="concept:name" value="go_kitchen_sink" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T05:24:00+00:00" />
+			<string key="Activity" value="go_kitchen_sink" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2670" />
+			<string key="reference:case:concept:name" value="do_the_dishes" />
+			<int key="@@index" value="1186" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<int key="index" value="1187" />
+			<string key="concept:name" value="wash_dishes" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T05:24:00+00:00" />
+			<string key="Activity" value="wash_dishes" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2671" />
+			<string key="reference:case:concept:name" value="do_the_dishes" />
+			<int key="@@index" value="1187" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<int key="index" value="1189" />
+			<string key="concept:name" value="wash_dishes" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T05:24:00+00:00" />
+			<string key="Activity" value="wash_dishes" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2673" />
+			<string key="reference:case:concept:name" value="do_the_dishes" />
+			<int key="@@index" value="1189" />
+			<int key="@@case_index" value="6" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2020-03-28 00:00:00+00:00" />
+		<string key="traceId" value="290" />
+		<event>
+			<int key="index" value="2484" />
+			<string key="concept:name" value="go_kitchen_sink" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-28T20:41:00+00:00" />
+			<string key="Activity" value="go_kitchen_sink" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3968" />
+			<string key="reference:case:concept:name" value="do_the_dishes" />
+			<int key="@@index" value="2484" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<int key="index" value="2485" />
+			<string key="concept:name" value="wash_dishes" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-28T20:41:00+00:00" />
+			<string key="Activity" value="wash_dishes" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3969" />
+			<string key="reference:case:concept:name" value="do_the_dishes" />
+			<int key="@@index" value="2485" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<int key="index" value="2487" />
+			<string key="concept:name" value="wash_dishes" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-28T20:42:00+00:00" />
+			<string key="Activity" value="wash_dishes" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3971" />
+			<string key="reference:case:concept:name" value="do_the_dishes" />
+			<int key="@@index" value="2487" />
+			<int key="@@case_index" value="12" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2020-04-01 00:00:00+00:00" />
+		<string key="traceId" value="363" />
+		<event>
+			<int key="index" value="3497" />
+			<string key="concept:name" value="go_kitchen_sink" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T06:39:00+00:00" />
+			<string key="Activity" value="go_kitchen_sink" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4981" />
+			<string key="reference:case:concept:name" value="do_the_dishes" />
+			<int key="@@index" value="3497" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<int key="index" value="3498" />
+			<string key="concept:name" value="wash_dishes" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T06:39:00+00:00" />
+			<string key="Activity" value="wash_dishes" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4982" />
+			<string key="reference:case:concept:name" value="do_the_dishes" />
+			<int key="@@index" value="3498" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<int key="index" value="3500" />
+			<string key="concept:name" value="wash_dishes" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T06:39:00+00:00" />
+			<string key="Activity" value="wash_dishes" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4984" />
+			<string key="reference:case:concept:name" value="do_the_dishes" />
+			<int key="@@index" value="3500" />
+			<int key="@@case_index" value="16" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2020-04-05 00:00:00+00:00" />
+		<string key="traceId" value="418" />
+		<event>
+			<int key="index" value="4231" />
+			<string key="concept:name" value="go_kitchen_sink" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T09:17:00+00:00" />
+			<string key="Activity" value="go_kitchen_sink" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5715" />
+			<string key="reference:case:concept:name" value="do_the_dishes" />
+			<int key="@@index" value="4231" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<int key="index" value="4232" />
+			<string key="concept:name" value="go_kitchen_sink" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T09:18:00+00:00" />
+			<string key="Activity" value="go_kitchen_sink" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5716" />
+			<string key="reference:case:concept:name" value="do_the_dishes" />
+			<int key="@@index" value="4232" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<int key="index" value="4233" />
+			<string key="concept:name" value="wash_dishes" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T09:18:00+00:00" />
+			<string key="Activity" value="wash_dishes" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5717" />
+			<string key="reference:case:concept:name" value="do_the_dishes" />
+			<int key="@@index" value="4233" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<int key="index" value="4235" />
+			<string key="concept:name" value="wash_dishes" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T09:18:00+00:00" />
+			<string key="Activity" value="wash_dishes" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5719" />
+			<string key="reference:case:concept:name" value="do_the_dishes" />
+			<int key="@@index" value="4235" />
+			<int key="@@case_index" value="20" />
+		</event>
+	</trace>
+</log>

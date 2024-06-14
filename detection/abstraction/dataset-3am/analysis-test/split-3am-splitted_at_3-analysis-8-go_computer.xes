@@ -1,0 +1,3456 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<extension name="Lifecycle" prefix="lifecycle" uri="http://www.xes-standard.org/lifecycle.xesext" />
+	<extension name="Organizational" prefix="org" uri="http://www.xes-standard.org/org.xesext" />
+	<string key="origin" value="csv" />
+	<trace>
+		<string key="concept:name" value="singleton" />
+		<string key="traceId" value="117" />
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-16T07:33:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1516" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="32" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-16T07:34:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1517" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="33" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_computer_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-16T07:34:00+00:00" />
+			<string key="Activity" value="switch_computer_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="1518" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="34" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_computer_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-16T07:34:00+00:00" />
+			<string key="Activity" value="switch_computer_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1520" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="36" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-16T07:34:00+00:00" />
+			<string key="Activity" value="go_computer_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1521" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="37" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="use_the_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-16T07:34:00+00:00" />
+			<string key="Activity" value="use_the_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="1522" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="38" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-16T18:40:00+00:00" />
+			<string key="Activity" value="go_computer_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1558" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="73" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-16T18:41:00+00:00" />
+			<string key="Activity" value="go_computer_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1559" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="75" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="use_the_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-16T20:00:00+00:00" />
+			<string key="Activity" value="use_the_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1561" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="77" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-16T20:00:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1562" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="78" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-16T22:38:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1638" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="154" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-16T22:39:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1639" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="155" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_computer_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-16T22:39:00+00:00" />
+			<string key="Activity" value="switch_computer_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="1640" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="156" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_computer_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-16T22:39:00+00:00" />
+			<string key="Activity" value="switch_computer_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1642" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="158" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-16T22:39:00+00:00" />
+			<string key="Activity" value="go_computer_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1643" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="159" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="use_the_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-16T22:39:00+00:00" />
+			<string key="Activity" value="use_the_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="1644" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="160" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-17T18:49:00+00:00" />
+			<string key="Activity" value="go_computer_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1712" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="227" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-17T18:50:00+00:00" />
+			<string key="Activity" value="go_computer_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1713" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="229" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<string key="concept:name" value="use_the_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-17T19:52:00+00:00" />
+			<string key="Activity" value="use_the_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1715" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="231" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-17T19:52:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1716" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="232" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T02:16:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1808" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="319" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T02:19:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1822" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="338" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T02:20:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1823" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="339" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_computer_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T02:20:00+00:00" />
+			<string key="Activity" value="switch_computer_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="1824" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="340" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_computer_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T02:20:00+00:00" />
+			<string key="Activity" value="switch_computer_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1826" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="342" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T02:20:00+00:00" />
+			<string key="Activity" value="go_computer_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1827" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="343" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<string key="concept:name" value="use_the_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T02:20:00+00:00" />
+			<string key="Activity" value="use_the_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="1828" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="344" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T03:09:00+00:00" />
+			<string key="Activity" value="go_computer_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1841" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="346" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<string key="concept:name" value="use_the_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T04:17:00+00:00" />
+			<string key="Activity" value="use_the_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1843" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="359" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T04:17:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1844" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="360" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T06:50:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1969" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="485" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T06:51:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1970" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="486" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_computer_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T06:51:00+00:00" />
+			<string key="Activity" value="switch_computer_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="1971" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="487" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_computer_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T06:51:00+00:00" />
+			<string key="Activity" value="switch_computer_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1973" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="489" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T06:51:00+00:00" />
+			<string key="Activity" value="go_computer_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1974" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="490" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="concept:name" value="use_the_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T06:51:00+00:00" />
+			<string key="Activity" value="use_the_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="1975" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="491" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T08:01:00+00:00" />
+			<string key="Activity" value="go_computer_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1988" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="503" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T18:41:00+00:00" />
+			<string key="Activity" value="go_computer_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2027" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="542" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="concept:name" value="use_the_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T19:08:00+00:00" />
+			<string key="Activity" value="use_the_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2029" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="545" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T19:08:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2030" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="546" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-20T05:43:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2168" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="684" />
+			<int key="@@case_index" value="4" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_computer_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-20T05:43:00+00:00" />
+			<string key="Activity" value="switch_computer_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2169" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="685" />
+			<int key="@@case_index" value="4" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_computer_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-20T05:43:00+00:00" />
+			<string key="Activity" value="switch_computer_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2171" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="687" />
+			<int key="@@case_index" value="4" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-20T05:43:00+00:00" />
+			<string key="Activity" value="go_computer_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2172" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="688" />
+			<int key="@@case_index" value="4" />
+		</event>
+		<event>
+			<string key="concept:name" value="use_the_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-20T05:43:00+00:00" />
+			<string key="Activity" value="use_the_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2173" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="689" />
+			<int key="@@case_index" value="4" />
+		</event>
+		<event>
+			<string key="concept:name" value="use_the_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-20T07:01:00+00:00" />
+			<string key="Activity" value="use_the_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2175" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="691" />
+			<int key="@@case_index" value="4" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-20T07:01:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2176" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="692" />
+			<int key="@@case_index" value="4" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-20T19:02:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2258" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="774" />
+			<int key="@@case_index" value="4" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_computer_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-20T19:02:00+00:00" />
+			<string key="Activity" value="switch_computer_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2259" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="775" />
+			<int key="@@case_index" value="4" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_computer_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-20T19:02:00+00:00" />
+			<string key="Activity" value="switch_computer_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2261" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="777" />
+			<int key="@@case_index" value="4" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-20T19:02:00+00:00" />
+			<string key="Activity" value="go_computer_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2262" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="778" />
+			<int key="@@case_index" value="4" />
+		</event>
+		<event>
+			<string key="concept:name" value="use_the_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-20T19:02:00+00:00" />
+			<string key="Activity" value="use_the_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2263" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="779" />
+			<int key="@@case_index" value="4" />
+		</event>
+		<event>
+			<string key="concept:name" value="use_the_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-20T20:43:00+00:00" />
+			<string key="Activity" value="use_the_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2265" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="781" />
+			<int key="@@case_index" value="4" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-20T20:43:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2266" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="782" />
+			<int key="@@case_index" value="4" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-21T20:45:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2424" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="940" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_computer_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-21T20:45:00+00:00" />
+			<string key="Activity" value="switch_computer_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2425" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="941" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_computer_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-21T20:45:00+00:00" />
+			<string key="Activity" value="switch_computer_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2427" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="943" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-21T20:45:00+00:00" />
+			<string key="Activity" value="go_computer_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2428" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="944" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-21T20:46:00+00:00" />
+			<string key="Activity" value="go_computer_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2429" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="945" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="concept:name" value="use_the_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-21T20:46:00+00:00" />
+			<string key="Activity" value="use_the_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2430" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="946" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-21T22:47:00+00:00" />
+			<string key="Activity" value="go_computer_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2443" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="958" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="concept:name" value="use_the_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-21T22:52:00+00:00" />
+			<string key="Activity" value="use_the_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2445" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="962" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-21T22:52:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2446" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="963" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T01:35:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2563" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="1079" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_computer_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T01:35:00+00:00" />
+			<string key="Activity" value="switch_computer_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2564" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="1080" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_computer_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T01:35:00+00:00" />
+			<string key="Activity" value="switch_computer_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2566" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="1082" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T01:35:00+00:00" />
+			<string key="Activity" value="go_computer_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2567" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="1083" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="concept:name" value="use_the_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T01:35:00+00:00" />
+			<string key="Activity" value="use_the_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2568" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="1084" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T03:03:00+00:00" />
+			<string key="Activity" value="go_computer_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2581" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="1096" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="concept:name" value="use_the_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T03:11:00+00:00" />
+			<string key="Activity" value="use_the_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2583" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="1099" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T03:11:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2584" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="1100" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T05:24:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2674" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="1190" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_computer_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T05:24:00+00:00" />
+			<string key="Activity" value="switch_computer_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2675" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="1191" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_computer_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T05:25:00+00:00" />
+			<string key="Activity" value="switch_computer_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2677" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="1193" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T05:25:00+00:00" />
+			<string key="Activity" value="go_computer_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2678" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="1194" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="use_the_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T05:25:00+00:00" />
+			<string key="Activity" value="use_the_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2679" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="1195" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T06:37:00+00:00" />
+			<string key="Activity" value="go_computer_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2692" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="1207" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="use_the_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T07:35:00+00:00" />
+			<string key="Activity" value="use_the_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2694" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="1210" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T07:35:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2695" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="1211" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T11:07:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2823" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="1339" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_computer_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T11:07:00+00:00" />
+			<string key="Activity" value="switch_computer_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2824" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="1340" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_computer_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T11:07:00+00:00" />
+			<string key="Activity" value="switch_computer_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2826" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="1342" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T11:07:00+00:00" />
+			<string key="Activity" value="go_computer_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2827" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="1343" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="use_the_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T11:07:00+00:00" />
+			<string key="Activity" value="use_the_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2828" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="1344" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T12:06:00+00:00" />
+			<string key="Activity" value="go_computer_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2834" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="1349" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="use_the_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T12:33:00+00:00" />
+			<string key="Activity" value="use_the_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2836" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="1352" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T12:33:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2837" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="1353" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T14:33:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2942" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="1458" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_computer_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T14:33:00+00:00" />
+			<string key="Activity" value="switch_computer_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2943" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="1459" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_computer_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T14:33:00+00:00" />
+			<string key="Activity" value="switch_computer_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2945" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="1461" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T14:33:00+00:00" />
+			<string key="Activity" value="go_computer_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2946" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="1462" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="use_the_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T14:33:00+00:00" />
+			<string key="Activity" value="use_the_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2947" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="1463" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T15:12:00+00:00" />
+			<string key="Activity" value="go_computer_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2960" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="1475" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T15:13:00+00:00" />
+			<string key="Activity" value="go_computer_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2961" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="1477" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="use_the_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T15:59:00+00:00" />
+			<string key="Activity" value="use_the_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2963" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="1479" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T15:59:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2964" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="1480" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-23T18:48:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3113" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="1629" />
+			<int key="@@case_index" value="7" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_computer_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-23T18:48:00+00:00" />
+			<string key="Activity" value="switch_computer_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3114" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="1630" />
+			<int key="@@case_index" value="7" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_computer_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-23T18:49:00+00:00" />
+			<string key="Activity" value="switch_computer_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3116" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="1632" />
+			<int key="@@case_index" value="7" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-23T18:49:00+00:00" />
+			<string key="Activity" value="go_computer_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3117" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="1633" />
+			<int key="@@case_index" value="7" />
+		</event>
+		<event>
+			<string key="concept:name" value="use_the_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-23T18:49:00+00:00" />
+			<string key="Activity" value="use_the_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3118" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="1634" />
+			<int key="@@case_index" value="7" />
+		</event>
+		<event>
+			<string key="concept:name" value="use_the_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-23T20:23:00+00:00" />
+			<string key="Activity" value="use_the_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3120" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="1636" />
+			<int key="@@case_index" value="7" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-23T20:23:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3121" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="1637" />
+			<int key="@@case_index" value="7" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-24T18:53:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3244" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="1759" />
+			<int key="@@case_index" value="8" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-24T18:54:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3245" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="1761" />
+			<int key="@@case_index" value="8" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-24T18:54:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3248" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="1764" />
+			<int key="@@case_index" value="8" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_computer_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-24T18:54:00+00:00" />
+			<string key="Activity" value="switch_computer_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3249" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="1765" />
+			<int key="@@case_index" value="8" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_computer_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-24T18:54:00+00:00" />
+			<string key="Activity" value="switch_computer_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3250" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="1766" />
+			<int key="@@case_index" value="8" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-24T18:54:00+00:00" />
+			<string key="Activity" value="go_computer_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3251" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="1767" />
+			<int key="@@case_index" value="8" />
+		</event>
+		<event>
+			<string key="concept:name" value="use_the_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-24T18:54:00+00:00" />
+			<string key="Activity" value="use_the_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3252" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="1768" />
+			<int key="@@case_index" value="8" />
+		</event>
+		<event>
+			<string key="concept:name" value="use_the_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-24T20:39:00+00:00" />
+			<string key="Activity" value="use_the_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3254" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="1770" />
+			<int key="@@case_index" value="8" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-24T20:39:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3255" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="1771" />
+			<int key="@@case_index" value="8" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T02:51:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3362" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="1878" />
+			<int key="@@case_index" value="8" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_computer_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T02:51:00+00:00" />
+			<string key="Activity" value="switch_computer_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3363" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="1879" />
+			<int key="@@case_index" value="8" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_computer_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T02:51:00+00:00" />
+			<string key="Activity" value="switch_computer_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3365" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="1881" />
+			<int key="@@case_index" value="8" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T02:51:00+00:00" />
+			<string key="Activity" value="go_computer_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3366" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="1882" />
+			<int key="@@case_index" value="8" />
+		</event>
+		<event>
+			<string key="concept:name" value="use_the_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T02:51:00+00:00" />
+			<string key="Activity" value="use_the_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3367" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="1883" />
+			<int key="@@case_index" value="8" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T04:14:00+00:00" />
+			<string key="Activity" value="go_computer_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3380" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="1895" />
+			<int key="@@case_index" value="9" />
+		</event>
+		<event>
+			<string key="concept:name" value="use_the_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T04:29:00+00:00" />
+			<string key="Activity" value="use_the_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3382" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="1898" />
+			<int key="@@case_index" value="9" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T04:29:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3383" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="1899" />
+			<int key="@@case_index" value="9" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T06:34:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3479" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="1995" />
+			<int key="@@case_index" value="9" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_computer_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T06:34:00+00:00" />
+			<string key="Activity" value="switch_computer_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3480" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="1996" />
+			<int key="@@case_index" value="9" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_computer_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T06:34:00+00:00" />
+			<string key="Activity" value="switch_computer_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3482" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="1998" />
+			<int key="@@case_index" value="9" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T06:34:00+00:00" />
+			<string key="Activity" value="go_computer_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3483" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="1999" />
+			<int key="@@case_index" value="9" />
+		</event>
+		<event>
+			<string key="concept:name" value="use_the_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T06:34:00+00:00" />
+			<string key="Activity" value="use_the_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3484" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="2000" />
+			<int key="@@case_index" value="9" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T07:38:00+00:00" />
+			<string key="Activity" value="go_computer_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3497" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="2012" />
+			<int key="@@case_index" value="9" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T07:39:00+00:00" />
+			<string key="Activity" value="go_computer_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3498" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="2014" />
+			<int key="@@case_index" value="9" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T18:39:00+00:00" />
+			<string key="Activity" value="go_computer_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3547" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="2062" />
+			<int key="@@case_index" value="9" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T18:40:00+00:00" />
+			<string key="Activity" value="go_computer_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3548" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="2064" />
+			<int key="@@case_index" value="9" />
+		</event>
+		<event>
+			<string key="concept:name" value="use_the_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T19:20:00+00:00" />
+			<string key="Activity" value="use_the_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3550" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="2066" />
+			<int key="@@case_index" value="9" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T19:20:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3551" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="2067" />
+			<int key="@@case_index" value="9" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-27T08:15:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3698" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="2214" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_computer_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-27T08:15:00+00:00" />
+			<string key="Activity" value="switch_computer_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3699" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="2215" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_computer_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-27T08:15:00+00:00" />
+			<string key="Activity" value="switch_computer_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3701" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="2217" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-27T08:15:00+00:00" />
+			<string key="Activity" value="go_computer_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3702" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="2218" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<string key="concept:name" value="use_the_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-27T08:15:00+00:00" />
+			<string key="Activity" value="use_the_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3703" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="2219" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-27T18:53:00+00:00" />
+			<string key="Activity" value="go_computer_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3739" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="2255" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<string key="concept:name" value="use_the_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-27T19:52:00+00:00" />
+			<string key="Activity" value="use_the_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3741" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="2257" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-27T19:52:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3742" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="2258" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-28T18:35:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3931" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="2447" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_computer_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-28T18:35:00+00:00" />
+			<string key="Activity" value="switch_computer_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3932" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="2448" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_computer_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-28T18:35:00+00:00" />
+			<string key="Activity" value="switch_computer_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3934" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="2450" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-28T18:35:00+00:00" />
+			<string key="Activity" value="go_computer_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3935" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="2451" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<string key="concept:name" value="use_the_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-28T18:35:00+00:00" />
+			<string key="Activity" value="use_the_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3936" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="2452" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-28T19:13:00+00:00" />
+			<string key="Activity" value="go_computer_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3949" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="2464" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-28T19:14:00+00:00" />
+			<string key="Activity" value="go_computer_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3950" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="2466" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<string key="concept:name" value="use_the_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-28T20:39:00+00:00" />
+			<string key="Activity" value="use_the_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3952" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="2468" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-28T20:39:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3953" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="2469" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T08:36:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4135" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="2651" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T08:37:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4136" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="2652" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_computer_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T08:37:00+00:00" />
+			<string key="Activity" value="switch_computer_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4137" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="2653" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_computer_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T08:37:00+00:00" />
+			<string key="Activity" value="switch_computer_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4139" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="2655" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T08:37:00+00:00" />
+			<string key="Activity" value="go_computer_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4140" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="2656" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="use_the_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T08:37:00+00:00" />
+			<string key="Activity" value="use_the_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4141" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="2657" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T10:17:00+00:00" />
+			<string key="Activity" value="go_computer_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4154" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="2669" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T10:18:00+00:00" />
+			<string key="Activity" value="go_computer_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4155" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="2671" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="use_the_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T10:49:00+00:00" />
+			<string key="Activity" value="use_the_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4157" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="2673" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T10:49:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4158" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="2674" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T12:57:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4237" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="2753" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_computer_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T12:57:00+00:00" />
+			<string key="Activity" value="switch_computer_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4238" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="2754" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_computer_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T12:57:00+00:00" />
+			<string key="Activity" value="switch_computer_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4240" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="2756" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T12:57:00+00:00" />
+			<string key="Activity" value="go_computer_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4241" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="2757" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="use_the_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T12:57:00+00:00" />
+			<string key="Activity" value="use_the_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4242" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="2758" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T13:46:00+00:00" />
+			<string key="Activity" value="go_computer_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4255" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="2770" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="use_the_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T14:49:00+00:00" />
+			<string key="Activity" value="use_the_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4257" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="2773" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T14:49:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4258" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="2774" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T17:55:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4393" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="2909" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_computer_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T17:55:00+00:00" />
+			<string key="Activity" value="switch_computer_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4394" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="2910" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_computer_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T17:55:00+00:00" />
+			<string key="Activity" value="switch_computer_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4396" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="2912" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T17:55:00+00:00" />
+			<string key="Activity" value="go_computer_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4397" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="2913" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="use_the_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T17:55:00+00:00" />
+			<string key="Activity" value="use_the_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4398" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="2914" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="use_the_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T19:20:00+00:00" />
+			<string key="Activity" value="use_the_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4400" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="2916" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T19:20:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4401" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="2917" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T21:12:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4482" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="2995" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T21:12:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4485" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="3001" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_computer_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T21:12:00+00:00" />
+			<string key="Activity" value="switch_computer_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4486" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="3002" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_computer_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T21:12:00+00:00" />
+			<string key="Activity" value="switch_computer_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4487" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="3003" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T21:12:00+00:00" />
+			<string key="Activity" value="go_computer_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4488" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="3004" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="use_the_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T21:12:00+00:00" />
+			<string key="Activity" value="use_the_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4489" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="3005" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T22:05:00+00:00" />
+			<string key="Activity" value="go_computer_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4502" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="3017" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="use_the_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T23:12:00+00:00" />
+			<string key="Activity" value="use_the_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4504" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="3020" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T23:12:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4505" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="3021" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-30T20:10:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4615" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="3131" />
+			<int key="@@case_index" value="14" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_computer_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-30T20:10:00+00:00" />
+			<string key="Activity" value="switch_computer_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4616" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="3132" />
+			<int key="@@case_index" value="14" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_computer_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-30T20:10:00+00:00" />
+			<string key="Activity" value="switch_computer_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4618" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="3134" />
+			<int key="@@case_index" value="14" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-30T20:10:00+00:00" />
+			<string key="Activity" value="go_computer_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4619" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="3135" />
+			<int key="@@case_index" value="14" />
+		</event>
+		<event>
+			<string key="concept:name" value="use_the_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-30T20:10:00+00:00" />
+			<string key="Activity" value="use_the_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4620" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="3136" />
+			<int key="@@case_index" value="14" />
+		</event>
+		<event>
+			<string key="concept:name" value="use_the_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-30T22:10:00+00:00" />
+			<string key="Activity" value="use_the_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4622" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="3140" />
+			<int key="@@case_index" value="14" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-30T22:10:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4623" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="3141" />
+			<int key="@@case_index" value="14" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-31T20:04:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4756" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="3282" />
+			<int key="@@case_index" value="15" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_computer_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-31T20:04:00+00:00" />
+			<string key="Activity" value="switch_computer_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4757" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="3283" />
+			<int key="@@case_index" value="15" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_computer_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-31T20:04:00+00:00" />
+			<string key="Activity" value="switch_computer_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4759" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="3285" />
+			<int key="@@case_index" value="15" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-31T20:04:00+00:00" />
+			<string key="Activity" value="go_computer_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4760" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="3286" />
+			<int key="@@case_index" value="15" />
+		</event>
+		<event>
+			<string key="concept:name" value="use_the_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-31T20:04:00+00:00" />
+			<string key="Activity" value="use_the_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4761" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="3287" />
+			<int key="@@case_index" value="15" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-31T21:02:00+00:00" />
+			<string key="Activity" value="go_computer_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4774" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="3299" />
+			<int key="@@case_index" value="15" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-31T21:03:00+00:00" />
+			<string key="Activity" value="go_computer_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4775" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="3301" />
+			<int key="@@case_index" value="15" />
+		</event>
+		<event>
+			<string key="concept:name" value="use_the_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-31T22:18:00+00:00" />
+			<string key="Activity" value="use_the_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4777" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="3305" />
+			<int key="@@case_index" value="15" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-31T22:18:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4778" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="3306" />
+			<int key="@@case_index" value="15" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T04:41:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4911" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="3427" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T04:42:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4912" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="3428" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_computer_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T04:42:00+00:00" />
+			<string key="Activity" value="switch_computer_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4913" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="3429" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_computer_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T04:42:00+00:00" />
+			<string key="Activity" value="switch_computer_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4915" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="3431" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T04:42:00+00:00" />
+			<string key="Activity" value="go_computer_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4916" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="3432" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="use_the_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T04:42:00+00:00" />
+			<string key="Activity" value="use_the_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4917" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="3433" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="use_the_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T05:49:00+00:00" />
+			<string key="Activity" value="use_the_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4919" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="3435" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T05:49:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4920" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="3436" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T07:39:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5030" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="3546" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T07:40:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5031" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="3547" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_computer_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T07:40:00+00:00" />
+			<string key="Activity" value="switch_computer_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5032" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="3548" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_computer_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T07:40:00+00:00" />
+			<string key="Activity" value="switch_computer_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5034" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="3550" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T07:40:00+00:00" />
+			<string key="Activity" value="go_computer_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5035" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="3551" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="use_the_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T07:40:00+00:00" />
+			<string key="Activity" value="use_the_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5036" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="3552" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T18:39:00+00:00" />
+			<string key="Activity" value="go_computer_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5074" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="3589" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="use_the_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T20:03:00+00:00" />
+			<string key="Activity" value="use_the_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5076" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="3592" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T20:03:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5077" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="3593" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T20:04:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5078" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="3594" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-03T05:02:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5204" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="3720" />
+			<int key="@@case_index" value="18" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-03T05:03:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5205" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="3721" />
+			<int key="@@case_index" value="18" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_computer_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-03T05:03:00+00:00" />
+			<string key="Activity" value="switch_computer_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5206" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="3722" />
+			<int key="@@case_index" value="18" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_computer_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-03T05:03:00+00:00" />
+			<string key="Activity" value="switch_computer_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5208" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="3724" />
+			<int key="@@case_index" value="18" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-03T05:03:00+00:00" />
+			<string key="Activity" value="go_computer_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5209" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="3725" />
+			<int key="@@case_index" value="18" />
+		</event>
+		<event>
+			<string key="concept:name" value="use_the_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-03T05:03:00+00:00" />
+			<string key="Activity" value="use_the_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5210" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="3726" />
+			<int key="@@case_index" value="18" />
+		</event>
+		<event>
+			<string key="concept:name" value="use_the_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-03T06:42:00+00:00" />
+			<string key="Activity" value="use_the_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5212" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="3734" />
+			<int key="@@case_index" value="18" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-03T06:42:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5213" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="3735" />
+			<int key="@@case_index" value="18" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-03T21:29:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5292" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="3808" />
+			<int key="@@case_index" value="18" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_computer_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-03T21:29:00+00:00" />
+			<string key="Activity" value="switch_computer_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5293" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="3809" />
+			<int key="@@case_index" value="18" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_computer_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-03T21:29:00+00:00" />
+			<string key="Activity" value="switch_computer_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5295" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="3811" />
+			<int key="@@case_index" value="18" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-03T21:29:00+00:00" />
+			<string key="Activity" value="go_computer_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5296" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="3812" />
+			<int key="@@case_index" value="18" />
+		</event>
+		<event>
+			<string key="concept:name" value="use_the_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-03T21:29:00+00:00" />
+			<string key="Activity" value="use_the_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5297" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="3813" />
+			<int key="@@case_index" value="18" />
+		</event>
+		<event>
+			<string key="concept:name" value="use_the_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-03T23:34:00+00:00" />
+			<string key="Activity" value="use_the_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5299" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="3815" />
+			<int key="@@case_index" value="18" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-03T23:34:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5300" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="3816" />
+			<int key="@@case_index" value="18" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-04T18:41:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5420" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="3935" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-04T18:42:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5421" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="3937" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-04T19:11:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5462" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="3978" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_computer_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-04T19:11:00+00:00" />
+			<string key="Activity" value="switch_computer_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5463" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="3979" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_computer_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-04T19:11:00+00:00" />
+			<string key="Activity" value="switch_computer_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5465" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="3981" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-04T19:11:00+00:00" />
+			<string key="Activity" value="go_computer_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5466" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="3982" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="concept:name" value="use_the_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-04T19:11:00+00:00" />
+			<string key="Activity" value="use_the_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5467" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="3983" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-04T20:57:00+00:00" />
+			<string key="Activity" value="go_computer_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5480" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="3995" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="concept:name" value="use_the_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-04T21:03:00+00:00" />
+			<string key="Activity" value="use_the_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5482" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="3998" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-04T21:03:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5483" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="3999" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T06:32:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5647" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="4163" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_computer_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T06:32:00+00:00" />
+			<string key="Activity" value="switch_computer_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5648" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="4164" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_computer_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T06:32:00+00:00" />
+			<string key="Activity" value="switch_computer_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5650" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="4166" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T06:32:00+00:00" />
+			<string key="Activity" value="go_computer_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5651" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="4167" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="use_the_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T06:32:00+00:00" />
+			<string key="Activity" value="use_the_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5652" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="4168" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="use_the_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T08:12:00+00:00" />
+			<string key="Activity" value="use_the_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5654" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="4170" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T08:12:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5655" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="4171" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T09:17:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5712" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="4227" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T10:42:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5755" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="4271" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T10:43:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5756" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="4272" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_computer_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T10:43:00+00:00" />
+			<string key="Activity" value="switch_computer_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5757" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="4273" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_computer_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T10:43:00+00:00" />
+			<string key="Activity" value="switch_computer_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5759" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="4275" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T10:43:00+00:00" />
+			<string key="Activity" value="go_computer_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5760" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="4276" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="use_the_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T10:43:00+00:00" />
+			<string key="Activity" value="use_the_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5761" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="4277" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T11:06:00+00:00" />
+			<string key="Activity" value="go_computer_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5767" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="4282" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T11:41:00+00:00" />
+			<string key="Activity" value="go_computer_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5780" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="4295" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="use_the_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T12:00:00+00:00" />
+			<string key="Activity" value="use_the_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5782" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="4298" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T12:00:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5783" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="4299" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T14:53:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5898" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="4414" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T14:54:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5899" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="4415" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_computer_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T14:54:00+00:00" />
+			<string key="Activity" value="switch_computer_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5900" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="4416" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_computer_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T14:54:00+00:00" />
+			<string key="Activity" value="switch_computer_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5902" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="4418" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T14:54:00+00:00" />
+			<string key="Activity" value="go_computer_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5903" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="4419" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="use_the_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T14:54:00+00:00" />
+			<string key="Activity" value="use_the_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5904" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="4420" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T15:24:00+00:00" />
+			<string key="Activity" value="go_computer_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5910" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="4425" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="use_the_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T16:14:00+00:00" />
+			<string key="Activity" value="use_the_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5912" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="4428" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T16:14:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5913" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="4429" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T17:56:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5991" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="4506" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T17:59:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="6005" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="4521" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_computer_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T17:59:00+00:00" />
+			<string key="Activity" value="switch_computer_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="6006" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="4522" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_computer_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T17:59:00+00:00" />
+			<string key="Activity" value="switch_computer_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="6008" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="4524" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T17:59:00+00:00" />
+			<string key="Activity" value="go_computer_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="6009" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="4525" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="use_the_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T17:59:00+00:00" />
+			<string key="Activity" value="use_the_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="6010" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="4526" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T18:48:00+00:00" />
+			<string key="Activity" value="go_computer_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="6023" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="4538" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T18:49:00+00:00" />
+			<string key="Activity" value="go_computer_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="6024" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="4540" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="use_the_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T19:35:00+00:00" />
+			<string key="Activity" value="use_the_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="6026" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="4542" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T19:35:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="6027" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="4543" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T21:32:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="6135" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="4651" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T21:33:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="6136" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="4652" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_computer_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T21:33:00+00:00" />
+			<string key="Activity" value="switch_computer_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="6137" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="4653" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_computer_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T21:33:00+00:00" />
+			<string key="Activity" value="switch_computer_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="6139" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="4655" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T21:33:00+00:00" />
+			<string key="Activity" value="go_computer_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="6140" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="4656" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="use_the_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T21:33:00+00:00" />
+			<string key="Activity" value="use_the_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="6141" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="4657" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T22:45:00+00:00" />
+			<string key="Activity" value="go_computer_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="6154" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="4669" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="use_the_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T22:59:00+00:00" />
+			<string key="Activity" value="use_the_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="6156" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="4672" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_computer" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T22:59:00+00:00" />
+			<string key="Activity" value="go_computer" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="6157" />
+			<string key="reference:case:concept:name" value="use_computer" />
+			<int key="@@index" value="4673" />
+			<int key="@@case_index" value="20" />
+		</event>
+	</trace>
+</log>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<extension name="Lifecycle" prefix="lifecycle" uri="http://www.xes-standard.org/lifecycle.xesext" />
+	<extension name="Organizational" prefix="org" uri="http://www.xes-standard.org/org.xesext" />
+	<string key="origin" value="csv" />
+	<trace>
+		<string key="concept:name" value="singleton" />
+		<string key="traceId" value="197" />
+		<event>
+			<string key="concept:name" value="go_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T14:10:00+00:00" />
+			<string key="Activity" value="go_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2937" />
+			<string key="reference:case:concept:name" value="rest" />
+			<int key="@@index" value="1453" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T14:11:00+00:00" />
+			<string key="Activity" value="go_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2938" />
+			<string key="reference:case:concept:name" value="rest" />
+			<int key="@@index" value="1454" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="rest_in_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T14:11:00+00:00" />
+			<string key="Activity" value="rest_in_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2939" />
+			<string key="reference:case:concept:name" value="rest" />
+			<int key="@@index" value="1455" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="rest_in_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T14:33:00+00:00" />
+			<string key="Activity" value="rest_in_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2941" />
+			<string key="reference:case:concept:name" value="rest" />
+			<int key="@@index" value="1457" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T21:07:00+00:00" />
+			<string key="Activity" value="go_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="6119" />
+			<string key="reference:case:concept:name" value="rest" />
+			<int key="@@index" value="4635" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T21:08:00+00:00" />
+			<string key="Activity" value="go_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="6120" />
+			<string key="reference:case:concept:name" value="rest" />
+			<int key="@@index" value="4636" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="rest_in_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T21:08:00+00:00" />
+			<string key="Activity" value="rest_in_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="6121" />
+			<string key="reference:case:concept:name" value="rest" />
+			<int key="@@index" value="4637" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="rest_in_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T21:31:00+00:00" />
+			<string key="Activity" value="rest_in_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="6123" />
+			<string key="reference:case:concept:name" value="rest" />
+			<int key="@@index" value="4639" />
+			<int key="@@case_index" value="20" />
+		</event>
+	</trace>
+</log>

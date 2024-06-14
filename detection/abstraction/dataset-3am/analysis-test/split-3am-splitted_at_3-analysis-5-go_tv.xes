@@ -1,0 +1,3132 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<extension name="Lifecycle" prefix="lifecycle" uri="http://www.xes-standard.org/lifecycle.xesext" />
+	<extension name="Organizational" prefix="org" uri="http://www.xes-standard.org/org.xesext" />
+	<string key="origin" value="csv" />
+	<trace>
+		<string key="concept:name" value="singleton" />
+		<string key="traceId" value="117" />
+		<event>
+			<string key="concept:name" value="go_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-16T21:21:00+00:00" />
+			<string key="Activity" value="go_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1602" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="118" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-16T21:21:00+00:00" />
+			<string key="Activity" value="switch_tv_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="1603" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="119" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-16T21:21:00+00:00" />
+			<string key="Activity" value="switch_tv_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1605" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="121" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-16T21:21:00+00:00" />
+			<string key="Activity" value="go_tv_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1606" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="122" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-16T21:22:00+00:00" />
+			<string key="Activity" value="go_tv_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1607" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="123" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="do_watch_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-16T21:22:00+00:00" />
+			<string key="Activity" value="do_watch_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="1608" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="124" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-16T22:29:00+00:00" />
+			<string key="Activity" value="go_tv_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1631" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="143" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="do_watch_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-16T22:38:00+00:00" />
+			<string key="Activity" value="do_watch_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1633" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="149" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-16T22:38:00+00:00" />
+			<string key="Activity" value="go_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1634" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="150" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_off" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-16T22:38:00+00:00" />
+			<string key="Activity" value="switch_tv_off" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="1635" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="151" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_off" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-16T22:38:00+00:00" />
+			<string key="Activity" value="switch_tv_off" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1637" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="153" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T01:00:00+00:00" />
+			<string key="Activity" value="go_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1783" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="299" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T01:00:00+00:00" />
+			<string key="Activity" value="switch_tv_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="1784" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="300" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T01:00:00+00:00" />
+			<string key="Activity" value="switch_tv_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1786" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="302" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T01:00:00+00:00" />
+			<string key="Activity" value="go_tv_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1787" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="303" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<string key="concept:name" value="do_watch_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T01:00:00+00:00" />
+			<string key="Activity" value="do_watch_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="1788" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="304" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T01:46:00+00:00" />
+			<string key="Activity" value="go_tv_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1801" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="316" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<string key="concept:name" value="do_watch_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T02:16:00+00:00" />
+			<string key="Activity" value="do_watch_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1803" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="322" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T02:16:00+00:00" />
+			<string key="Activity" value="go_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1804" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="323" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_off" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T02:16:00+00:00" />
+			<string key="Activity" value="switch_tv_off" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="1805" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="324" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_off" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T02:16:00+00:00" />
+			<string key="Activity" value="switch_tv_off" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1807" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="326" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T05:34:00+00:00" />
+			<string key="Activity" value="go_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1933" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="449" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T05:35:00+00:00" />
+			<string key="Activity" value="go_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1934" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="450" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T05:35:00+00:00" />
+			<string key="Activity" value="switch_tv_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="1935" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="451" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T05:35:00+00:00" />
+			<string key="Activity" value="switch_tv_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1937" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="453" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T05:35:00+00:00" />
+			<string key="Activity" value="go_tv_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1938" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="454" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="concept:name" value="do_watch_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T05:35:00+00:00" />
+			<string key="Activity" value="do_watch_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="1939" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="455" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T06:43:00+00:00" />
+			<string key="Activity" value="go_tv_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1952" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="467" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="concept:name" value="do_watch_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T06:47:00+00:00" />
+			<string key="Activity" value="do_watch_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1954" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="470" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T06:47:00+00:00" />
+			<string key="Activity" value="go_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1955" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="471" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_off" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T06:47:00+00:00" />
+			<string key="Activity" value="switch_tv_off" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="1956" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="472" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_off" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T06:48:00+00:00" />
+			<string key="Activity" value="switch_tv_off" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1958" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="474" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-20T22:09:00+00:00" />
+			<string key="Activity" value="go_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2316" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="832" />
+			<int key="@@case_index" value="4" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-20T22:09:00+00:00" />
+			<string key="Activity" value="switch_tv_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2317" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="833" />
+			<int key="@@case_index" value="4" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-20T22:09:00+00:00" />
+			<string key="Activity" value="switch_tv_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2319" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="835" />
+			<int key="@@case_index" value="4" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-20T22:09:00+00:00" />
+			<string key="Activity" value="go_tv_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2320" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="836" />
+			<int key="@@case_index" value="4" />
+		</event>
+		<event>
+			<string key="concept:name" value="do_watch_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-20T22:09:00+00:00" />
+			<string key="Activity" value="do_watch_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2321" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="837" />
+			<int key="@@case_index" value="4" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-21T18:51:00+00:00" />
+			<string key="Activity" value="go_tv_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2375" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="890" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="concept:name" value="do_watch_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-21T19:17:00+00:00" />
+			<string key="Activity" value="do_watch_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2377" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="893" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-21T19:17:00+00:00" />
+			<string key="Activity" value="go_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2378" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="894" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_off" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-21T19:17:00+00:00" />
+			<string key="Activity" value="switch_tv_off" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2379" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="895" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_off" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-21T19:17:00+00:00" />
+			<string key="Activity" value="switch_tv_off" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2381" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="897" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-21T23:00:00+00:00" />
+			<string key="Activity" value="go_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2462" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="978" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-21T23:00:00+00:00" />
+			<string key="Activity" value="switch_tv_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2463" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="979" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-21T23:00:00+00:00" />
+			<string key="Activity" value="switch_tv_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2465" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="981" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-21T23:00:00+00:00" />
+			<string key="Activity" value="go_tv_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2466" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="982" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="concept:name" value="do_watch_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-21T23:00:00+00:00" />
+			<string key="Activity" value="do_watch_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2467" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="983" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="concept:name" value="do_watch_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-21T23:49:00+00:00" />
+			<string key="Activity" value="do_watch_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2469" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="985" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-21T23:49:00+00:00" />
+			<string key="Activity" value="go_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2470" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="986" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_off" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-21T23:49:00+00:00" />
+			<string key="Activity" value="switch_tv_off" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2471" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="987" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_off" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-21T23:49:00+00:00" />
+			<string key="Activity" value="switch_tv_off" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2473" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="989" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T03:15:00+00:00" />
+			<string key="Activity" value="go_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2599" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="1115" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T03:15:00+00:00" />
+			<string key="Activity" value="switch_tv_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2600" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="1116" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T03:15:00+00:00" />
+			<string key="Activity" value="switch_tv_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2602" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="1118" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T03:15:00+00:00" />
+			<string key="Activity" value="go_tv_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2603" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="1119" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="concept:name" value="do_watch_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T03:15:00+00:00" />
+			<string key="Activity" value="do_watch_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2604" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="1120" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T04:16:00+00:00" />
+			<string key="Activity" value="go_tv_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2617" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="1132" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="do_watch_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T04:20:00+00:00" />
+			<string key="Activity" value="do_watch_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2619" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="1135" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T04:20:00+00:00" />
+			<string key="Activity" value="go_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2620" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="1136" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_off" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T04:20:00+00:00" />
+			<string key="Activity" value="switch_tv_off" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2621" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="1137" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_off" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T04:20:00+00:00" />
+			<string key="Activity" value="switch_tv_off" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2623" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="1139" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T07:59:00+00:00" />
+			<string key="Activity" value="go_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2753" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="1269" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T08:00:00+00:00" />
+			<string key="Activity" value="go_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2754" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="1270" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T08:00:00+00:00" />
+			<string key="Activity" value="switch_tv_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2755" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="1271" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T08:00:00+00:00" />
+			<string key="Activity" value="switch_tv_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2757" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="1273" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T08:00:00+00:00" />
+			<string key="Activity" value="go_tv_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2758" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="1274" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="do_watch_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T08:00:00+00:00" />
+			<string key="Activity" value="do_watch_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2759" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="1275" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T09:06:00+00:00" />
+			<string key="Activity" value="go_tv_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2772" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="1287" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="do_watch_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T09:18:00+00:00" />
+			<string key="Activity" value="do_watch_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2774" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="1290" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T09:18:00+00:00" />
+			<string key="Activity" value="go_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2775" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="1291" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_off" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T09:18:00+00:00" />
+			<string key="Activity" value="switch_tv_off" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2776" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="1292" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_off" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T09:18:00+00:00" />
+			<string key="Activity" value="switch_tv_off" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2778" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="1294" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T13:07:00+00:00" />
+			<string key="Activity" value="go_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2896" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="1412" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T13:07:00+00:00" />
+			<string key="Activity" value="switch_tv_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2897" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="1413" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T13:08:00+00:00" />
+			<string key="Activity" value="switch_tv_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2899" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="1415" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T13:08:00+00:00" />
+			<string key="Activity" value="go_tv_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2900" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="1416" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="do_watch_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T13:08:00+00:00" />
+			<string key="Activity" value="do_watch_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2901" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="1417" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="do_watch_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T14:05:00+00:00" />
+			<string key="Activity" value="do_watch_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2903" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="1419" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T14:05:00+00:00" />
+			<string key="Activity" value="go_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2904" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="1420" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_off" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T14:05:00+00:00" />
+			<string key="Activity" value="switch_tv_off" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2905" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="1421" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_off" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T14:05:00+00:00" />
+			<string key="Activity" value="switch_tv_off" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2907" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="1423" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T16:25:00+00:00" />
+			<string key="Activity" value="go_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3021" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="1537" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T16:25:00+00:00" />
+			<string key="Activity" value="switch_tv_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3022" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="1538" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T16:25:00+00:00" />
+			<string key="Activity" value="switch_tv_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3024" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="1540" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T16:25:00+00:00" />
+			<string key="Activity" value="go_tv_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3025" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="1541" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T16:26:00+00:00" />
+			<string key="Activity" value="go_tv_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3026" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="1542" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="do_watch_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T16:26:00+00:00" />
+			<string key="Activity" value="do_watch_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3027" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="1543" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="do_watch_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T17:45:00+00:00" />
+			<string key="Activity" value="do_watch_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3029" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="1545" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T17:45:00+00:00" />
+			<string key="Activity" value="go_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3030" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="1546" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_off" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T17:45:00+00:00" />
+			<string key="Activity" value="switch_tv_off" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3031" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="1547" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_off" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T17:45:00+00:00" />
+			<string key="Activity" value="switch_tv_off" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3033" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="1549" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T01:55:00+00:00" />
+			<string key="Activity" value="go_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3327" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="1843" />
+			<int key="@@case_index" value="8" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T01:55:00+00:00" />
+			<string key="Activity" value="switch_tv_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3328" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="1844" />
+			<int key="@@case_index" value="8" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T01:55:00+00:00" />
+			<string key="Activity" value="switch_tv_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3330" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="1846" />
+			<int key="@@case_index" value="8" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T01:55:00+00:00" />
+			<string key="Activity" value="go_tv_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3331" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="1847" />
+			<int key="@@case_index" value="8" />
+		</event>
+		<event>
+			<string key="concept:name" value="do_watch_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T01:55:00+00:00" />
+			<string key="Activity" value="do_watch_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3332" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="1848" />
+			<int key="@@case_index" value="8" />
+		</event>
+		<event>
+			<string key="concept:name" value="do_watch_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T02:46:00+00:00" />
+			<string key="Activity" value="do_watch_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3334" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="1850" />
+			<int key="@@case_index" value="8" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T02:46:00+00:00" />
+			<string key="Activity" value="go_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3335" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="1851" />
+			<int key="@@case_index" value="8" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_off" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T02:46:00+00:00" />
+			<string key="Activity" value="switch_tv_off" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3336" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="1852" />
+			<int key="@@case_index" value="8" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_off" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T02:46:00+00:00" />
+			<string key="Activity" value="switch_tv_off" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3338" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="1854" />
+			<int key="@@case_index" value="8" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T05:00:00+00:00" />
+			<string key="Activity" value="go_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3428" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="1944" />
+			<int key="@@case_index" value="9" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T05:00:00+00:00" />
+			<string key="Activity" value="switch_tv_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3429" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="1945" />
+			<int key="@@case_index" value="9" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T05:00:00+00:00" />
+			<string key="Activity" value="switch_tv_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3431" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="1947" />
+			<int key="@@case_index" value="9" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T05:00:00+00:00" />
+			<string key="Activity" value="go_tv_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3432" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="1948" />
+			<int key="@@case_index" value="9" />
+		</event>
+		<event>
+			<string key="concept:name" value="do_watch_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T05:00:00+00:00" />
+			<string key="Activity" value="do_watch_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3433" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="1949" />
+			<int key="@@case_index" value="9" />
+		</event>
+		<event>
+			<string key="concept:name" value="do_watch_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T05:52:00+00:00" />
+			<string key="Activity" value="do_watch_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3435" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="1951" />
+			<int key="@@case_index" value="9" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T05:52:00+00:00" />
+			<string key="Activity" value="go_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3436" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="1952" />
+			<int key="@@case_index" value="9" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_off" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T05:52:00+00:00" />
+			<string key="Activity" value="switch_tv_off" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3437" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="1953" />
+			<int key="@@case_index" value="9" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_off" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T05:52:00+00:00" />
+			<string key="Activity" value="switch_tv_off" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3439" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="1955" />
+			<int key="@@case_index" value="9" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-27T21:22:00+00:00" />
+			<string key="Activity" value="go_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3810" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="2326" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-27T21:23:00+00:00" />
+			<string key="Activity" value="go_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3811" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="2327" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-27T21:23:00+00:00" />
+			<string key="Activity" value="switch_tv_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3812" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="2328" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-27T21:23:00+00:00" />
+			<string key="Activity" value="switch_tv_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3814" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="2330" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-27T21:23:00+00:00" />
+			<string key="Activity" value="go_tv_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3815" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="2331" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<string key="concept:name" value="do_watch_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-27T21:23:00+00:00" />
+			<string key="Activity" value="do_watch_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3816" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="2332" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-27T22:23:00+00:00" />
+			<string key="Activity" value="go_tv_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3829" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="2344" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<string key="concept:name" value="do_watch_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-27T22:24:00+00:00" />
+			<string key="Activity" value="do_watch_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3831" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="2347" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-27T22:24:00+00:00" />
+			<string key="Activity" value="go_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3832" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="2348" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_off" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-27T22:24:00+00:00" />
+			<string key="Activity" value="switch_tv_off" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3833" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="2349" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_off" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-27T22:24:00+00:00" />
+			<string key="Activity" value="switch_tv_off" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3835" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="2351" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-28T17:29:00+00:00" />
+			<string key="Activity" value="go_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3919" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="2435" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-28T17:29:00+00:00" />
+			<string key="Activity" value="switch_tv_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3920" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="2436" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-28T17:29:00+00:00" />
+			<string key="Activity" value="switch_tv_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3922" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="2438" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-28T17:29:00+00:00" />
+			<string key="Activity" value="go_tv_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3923" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="2439" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<string key="concept:name" value="do_watch_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-28T17:29:00+00:00" />
+			<string key="Activity" value="do_watch_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3924" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="2440" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<string key="concept:name" value="do_watch_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-28T18:35:00+00:00" />
+			<string key="Activity" value="do_watch_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3926" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="2442" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-28T18:35:00+00:00" />
+			<string key="Activity" value="go_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3927" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="2443" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_off" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-28T18:35:00+00:00" />
+			<string key="Activity" value="switch_tv_off" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3928" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="2444" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_off" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-28T18:35:00+00:00" />
+			<string key="Activity" value="switch_tv_off" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3930" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="2446" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-28T22:58:00+00:00" />
+			<string key="Activity" value="go_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4065" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="2581" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-28T22:59:00+00:00" />
+			<string key="Activity" value="go_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4066" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="2582" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-28T22:59:00+00:00" />
+			<string key="Activity" value="switch_tv_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4067" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="2583" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-28T22:59:00+00:00" />
+			<string key="Activity" value="switch_tv_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4069" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="2585" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-28T22:59:00+00:00" />
+			<string key="Activity" value="go_tv_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4070" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="2586" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<string key="concept:name" value="do_watch_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-28T22:59:00+00:00" />
+			<string key="Activity" value="do_watch_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4071" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="2587" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-28T23:44:00+00:00" />
+			<string key="Activity" value="go_tv_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4084" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="2599" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<string key="concept:name" value="do_watch_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T00:00:00+00:00" />
+			<string key="Activity" value="do_watch_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4086" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="2602" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T00:00:00+00:00" />
+			<string key="Activity" value="go_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4087" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="2603" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_off" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T00:00:00+00:00" />
+			<string key="Activity" value="switch_tv_off" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4088" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="2604" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_off" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T00:00:00+00:00" />
+			<string key="Activity" value="switch_tv_off" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4090" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="2606" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T11:32:00+00:00" />
+			<string key="Activity" value="go_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4200" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="2716" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T11:32:00+00:00" />
+			<string key="Activity" value="switch_tv_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4201" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="2717" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T11:32:00+00:00" />
+			<string key="Activity" value="switch_tv_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4203" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="2719" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T11:32:00+00:00" />
+			<string key="Activity" value="go_tv_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4204" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="2720" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T11:33:00+00:00" />
+			<string key="Activity" value="go_tv_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4205" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="2721" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="do_watch_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T11:33:00+00:00" />
+			<string key="Activity" value="do_watch_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4206" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="2722" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T12:36:00+00:00" />
+			<string key="Activity" value="go_tv_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4219" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="2734" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T12:37:00+00:00" />
+			<string key="Activity" value="go_tv_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4220" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="2736" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="do_watch_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T12:54:00+00:00" />
+			<string key="Activity" value="do_watch_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4222" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="2738" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T12:54:00+00:00" />
+			<string key="Activity" value="go_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4223" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="2739" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_off" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T12:54:00+00:00" />
+			<string key="Activity" value="switch_tv_off" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4224" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="2740" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_off" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T12:54:00+00:00" />
+			<string key="Activity" value="switch_tv_off" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4226" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="2742" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T15:21:00+00:00" />
+			<string key="Activity" value="go_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4321" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="2837" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T15:22:00+00:00" />
+			<string key="Activity" value="go_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4322" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="2838" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T15:22:00+00:00" />
+			<string key="Activity" value="switch_tv_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4323" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="2839" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T15:22:00+00:00" />
+			<string key="Activity" value="switch_tv_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4325" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="2841" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T15:22:00+00:00" />
+			<string key="Activity" value="go_tv_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4326" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="2842" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="do_watch_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T15:22:00+00:00" />
+			<string key="Activity" value="do_watch_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4327" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="2843" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="do_watch_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T16:03:00+00:00" />
+			<string key="Activity" value="do_watch_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4329" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="2845" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T16:03:00+00:00" />
+			<string key="Activity" value="go_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4330" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="2846" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_off" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T16:03:00+00:00" />
+			<string key="Activity" value="switch_tv_off" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4331" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="2847" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_off" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T16:03:00+00:00" />
+			<string key="Activity" value="switch_tv_off" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4333" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="2849" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T19:52:00+00:00" />
+			<string key="Activity" value="go_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4447" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="2963" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T19:52:00+00:00" />
+			<string key="Activity" value="switch_tv_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4448" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="2964" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T19:52:00+00:00" />
+			<string key="Activity" value="switch_tv_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4450" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="2966" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T19:52:00+00:00" />
+			<string key="Activity" value="go_tv_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4451" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="2967" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="do_watch_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T19:52:00+00:00" />
+			<string key="Activity" value="do_watch_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4452" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="2968" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="do_watch_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T21:06:00+00:00" />
+			<string key="Activity" value="do_watch_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4454" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="2970" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T21:06:00+00:00" />
+			<string key="Activity" value="go_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4455" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="2971" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_off" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T21:06:00+00:00" />
+			<string key="Activity" value="switch_tv_off" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4456" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="2972" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_off" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T21:07:00+00:00" />
+			<string key="Activity" value="switch_tv_off" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4458" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="2974" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-30T22:51:00+00:00" />
+			<string key="Activity" value="go_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4669" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="3185" />
+			<int key="@@case_index" value="14" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-30T22:51:00+00:00" />
+			<string key="Activity" value="switch_tv_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4670" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="3186" />
+			<int key="@@case_index" value="14" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-30T22:51:00+00:00" />
+			<string key="Activity" value="switch_tv_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4672" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="3188" />
+			<int key="@@case_index" value="14" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-30T22:51:00+00:00" />
+			<string key="Activity" value="go_tv_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4673" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="3189" />
+			<int key="@@case_index" value="14" />
+		</event>
+		<event>
+			<string key="concept:name" value="do_watch_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-30T22:51:00+00:00" />
+			<string key="Activity" value="do_watch_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4674" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="3190" />
+			<int key="@@case_index" value="14" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T01:31:00+00:00" />
+			<string key="Activity" value="go_tv_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4811" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="3208" />
+			<int key="@@case_index" value="14" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T01:45:00+00:00" />
+			<string key="Activity" value="go_tv_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4826" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="3210" />
+			<int key="@@case_index" value="14" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T01:46:00+00:00" />
+			<string key="Activity" value="go_tv_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4827" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="3211" />
+			<int key="@@case_index" value="14" />
+		</event>
+		<event>
+			<string key="concept:name" value="do_watch_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T01:57:00+00:00" />
+			<string key="Activity" value="do_watch_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4829" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="3213" />
+			<int key="@@case_index" value="14" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T01:57:00+00:00" />
+			<string key="Activity" value="go_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4830" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="3214" />
+			<int key="@@case_index" value="14" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_off" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T01:57:00+00:00" />
+			<string key="Activity" value="switch_tv_off" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4831" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="3215" />
+			<int key="@@case_index" value="14" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_off" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T01:57:00+00:00" />
+			<string key="Activity" value="switch_tv_off" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4833" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="3217" />
+			<int key="@@case_index" value="14" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T03:23:00+00:00" />
+			<string key="Activity" value="go_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4875" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="3391" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T03:24:00+00:00" />
+			<string key="Activity" value="go_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4876" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="3392" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T03:24:00+00:00" />
+			<string key="Activity" value="switch_tv_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4877" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="3393" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T03:24:00+00:00" />
+			<string key="Activity" value="switch_tv_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4879" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="3395" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T03:24:00+00:00" />
+			<string key="Activity" value="go_tv_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4880" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="3396" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="do_watch_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T03:24:00+00:00" />
+			<string key="Activity" value="do_watch_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4881" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="3397" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="do_watch_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T04:31:00+00:00" />
+			<string key="Activity" value="do_watch_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4883" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="3399" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T04:31:00+00:00" />
+			<string key="Activity" value="go_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4884" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="3400" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_off" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T04:31:00+00:00" />
+			<string key="Activity" value="switch_tv_off" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4885" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="3401" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_off" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T04:31:00+00:00" />
+			<string key="Activity" value="switch_tv_off" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4887" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="3403" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T06:42:00+00:00" />
+			<string key="Activity" value="go_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4996" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="3512" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T06:42:00+00:00" />
+			<string key="Activity" value="switch_tv_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4997" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="3513" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T06:42:00+00:00" />
+			<string key="Activity" value="switch_tv_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4999" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="3515" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T06:42:00+00:00" />
+			<string key="Activity" value="go_tv_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5000" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="3516" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="do_watch_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T06:42:00+00:00" />
+			<string key="Activity" value="do_watch_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5001" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="3517" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="do_watch_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T07:35:00+00:00" />
+			<string key="Activity" value="do_watch_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5003" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="3519" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T07:35:00+00:00" />
+			<string key="Activity" value="go_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5004" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="3520" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_off" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T07:35:00+00:00" />
+			<string key="Activity" value="switch_tv_off" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5005" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="3521" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_off" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T07:35:00+00:00" />
+			<string key="Activity" value="switch_tv_off" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5007" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="3523" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-04T17:26:00+00:00" />
+			<string key="Activity" value="go_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5397" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="3913" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-04T17:26:00+00:00" />
+			<string key="Activity" value="switch_tv_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5398" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="3914" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-04T17:26:00+00:00" />
+			<string key="Activity" value="switch_tv_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5400" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="3916" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-04T17:26:00+00:00" />
+			<string key="Activity" value="go_tv_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5401" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="3917" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="concept:name" value="do_watch_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-04T17:26:00+00:00" />
+			<string key="Activity" value="do_watch_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5402" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="3918" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="concept:name" value="do_watch_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-04T18:39:00+00:00" />
+			<string key="Activity" value="do_watch_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5404" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="3920" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-04T18:39:00+00:00" />
+			<string key="Activity" value="go_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5405" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="3921" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_off" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-04T18:39:00+00:00" />
+			<string key="Activity" value="switch_tv_off" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5406" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="3922" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_off" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-04T18:39:00+00:00" />
+			<string key="Activity" value="switch_tv_off" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5408" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="3924" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-04T22:19:00+00:00" />
+			<string key="Activity" value="go_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5534" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="4050" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-04T22:20:00+00:00" />
+			<string key="Activity" value="go_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5535" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="4051" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-04T22:20:00+00:00" />
+			<string key="Activity" value="switch_tv_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5536" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="4052" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-04T22:20:00+00:00" />
+			<string key="Activity" value="switch_tv_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5538" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="4054" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-04T22:20:00+00:00" />
+			<string key="Activity" value="go_tv_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5539" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="4055" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="concept:name" value="do_watch_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-04T22:20:00+00:00" />
+			<string key="Activity" value="do_watch_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5540" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="4056" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-04T23:57:00+00:00" />
+			<string key="Activity" value="go_tv_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5596" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="4111" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="concept:name" value="do_watch_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T00:07:00+00:00" />
+			<string key="Activity" value="do_watch_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5598" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="4114" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T00:07:00+00:00" />
+			<string key="Activity" value="go_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5599" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="4115" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_off" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T00:07:00+00:00" />
+			<string key="Activity" value="switch_tv_off" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5600" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="4116" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_off" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T00:07:00+00:00" />
+			<string key="Activity" value="switch_tv_off" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5602" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="4118" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T09:18:00+00:00" />
+			<string key="Activity" value="go_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5720" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="4236" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T09:18:00+00:00" />
+			<string key="Activity" value="switch_tv_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5721" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="4237" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T09:18:00+00:00" />
+			<string key="Activity" value="switch_tv_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5723" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="4239" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T09:18:00+00:00" />
+			<string key="Activity" value="go_tv_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5724" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="4240" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="do_watch_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T09:18:00+00:00" />
+			<string key="Activity" value="do_watch_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5725" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="4241" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T10:31:00+00:00" />
+			<string key="Activity" value="go_tv_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5738" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="4253" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="do_watch_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T10:40:00+00:00" />
+			<string key="Activity" value="do_watch_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5740" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="4256" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T10:40:00+00:00" />
+			<string key="Activity" value="go_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5741" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="4257" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_off" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T10:40:00+00:00" />
+			<string key="Activity" value="switch_tv_off" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5742" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="4258" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_off" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T10:40:00+00:00" />
+			<string key="Activity" value="switch_tv_off" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5744" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="4260" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T14:10:00+00:00" />
+			<string key="Activity" value="go_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5874" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="4390" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T14:10:00+00:00" />
+			<string key="Activity" value="switch_tv_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5875" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="4391" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T14:10:00+00:00" />
+			<string key="Activity" value="switch_tv_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5877" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="4393" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T14:10:00+00:00" />
+			<string key="Activity" value="go_tv_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5878" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="4394" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T14:11:00+00:00" />
+			<string key="Activity" value="go_tv_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5879" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="4395" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="do_watch_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T14:11:00+00:00" />
+			<string key="Activity" value="do_watch_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5880" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="4396" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="do_watch_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T14:52:00+00:00" />
+			<string key="Activity" value="do_watch_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5882" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="4398" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T14:52:00+00:00" />
+			<string key="Activity" value="go_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5883" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="4399" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_off" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T14:52:00+00:00" />
+			<string key="Activity" value="switch_tv_off" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5884" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="4400" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_off" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T14:52:00+00:00" />
+			<string key="Activity" value="switch_tv_off" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5886" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="4402" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T16:45:00+00:00" />
+			<string key="Activity" value="go_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5968" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="4484" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T16:45:00+00:00" />
+			<string key="Activity" value="switch_tv_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5969" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="4485" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T16:46:00+00:00" />
+			<string key="Activity" value="switch_tv_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5971" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="4487" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T16:46:00+00:00" />
+			<string key="Activity" value="go_tv_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5972" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="4488" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="do_watch_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T16:46:00+00:00" />
+			<string key="Activity" value="do_watch_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5973" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="4489" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="do_watch_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T17:54:00+00:00" />
+			<string key="Activity" value="do_watch_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5975" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="4491" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T17:54:00+00:00" />
+			<string key="Activity" value="go_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5976" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="4492" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_off" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T17:54:00+00:00" />
+			<string key="Activity" value="switch_tv_off" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5977" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="4493" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_off" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T17:54:00+00:00" />
+			<string key="Activity" value="switch_tv_off" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5979" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="4495" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T20:02:00+00:00" />
+			<string key="Activity" value="go_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="6085" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="4601" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T20:02:00+00:00" />
+			<string key="Activity" value="switch_tv_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="6086" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="4602" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_on" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T20:02:00+00:00" />
+			<string key="Activity" value="switch_tv_on" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="6088" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="4604" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv_chair" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T20:02:00+00:00" />
+			<string key="Activity" value="go_tv_chair" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="6089" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="4605" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="do_watch_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T20:02:00+00:00" />
+			<string key="Activity" value="do_watch_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="6090" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="4606" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="do_watch_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T21:03:00+00:00" />
+			<string key="Activity" value="do_watch_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="6092" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="4608" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_tv" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T21:03:00+00:00" />
+			<string key="Activity" value="go_tv" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="6093" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="4609" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_off" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T21:03:00+00:00" />
+			<string key="Activity" value="switch_tv_off" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="6094" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="4610" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="switch_tv_off" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T21:03:00+00:00" />
+			<string key="Activity" value="switch_tv_off" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="6096" />
+			<string key="reference:case:concept:name" value="watch_tv" />
+			<int key="@@index" value="4612" />
+			<int key="@@case_index" value="20" />
+		</event>
+	</trace>
+</log>

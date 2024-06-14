@@ -1,0 +1,3537 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<extension name="Organizational" prefix="org" uri="http://www.xes-standard.org/org.xesext" />
+	<extension name="Lifecycle" prefix="lifecycle" uri="http://www.xes-standard.org/lifecycle.xesext" />
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<string key="origin" value="csv" />
+	<trace>
+		<string key="concept:name" value="2020-03-16 00:00:00+00:00" />
+		<string key="traceId" value="117" />
+		<event>
+			<int key="index" value="0" />
+			<string key="concept:name" value="go_wardrobe" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-16T00:00:00+00:00" />
+			<string key="Activity" value="go_wardrobe" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1484" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="0" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="index" value="1" />
+			<string key="concept:name" value="get_clothes" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-16T00:00:00+00:00" />
+			<string key="Activity" value="get_clothes" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="1485" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="1" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="index" value="3" />
+			<string key="concept:name" value="get_clothes" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-16T00:01:00+00:00" />
+			<string key="Activity" value="get_clothes" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1487" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="3" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="index" value="4" />
+			<string key="concept:name" value="go_bathtub" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-16T00:01:00+00:00" />
+			<string key="Activity" value="go_bathtub" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1488" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="4" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="index" value="5" />
+			<string key="concept:name" value="have_bath" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-16T00:01:00+00:00" />
+			<string key="Activity" value="have_bath" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="1489" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="5" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="index" value="7" />
+			<string key="concept:name" value="have_bath" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-16T00:26:00+00:00" />
+			<string key="Activity" value="have_bath" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1491" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="7" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="index" value="8" />
+			<string key="concept:name" value="go_bathroom_sink" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-16T00:26:00+00:00" />
+			<string key="Activity" value="go_bathroom_sink" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1492" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="8" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="index" value="9" />
+			<string key="concept:name" value="brush_teeth" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-16T00:26:00+00:00" />
+			<string key="Activity" value="brush_teeth" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="1493" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="9" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="index" value="11" />
+			<string key="concept:name" value="brush_teeth" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-16T00:31:00+00:00" />
+			<string key="Activity" value="brush_teeth" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1495" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="11" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="index" value="12" />
+			<string key="concept:name" value="go_bed" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-16T00:31:00+00:00" />
+			<string key="Activity" value="go_bed" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1496" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="12" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="index" value="13" />
+			<string key="concept:name" value="go_bed" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-16T00:32:00+00:00" />
+			<string key="Activity" value="go_bed" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1497" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="13" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="index" value="14" />
+			<string key="concept:name" value="sleep_in_bed" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-16T00:32:00+00:00" />
+			<string key="Activity" value="sleep_in_bed" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="1498" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="14" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="index" value="16" />
+			<string key="concept:name" value="sleep_in_bed" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-16T07:27:00+00:00" />
+			<string key="Activity" value="sleep_in_bed" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1500" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="16" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="index" value="17" />
+			<string key="concept:name" value="go_wardrobe" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-16T07:27:00+00:00" />
+			<string key="Activity" value="go_wardrobe" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1501" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="17" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="index" value="18" />
+			<string key="concept:name" value="change_clothes" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-16T07:27:00+00:00" />
+			<string key="Activity" value="change_clothes" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="1502" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="18" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="index" value="20" />
+			<string key="concept:name" value="change_clothes" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-16T07:31:00+00:00" />
+			<string key="Activity" value="change_clothes" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1504" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="20" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="index" value="162" />
+			<string key="concept:name" value="go_wardrobe" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-16T23:34:00+00:00" />
+			<string key="Activity" value="go_wardrobe" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1646" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="162" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="index" value="163" />
+			<string key="concept:name" value="get_clothes" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-16T23:34:00+00:00" />
+			<string key="Activity" value="get_clothes" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="1647" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="163" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="index" value="165" />
+			<string key="concept:name" value="get_clothes" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-16T23:35:00+00:00" />
+			<string key="Activity" value="get_clothes" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1649" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="165" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="index" value="166" />
+			<string key="concept:name" value="go_bathtub" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-16T23:35:00+00:00" />
+			<string key="Activity" value="go_bathtub" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1650" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="166" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="index" value="167" />
+			<string key="concept:name" value="have_bath" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-16T23:35:00+00:00" />
+			<string key="Activity" value="have_bath" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="1651" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="167" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="index" value="169" />
+			<string key="concept:name" value="have_bath" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-17T00:02:00+00:00" />
+			<string key="Activity" value="have_bath" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1653" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="169" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="index" value="170" />
+			<string key="concept:name" value="go_bathroom_sink" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-17T00:02:00+00:00" />
+			<string key="Activity" value="go_bathroom_sink" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1654" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="170" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="index" value="171" />
+			<string key="concept:name" value="brush_teeth" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-17T00:02:00+00:00" />
+			<string key="Activity" value="brush_teeth" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="1655" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="171" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="index" value="173" />
+			<string key="concept:name" value="brush_teeth" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-17T00:07:00+00:00" />
+			<string key="Activity" value="brush_teeth" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1657" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="173" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="index" value="174" />
+			<string key="concept:name" value="go_bed" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-17T00:07:00+00:00" />
+			<string key="Activity" value="go_bed" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1658" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="174" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="index" value="175" />
+			<string key="concept:name" value="go_bed" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-17T00:08:00+00:00" />
+			<string key="Activity" value="go_bed" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1659" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="175" />
+			<int key="@@case_index" value="0" />
+		</event>
+		<event>
+			<int key="index" value="176" />
+			<string key="concept:name" value="sleep_in_bed" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-17T00:08:00+00:00" />
+			<string key="Activity" value="sleep_in_bed" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="1660" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="176" />
+			<int key="@@case_index" value="0" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2020-03-17 00:00:00+00:00" />
+		<string key="traceId" value="130" />
+		<event>
+			<int key="index" value="186" />
+			<string key="concept:name" value="go_bed" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-17T04:02:00+00:00" />
+			<string key="Activity" value="go_bed" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1673" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="186" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<int key="index" value="265" />
+			<string key="concept:name" value="go_bed" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-17T21:24:00+00:00" />
+			<string key="Activity" value="go_bed" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1750" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="265" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<int key="index" value="267" />
+			<string key="concept:name" value="go_bed" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-17T21:25:00+00:00" />
+			<string key="Activity" value="go_bed" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1751" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="267" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<int key="index" value="275" />
+			<string key="concept:name" value="go_bed" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T00:51:00+00:00" />
+			<string key="Activity" value="go_bed" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1759" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="275" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<int key="index" value="277" />
+			<string key="concept:name" value="sleep_in_bed" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T00:52:00+00:00" />
+			<string key="Activity" value="sleep_in_bed" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1761" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="277" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<int key="index" value="278" />
+			<string key="concept:name" value="go_wardrobe" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T00:52:00+00:00" />
+			<string key="Activity" value="go_wardrobe" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1762" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="278" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<int key="index" value="279" />
+			<string key="concept:name" value="change_clothes" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T00:52:00+00:00" />
+			<string key="Activity" value="change_clothes" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="1763" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="279" />
+			<int key="@@case_index" value="1" />
+		</event>
+		<event>
+			<int key="index" value="281" />
+			<string key="concept:name" value="change_clothes" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T00:56:00+00:00" />
+			<string key="Activity" value="change_clothes" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1765" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="281" />
+			<int key="@@case_index" value="1" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2020-03-18 00:00:00+00:00" />
+		<string key="traceId" value="141" />
+		<event>
+			<int key="index" value="605" />
+			<string key="concept:name" value="go_wardrobe" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T20:40:00+00:00" />
+			<string key="Activity" value="go_wardrobe" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2089" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="605" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<int key="index" value="606" />
+			<string key="concept:name" value="go_wardrobe" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T20:41:00+00:00" />
+			<string key="Activity" value="go_wardrobe" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2090" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="606" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<int key="index" value="607" />
+			<string key="concept:name" value="get_clothes" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T20:41:00+00:00" />
+			<string key="Activity" value="get_clothes" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2091" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="607" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<int key="index" value="609" />
+			<string key="concept:name" value="get_clothes" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T20:42:00+00:00" />
+			<string key="Activity" value="get_clothes" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2093" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="609" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<int key="index" value="610" />
+			<string key="concept:name" value="go_bathtub" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T20:42:00+00:00" />
+			<string key="Activity" value="go_bathtub" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2094" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="610" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<int key="index" value="611" />
+			<string key="concept:name" value="have_bath" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T20:42:00+00:00" />
+			<string key="Activity" value="have_bath" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2095" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="611" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<int key="index" value="613" />
+			<string key="concept:name" value="have_bath" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T21:07:00+00:00" />
+			<string key="Activity" value="have_bath" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2097" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="613" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<int key="index" value="614" />
+			<string key="concept:name" value="go_bathroom_sink" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T21:07:00+00:00" />
+			<string key="Activity" value="go_bathroom_sink" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2098" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="614" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<int key="index" value="615" />
+			<string key="concept:name" value="go_bathroom_sink" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T21:08:00+00:00" />
+			<string key="Activity" value="go_bathroom_sink" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2099" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="615" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<int key="index" value="616" />
+			<string key="concept:name" value="brush_teeth" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T21:08:00+00:00" />
+			<string key="Activity" value="brush_teeth" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2100" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="616" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<int key="index" value="618" />
+			<string key="concept:name" value="brush_teeth" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T21:13:00+00:00" />
+			<string key="Activity" value="brush_teeth" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2102" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="618" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<int key="index" value="619" />
+			<string key="concept:name" value="go_bed" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T21:13:00+00:00" />
+			<string key="Activity" value="go_bed" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2103" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="619" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<int key="index" value="620" />
+			<string key="concept:name" value="sleep_in_bed" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T21:13:00+00:00" />
+			<string key="Activity" value="sleep_in_bed" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2104" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="620" />
+			<int key="@@case_index" value="2" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2020-03-19 00:00:00+00:00" />
+		<string key="traceId" value="163" />
+		<event>
+			<int key="index" value="628" />
+			<string key="concept:name" value="go_bed" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-19T04:22:00+00:00" />
+			<string key="Activity" value="go_bed" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2112" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="628" />
+			<int key="@@case_index" value="3" />
+		</event>
+		<event>
+			<int key="index" value="664" />
+			<string key="concept:name" value="go_bed" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-19T18:56:00+00:00" />
+			<string key="Activity" value="go_bed" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2149" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="664" />
+			<int key="@@case_index" value="3" />
+		</event>
+		<event>
+			<int key="index" value="674" />
+			<string key="concept:name" value="go_bed" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-20T01:03:00+00:00" />
+			<string key="Activity" value="go_bed" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2161" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="674" />
+			<int key="@@case_index" value="3" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2020-03-20 00:00:00+00:00" />
+		<string key="traceId" value="162" />
+		<event>
+			<int key="index" value="679" />
+			<string key="concept:name" value="sleep_in_bed" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-20T05:39:00+00:00" />
+			<string key="Activity" value="sleep_in_bed" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2163" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="679" />
+			<int key="@@case_index" value="4" />
+		</event>
+		<event>
+			<int key="index" value="680" />
+			<string key="concept:name" value="go_wardrobe" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-20T05:39:00+00:00" />
+			<string key="Activity" value="go_wardrobe" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2164" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="680" />
+			<int key="@@case_index" value="4" />
+		</event>
+		<event>
+			<int key="index" value="681" />
+			<string key="concept:name" value="change_clothes" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-20T05:39:00+00:00" />
+			<string key="Activity" value="change_clothes" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2165" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="681" />
+			<int key="@@case_index" value="4" />
+		</event>
+		<event>
+			<int key="index" value="683" />
+			<string key="concept:name" value="change_clothes" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-20T05:43:00+00:00" />
+			<string key="Activity" value="change_clothes" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2167" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="683" />
+			<int key="@@case_index" value="4" />
+		</event>
+		<event>
+			<int key="index" value="839" />
+			<string key="concept:name" value="go_wardrobe" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-20T22:47:00+00:00" />
+			<string key="Activity" value="go_wardrobe" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2323" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="839" />
+			<int key="@@case_index" value="4" />
+		</event>
+		<event>
+			<int key="index" value="840" />
+			<string key="concept:name" value="get_clothes" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-20T22:47:00+00:00" />
+			<string key="Activity" value="get_clothes" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2324" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="840" />
+			<int key="@@case_index" value="4" />
+		</event>
+		<event>
+			<int key="index" value="842" />
+			<string key="concept:name" value="get_clothes" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-20T22:48:00+00:00" />
+			<string key="Activity" value="get_clothes" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2326" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="842" />
+			<int key="@@case_index" value="4" />
+		</event>
+		<event>
+			<int key="index" value="843" />
+			<string key="concept:name" value="go_bathtub" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-20T22:48:00+00:00" />
+			<string key="Activity" value="go_bathtub" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2327" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="843" />
+			<int key="@@case_index" value="4" />
+		</event>
+		<event>
+			<int key="index" value="844" />
+			<string key="concept:name" value="have_bath" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-20T22:48:00+00:00" />
+			<string key="Activity" value="have_bath" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2328" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="844" />
+			<int key="@@case_index" value="4" />
+		</event>
+		<event>
+			<int key="index" value="846" />
+			<string key="concept:name" value="have_bath" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-20T23:09:00+00:00" />
+			<string key="Activity" value="have_bath" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2330" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="846" />
+			<int key="@@case_index" value="4" />
+		</event>
+		<event>
+			<int key="index" value="847" />
+			<string key="concept:name" value="go_bathroom_sink" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-20T23:09:00+00:00" />
+			<string key="Activity" value="go_bathroom_sink" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2331" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="847" />
+			<int key="@@case_index" value="4" />
+		</event>
+		<event>
+			<int key="index" value="848" />
+			<string key="concept:name" value="brush_teeth" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-20T23:09:00+00:00" />
+			<string key="Activity" value="brush_teeth" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2332" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="848" />
+			<int key="@@case_index" value="4" />
+		</event>
+		<event>
+			<int key="index" value="850" />
+			<string key="concept:name" value="brush_teeth" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-20T23:14:00+00:00" />
+			<string key="Activity" value="brush_teeth" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2334" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="850" />
+			<int key="@@case_index" value="4" />
+		</event>
+		<event>
+			<int key="index" value="851" />
+			<string key="concept:name" value="go_bed" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-20T23:14:00+00:00" />
+			<string key="Activity" value="go_bed" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2335" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="851" />
+			<int key="@@case_index" value="4" />
+		</event>
+		<event>
+			<int key="index" value="852" />
+			<string key="concept:name" value="go_bed" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-20T23:15:00+00:00" />
+			<string key="Activity" value="go_bed" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2336" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="852" />
+			<int key="@@case_index" value="4" />
+		</event>
+		<event>
+			<int key="index" value="853" />
+			<string key="concept:name" value="sleep_in_bed" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-20T23:15:00+00:00" />
+			<string key="Activity" value="sleep_in_bed" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2337" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="853" />
+			<int key="@@case_index" value="4" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2020-03-21 00:00:00+00:00" />
+		<string key="traceId" value="178" />
+		<event>
+			<int key="index" value="863" />
+			<string key="concept:name" value="go_bed" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-21T04:29:00+00:00" />
+			<string key="Activity" value="go_bed" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2350" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="863" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<int key="index" value="883" />
+			<string key="concept:name" value="go_bed" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-21T14:22:00+00:00" />
+			<string key="Activity" value="go_bed" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2368" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="883" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<int key="index" value="886" />
+			<string key="concept:name" value="sleep_in_bed" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-21T18:47:00+00:00" />
+			<string key="Activity" value="sleep_in_bed" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2370" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="886" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<int key="index" value="887" />
+			<string key="concept:name" value="go_wardrobe" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-21T18:47:00+00:00" />
+			<string key="Activity" value="go_wardrobe" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2371" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="887" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<int key="index" value="888" />
+			<string key="concept:name" value="change_clothes" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-21T18:47:00+00:00" />
+			<string key="Activity" value="change_clothes" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2372" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="888" />
+			<int key="@@case_index" value="5" />
+		</event>
+		<event>
+			<int key="index" value="892" />
+			<string key="concept:name" value="change_clothes" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-21T18:51:00+00:00" />
+			<string key="Activity" value="change_clothes" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2374" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="892" />
+			<int key="@@case_index" value="5" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2020-03-22 00:00:00+00:00" />
+		<string key="traceId" value="197" />
+		<event>
+			<int key="index" value="1572" />
+			<string key="concept:name" value="go_wardrobe" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T17:50:00+00:00" />
+			<string key="Activity" value="go_wardrobe" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3056" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="1572" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<int key="index" value="1573" />
+			<string key="concept:name" value="get_clothes" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T17:50:00+00:00" />
+			<string key="Activity" value="get_clothes" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3057" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="1573" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<int key="index" value="1575" />
+			<string key="concept:name" value="get_clothes" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T17:51:00+00:00" />
+			<string key="Activity" value="get_clothes" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3059" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="1575" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<int key="index" value="1576" />
+			<string key="concept:name" value="go_bathtub" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T17:51:00+00:00" />
+			<string key="Activity" value="go_bathtub" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3060" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="1576" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<int key="index" value="1577" />
+			<string key="concept:name" value="have_bath" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T17:51:00+00:00" />
+			<string key="Activity" value="have_bath" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3061" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="1577" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<int key="index" value="1579" />
+			<string key="concept:name" value="have_bath" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T18:05:00+00:00" />
+			<string key="Activity" value="have_bath" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3063" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="1579" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<int key="index" value="1580" />
+			<string key="concept:name" value="go_bathroom_sink" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T18:05:00+00:00" />
+			<string key="Activity" value="go_bathroom_sink" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3064" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="1580" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<int key="index" value="1581" />
+			<string key="concept:name" value="go_bathroom_sink" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T18:06:00+00:00" />
+			<string key="Activity" value="go_bathroom_sink" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3065" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="1581" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<int key="index" value="1582" />
+			<string key="concept:name" value="brush_teeth" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T18:06:00+00:00" />
+			<string key="Activity" value="brush_teeth" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3066" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="1582" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<int key="index" value="1584" />
+			<string key="concept:name" value="brush_teeth" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T18:10:00+00:00" />
+			<string key="Activity" value="brush_teeth" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3068" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="1584" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<int key="index" value="1585" />
+			<string key="concept:name" value="go_bed" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T18:10:00+00:00" />
+			<string key="Activity" value="go_bed" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3069" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="1585" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<int key="index" value="1586" />
+			<string key="concept:name" value="sleep_in_bed" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T18:10:00+00:00" />
+			<string key="Activity" value="sleep_in_bed" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3070" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="1586" />
+			<int key="@@case_index" value="6" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2020-03-23 00:00:00+00:00" />
+		<string key="traceId" value="235" />
+		<event>
+			<int key="index" value="1667" />
+			<string key="concept:name" value="go_bed" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-23T21:47:00+00:00" />
+			<string key="Activity" value="go_bed" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3151" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="1667" />
+			<int key="@@case_index" value="7" />
+		</event>
+		<event>
+			<int key="index" value="1669" />
+			<string key="concept:name" value="sleep_in_bed" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-23T23:25:00+00:00" />
+			<string key="Activity" value="sleep_in_bed" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3153" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="1669" />
+			<int key="@@case_index" value="7" />
+		</event>
+		<event>
+			<int key="index" value="1670" />
+			<string key="concept:name" value="go_wardrobe" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-23T23:25:00+00:00" />
+			<string key="Activity" value="go_wardrobe" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3154" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="1670" />
+			<int key="@@case_index" value="7" />
+		</event>
+		<event>
+			<int key="index" value="1671" />
+			<string key="concept:name" value="change_clothes" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-23T23:25:00+00:00" />
+			<string key="Activity" value="change_clothes" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3155" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="1671" />
+			<int key="@@case_index" value="7" />
+		</event>
+		<event>
+			<int key="index" value="1673" />
+			<string key="concept:name" value="change_clothes" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-23T23:29:00+00:00" />
+			<string key="Activity" value="change_clothes" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3157" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="1673" />
+			<int key="@@case_index" value="7" />
+		</event>
+		<event>
+			<int key="index" value="1697" />
+			<string key="concept:name" value="go_wardrobe" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-23T23:45:00+00:00" />
+			<string key="Activity" value="go_wardrobe" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3181" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="1697" />
+			<int key="@@case_index" value="7" />
+		</event>
+		<event>
+			<int key="index" value="1698" />
+			<string key="concept:name" value="get_clothes" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-23T23:45:00+00:00" />
+			<string key="Activity" value="get_clothes" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3182" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="1698" />
+			<int key="@@case_index" value="7" />
+		</event>
+		<event>
+			<int key="index" value="1700" />
+			<string key="concept:name" value="get_clothes" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-23T23:46:00+00:00" />
+			<string key="Activity" value="get_clothes" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3184" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="1700" />
+			<int key="@@case_index" value="7" />
+		</event>
+		<event>
+			<int key="index" value="1701" />
+			<string key="concept:name" value="go_bathtub" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-23T23:46:00+00:00" />
+			<string key="Activity" value="go_bathtub" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3185" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="1701" />
+			<int key="@@case_index" value="7" />
+		</event>
+		<event>
+			<int key="index" value="1702" />
+			<string key="concept:name" value="have_bath" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-23T23:46:00+00:00" />
+			<string key="Activity" value="have_bath" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3186" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="1702" />
+			<int key="@@case_index" value="7" />
+		</event>
+		<event>
+			<int key="index" value="1704" />
+			<string key="concept:name" value="have_bath" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-24T00:08:00+00:00" />
+			<string key="Activity" value="have_bath" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3188" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="1704" />
+			<int key="@@case_index" value="7" />
+		</event>
+		<event>
+			<int key="index" value="1705" />
+			<string key="concept:name" value="go_bathroom_sink" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-24T00:08:00+00:00" />
+			<string key="Activity" value="go_bathroom_sink" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3189" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="1705" />
+			<int key="@@case_index" value="7" />
+		</event>
+		<event>
+			<int key="index" value="1706" />
+			<string key="concept:name" value="brush_teeth" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-24T00:08:00+00:00" />
+			<string key="Activity" value="brush_teeth" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3190" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="1706" />
+			<int key="@@case_index" value="7" />
+		</event>
+		<event>
+			<int key="index" value="1708" />
+			<string key="concept:name" value="brush_teeth" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-24T00:13:00+00:00" />
+			<string key="Activity" value="brush_teeth" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3192" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="1708" />
+			<int key="@@case_index" value="7" />
+		</event>
+		<event>
+			<int key="index" value="1709" />
+			<string key="concept:name" value="go_bed" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-24T00:13:00+00:00" />
+			<string key="Activity" value="go_bed" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3193" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="1709" />
+			<int key="@@case_index" value="7" />
+		</event>
+		<event>
+			<int key="index" value="1710" />
+			<string key="concept:name" value="sleep_in_bed" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-24T00:13:00+00:00" />
+			<string key="Activity" value="sleep_in_bed" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3194" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="1710" />
+			<int key="@@case_index" value="7" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2020-03-24 00:00:00+00:00" />
+		<string key="traceId" value="244" />
+		<event>
+			<int key="index" value="1720" />
+			<string key="concept:name" value="go_bed" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-24T05:10:00+00:00" />
+			<string key="Activity" value="go_bed" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3207" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="1720" />
+			<int key="@@case_index" value="8" />
+		</event>
+		<event>
+			<int key="index" value="1803" />
+			<string key="concept:name" value="go_bed" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-24T22:00:00+00:00" />
+			<string key="Activity" value="go_bed" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3287" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="1803" />
+			<int key="@@case_index" value="8" />
+		</event>
+		<event>
+			<int key="index" value="1805" />
+			<string key="concept:name" value="sleep_in_bed" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T01:32:00+00:00" />
+			<string key="Activity" value="sleep_in_bed" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3289" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="1805" />
+			<int key="@@case_index" value="8" />
+		</event>
+		<event>
+			<int key="index" value="1806" />
+			<string key="concept:name" value="go_wardrobe" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T01:32:00+00:00" />
+			<string key="Activity" value="go_wardrobe" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3290" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="1806" />
+			<int key="@@case_index" value="8" />
+		</event>
+		<event>
+			<int key="index" value="1807" />
+			<string key="concept:name" value="change_clothes" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T01:32:00+00:00" />
+			<string key="Activity" value="change_clothes" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3291" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="1807" />
+			<int key="@@case_index" value="8" />
+		</event>
+		<event>
+			<int key="index" value="1809" />
+			<string key="concept:name" value="change_clothes" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T01:35:00+00:00" />
+			<string key="Activity" value="change_clothes" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3293" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="1809" />
+			<int key="@@case_index" value="8" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2020-03-25 00:00:00+00:00" />
+		<string key="traceId" value="257" />
+		<event>
+			<int key="index" value="2119" />
+			<string key="concept:name" value="go_wardrobe" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T20:52:00+00:00" />
+			<string key="Activity" value="go_wardrobe" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3603" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="2119" />
+			<int key="@@case_index" value="9" />
+		</event>
+		<event>
+			<int key="index" value="2120" />
+			<string key="concept:name" value="go_wardrobe" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T20:53:00+00:00" />
+			<string key="Activity" value="go_wardrobe" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3604" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="2120" />
+			<int key="@@case_index" value="9" />
+		</event>
+		<event>
+			<int key="index" value="2121" />
+			<string key="concept:name" value="get_clothes" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T20:53:00+00:00" />
+			<string key="Activity" value="get_clothes" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3605" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="2121" />
+			<int key="@@case_index" value="9" />
+		</event>
+		<event>
+			<int key="index" value="2123" />
+			<string key="concept:name" value="get_clothes" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T20:54:00+00:00" />
+			<string key="Activity" value="get_clothes" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3607" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="2123" />
+			<int key="@@case_index" value="9" />
+		</event>
+		<event>
+			<int key="index" value="2124" />
+			<string key="concept:name" value="go_bathtub" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T20:54:00+00:00" />
+			<string key="Activity" value="go_bathtub" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3608" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="2124" />
+			<int key="@@case_index" value="9" />
+		</event>
+		<event>
+			<int key="index" value="2125" />
+			<string key="concept:name" value="have_bath" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T20:54:00+00:00" />
+			<string key="Activity" value="have_bath" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3609" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="2125" />
+			<int key="@@case_index" value="9" />
+		</event>
+		<event>
+			<int key="index" value="2127" />
+			<string key="concept:name" value="have_bath" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T21:22:00+00:00" />
+			<string key="Activity" value="have_bath" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3611" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="2127" />
+			<int key="@@case_index" value="9" />
+		</event>
+		<event>
+			<int key="index" value="2128" />
+			<string key="concept:name" value="go_bathroom_sink" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T21:22:00+00:00" />
+			<string key="Activity" value="go_bathroom_sink" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3612" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="2128" />
+			<int key="@@case_index" value="9" />
+		</event>
+		<event>
+			<int key="index" value="2129" />
+			<string key="concept:name" value="brush_teeth" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T21:22:00+00:00" />
+			<string key="Activity" value="brush_teeth" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3613" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="2129" />
+			<int key="@@case_index" value="9" />
+		</event>
+		<event>
+			<int key="index" value="2131" />
+			<string key="concept:name" value="brush_teeth" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T21:28:00+00:00" />
+			<string key="Activity" value="brush_teeth" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3615" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="2131" />
+			<int key="@@case_index" value="9" />
+		</event>
+		<event>
+			<int key="index" value="2132" />
+			<string key="concept:name" value="go_bed" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T21:28:00+00:00" />
+			<string key="Activity" value="go_bed" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3616" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="2132" />
+			<int key="@@case_index" value="9" />
+		</event>
+		<event>
+			<int key="index" value="2133" />
+			<string key="concept:name" value="go_bed" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T21:29:00+00:00" />
+			<string key="Activity" value="go_bed" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3617" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="2133" />
+			<int key="@@case_index" value="9" />
+		</event>
+		<event>
+			<int key="index" value="2134" />
+			<string key="concept:name" value="sleep_in_bed" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T21:29:00+00:00" />
+			<string key="Activity" value="sleep_in_bed" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3618" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="2134" />
+			<int key="@@case_index" value="9" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2020-03-26 00:00:00+00:00" />
+		<string key="traceId" value="276" />
+		<event>
+			<int key="index" value="2142" />
+			<string key="concept:name" value="go_bed" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-26T04:48:00+00:00" />
+			<string key="Activity" value="go_bed" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3626" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="2142" />
+			<int key="@@case_index" value="10" />
+		</event>
+		<event>
+			<int key="index" value="2180" />
+			<string key="concept:name" value="go_bed" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-26T18:58:00+00:00" />
+			<string key="Activity" value="go_bed" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3665" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="2180" />
+			<int key="@@case_index" value="10" />
+		</event>
+		<event>
+			<int key="index" value="2186" />
+			<string key="concept:name" value="go_bed" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-27T01:27:00+00:00" />
+			<string key="Activity" value="go_bed" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3676" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="2186" />
+			<int key="@@case_index" value="10" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2020-03-27 00:00:00+00:00" />
+		<string key="traceId" value="275" />
+		<event>
+			<int key="index" value="2194" />
+			<string key="concept:name" value="sleep_in_bed" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-27T06:59:00+00:00" />
+			<string key="Activity" value="sleep_in_bed" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3678" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="2194" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<int key="index" value="2195" />
+			<string key="concept:name" value="go_wardrobe" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-27T06:59:00+00:00" />
+			<string key="Activity" value="go_wardrobe" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3679" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="2195" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<int key="index" value="2196" />
+			<string key="concept:name" value="change_clothes" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-27T06:59:00+00:00" />
+			<string key="Activity" value="change_clothes" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3680" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="2196" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<int key="index" value="2198" />
+			<string key="concept:name" value="change_clothes" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-27T07:03:00+00:00" />
+			<string key="Activity" value="change_clothes" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3682" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="2198" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<int key="index" value="2352" />
+			<string key="concept:name" value="go_wardrobe" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-27T22:24:00+00:00" />
+			<string key="Activity" value="go_wardrobe" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3836" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="2352" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<int key="index" value="2353" />
+			<string key="concept:name" value="go_wardrobe" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-27T22:25:00+00:00" />
+			<string key="Activity" value="go_wardrobe" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3837" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="2353" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<int key="index" value="2354" />
+			<string key="concept:name" value="get_clothes" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-27T22:25:00+00:00" />
+			<string key="Activity" value="get_clothes" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3838" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="2354" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<int key="index" value="2356" />
+			<string key="concept:name" value="get_clothes" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-27T22:25:00+00:00" />
+			<string key="Activity" value="get_clothes" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3840" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="2356" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<int key="index" value="2357" />
+			<string key="concept:name" value="go_bathtub" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-27T22:25:00+00:00" />
+			<string key="Activity" value="go_bathtub" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3841" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="2357" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<int key="index" value="2358" />
+			<string key="concept:name" value="go_bathtub" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-27T22:26:00+00:00" />
+			<string key="Activity" value="go_bathtub" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3842" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="2358" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<int key="index" value="2359" />
+			<string key="concept:name" value="have_bath" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-27T22:26:00+00:00" />
+			<string key="Activity" value="have_bath" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3843" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="2359" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<int key="index" value="2361" />
+			<string key="concept:name" value="have_bath" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-27T22:45:00+00:00" />
+			<string key="Activity" value="have_bath" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3845" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="2361" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<int key="index" value="2362" />
+			<string key="concept:name" value="go_bathroom_sink" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-27T22:45:00+00:00" />
+			<string key="Activity" value="go_bathroom_sink" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3846" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="2362" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<int key="index" value="2363" />
+			<string key="concept:name" value="brush_teeth" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-27T22:45:00+00:00" />
+			<string key="Activity" value="brush_teeth" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3847" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="2363" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<int key="index" value="2365" />
+			<string key="concept:name" value="brush_teeth" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-27T22:50:00+00:00" />
+			<string key="Activity" value="brush_teeth" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3849" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="2365" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<int key="index" value="2366" />
+			<string key="concept:name" value="go_bed" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-27T22:50:00+00:00" />
+			<string key="Activity" value="go_bed" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3850" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="2366" />
+			<int key="@@case_index" value="11" />
+		</event>
+		<event>
+			<int key="index" value="2367" />
+			<string key="concept:name" value="sleep_in_bed" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-27T22:50:00+00:00" />
+			<string key="Activity" value="sleep_in_bed" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3851" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="2367" />
+			<int key="@@case_index" value="11" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2020-03-28 00:00:00+00:00" />
+		<string key="traceId" value="290" />
+		<event>
+			<int key="index" value="2375" />
+			<string key="concept:name" value="go_bed" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-28T04:33:00+00:00" />
+			<string key="Activity" value="go_bed" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3859" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="2375" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<int key="index" value="2382" />
+			<string key="concept:name" value="go_bed" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-28T10:37:00+00:00" />
+			<string key="Activity" value="go_bed" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3870" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="2382" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<int key="index" value="2388" />
+			<string key="concept:name" value="sleep_in_bed" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-28T16:53:00+00:00" />
+			<string key="Activity" value="sleep_in_bed" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3872" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="2388" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<int key="index" value="2389" />
+			<string key="concept:name" value="go_wardrobe" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-28T16:53:00+00:00" />
+			<string key="Activity" value="go_wardrobe" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3873" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="2389" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<int key="index" value="2390" />
+			<string key="concept:name" value="change_clothes" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-28T16:53:00+00:00" />
+			<string key="Activity" value="change_clothes" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3874" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="2390" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<int key="index" value="2392" />
+			<string key="concept:name" value="change_clothes" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-28T16:57:00+00:00" />
+			<string key="Activity" value="change_clothes" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3876" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="2392" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<int key="index" value="2607" />
+			<string key="concept:name" value="go_wardrobe" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T00:00:00+00:00" />
+			<string key="Activity" value="go_wardrobe" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4091" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="2607" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<int key="index" value="2608" />
+			<string key="concept:name" value="get_clothes" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T00:00:00+00:00" />
+			<string key="Activity" value="get_clothes" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4092" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="2608" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<int key="index" value="2610" />
+			<string key="concept:name" value="get_clothes" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T00:01:00+00:00" />
+			<string key="Activity" value="get_clothes" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4094" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="2610" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<int key="index" value="2611" />
+			<string key="concept:name" value="go_bathtub" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T00:01:00+00:00" />
+			<string key="Activity" value="go_bathtub" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4095" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="2611" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<int key="index" value="2612" />
+			<string key="concept:name" value="go_bathtub" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T00:02:00+00:00" />
+			<string key="Activity" value="go_bathtub" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4096" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="2612" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<int key="index" value="2613" />
+			<string key="concept:name" value="have_bath" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T00:02:00+00:00" />
+			<string key="Activity" value="have_bath" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4097" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="2613" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<int key="index" value="2615" />
+			<string key="concept:name" value="have_bath" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T00:31:00+00:00" />
+			<string key="Activity" value="have_bath" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4099" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="2615" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<int key="index" value="2616" />
+			<string key="concept:name" value="go_bathroom_sink" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T00:31:00+00:00" />
+			<string key="Activity" value="go_bathroom_sink" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4100" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="2616" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<int key="index" value="2617" />
+			<string key="concept:name" value="brush_teeth" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T00:31:00+00:00" />
+			<string key="Activity" value="brush_teeth" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4101" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="2617" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<int key="index" value="2619" />
+			<string key="concept:name" value="brush_teeth" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T00:37:00+00:00" />
+			<string key="Activity" value="brush_teeth" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4103" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="2619" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<int key="index" value="2620" />
+			<string key="concept:name" value="go_bed" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T00:37:00+00:00" />
+			<string key="Activity" value="go_bed" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4104" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="2620" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<int key="index" value="2621" />
+			<string key="concept:name" value="go_bed" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T00:38:00+00:00" />
+			<string key="Activity" value="go_bed" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4105" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="2621" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<int key="index" value="2622" />
+			<string key="concept:name" value="sleep_in_bed" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T00:38:00+00:00" />
+			<string key="Activity" value="sleep_in_bed" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4106" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="2622" />
+			<int key="@@case_index" value="12" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2020-03-29 00:00:00+00:00" />
+		<string key="traceId" value="308" />
+		<event>
+			<int key="index" value="2624" />
+			<string key="concept:name" value="sleep_in_bed" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T08:25:00+00:00" />
+			<string key="Activity" value="sleep_in_bed" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4108" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="2624" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<int key="index" value="2625" />
+			<string key="concept:name" value="go_wardrobe" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T08:25:00+00:00" />
+			<string key="Activity" value="go_wardrobe" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4109" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="2625" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<int key="index" value="2626" />
+			<string key="concept:name" value="change_clothes" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T08:25:00+00:00" />
+			<string key="Activity" value="change_clothes" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4110" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="2626" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<int key="index" value="2628" />
+			<string key="concept:name" value="change_clothes" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T08:29:00+00:00" />
+			<string key="Activity" value="change_clothes" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4112" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="2628" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<int key="index" value="3048" />
+			<string key="concept:name" value="go_wardrobe" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T23:18:00+00:00" />
+			<string key="Activity" value="go_wardrobe" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4532" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="3048" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<int key="index" value="3049" />
+			<string key="concept:name" value="get_clothes" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T23:18:00+00:00" />
+			<string key="Activity" value="get_clothes" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4533" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="3049" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<int key="index" value="3051" />
+			<string key="concept:name" value="get_clothes" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T23:19:00+00:00" />
+			<string key="Activity" value="get_clothes" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4535" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="3051" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<int key="index" value="3052" />
+			<string key="concept:name" value="go_bathtub" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T23:19:00+00:00" />
+			<string key="Activity" value="go_bathtub" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4536" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="3052" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<int key="index" value="3053" />
+			<string key="concept:name" value="have_bath" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T23:19:00+00:00" />
+			<string key="Activity" value="have_bath" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4537" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="3053" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<int key="index" value="3055" />
+			<string key="concept:name" value="have_bath" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T23:35:00+00:00" />
+			<string key="Activity" value="have_bath" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4539" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="3055" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<int key="index" value="3056" />
+			<string key="concept:name" value="go_bathroom_sink" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T23:35:00+00:00" />
+			<string key="Activity" value="go_bathroom_sink" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4540" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="3056" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<int key="index" value="3057" />
+			<string key="concept:name" value="brush_teeth" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T23:35:00+00:00" />
+			<string key="Activity" value="brush_teeth" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4541" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="3057" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<int key="index" value="3059" />
+			<string key="concept:name" value="brush_teeth" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T23:39:00+00:00" />
+			<string key="Activity" value="brush_teeth" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4543" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="3059" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<int key="index" value="3060" />
+			<string key="concept:name" value="go_bed" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T23:39:00+00:00" />
+			<string key="Activity" value="go_bed" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4544" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="3060" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<int key="index" value="3061" />
+			<string key="concept:name" value="go_bed" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T23:40:00+00:00" />
+			<string key="Activity" value="go_bed" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4545" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="3061" />
+			<int key="@@case_index" value="13" />
+		</event>
+		<event>
+			<int key="index" value="3062" />
+			<string key="concept:name" value="sleep_in_bed" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-29T23:40:00+00:00" />
+			<string key="Activity" value="sleep_in_bed" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4546" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="3062" />
+			<int key="@@case_index" value="13" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2020-03-30 00:00:00+00:00" />
+		<string key="traceId" value="343" />
+		<event>
+			<int key="index" value="3149" />
+			<string key="concept:name" value="go_bed" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-30T22:15:00+00:00" />
+			<string key="Activity" value="go_bed" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4633" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="3149" />
+			<int key="@@case_index" value="14" />
+		</event>
+		<event>
+			<int key="index" value="3151" />
+			<string key="concept:name" value="sleep_in_bed" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-30T22:35:00+00:00" />
+			<string key="Activity" value="sleep_in_bed" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4635" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="3151" />
+			<int key="@@case_index" value="14" />
+		</event>
+		<event>
+			<int key="index" value="3152" />
+			<string key="concept:name" value="go_wardrobe" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-30T22:35:00+00:00" />
+			<string key="Activity" value="go_wardrobe" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4636" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="3152" />
+			<int key="@@case_index" value="14" />
+		</event>
+		<event>
+			<int key="index" value="3153" />
+			<string key="concept:name" value="change_clothes" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-30T22:35:00+00:00" />
+			<string key="Activity" value="change_clothes" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4637" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="3153" />
+			<int key="@@case_index" value="14" />
+		</event>
+		<event>
+			<int key="index" value="3155" />
+			<string key="concept:name" value="change_clothes" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-30T22:40:00+00:00" />
+			<string key="Activity" value="change_clothes" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4639" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="3155" />
+			<int key="@@case_index" value="14" />
+		</event>
+		<event>
+			<int key="index" value="3192" />
+			<string key="concept:name" value="go_wardrobe" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-30T23:49:00+00:00" />
+			<string key="Activity" value="go_wardrobe" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4676" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="3192" />
+			<int key="@@case_index" value="14" />
+		</event>
+		<event>
+			<int key="index" value="3193" />
+			<string key="concept:name" value="get_clothes" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-30T23:49:00+00:00" />
+			<string key="Activity" value="get_clothes" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4677" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="3193" />
+			<int key="@@case_index" value="14" />
+		</event>
+		<event>
+			<int key="index" value="3195" />
+			<string key="concept:name" value="get_clothes" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-30T23:50:00+00:00" />
+			<string key="Activity" value="get_clothes" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4679" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="3195" />
+			<int key="@@case_index" value="14" />
+		</event>
+		<event>
+			<int key="index" value="3196" />
+			<string key="concept:name" value="go_bathtub" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-30T23:50:00+00:00" />
+			<string key="Activity" value="go_bathtub" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4680" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="3196" />
+			<int key="@@case_index" value="14" />
+		</event>
+		<event>
+			<int key="index" value="3197" />
+			<string key="concept:name" value="have_bath" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-30T23:50:00+00:00" />
+			<string key="Activity" value="have_bath" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4681" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="3197" />
+			<int key="@@case_index" value="14" />
+		</event>
+		<event>
+			<int key="index" value="3199" />
+			<string key="concept:name" value="have_bath" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-31T00:06:00+00:00" />
+			<string key="Activity" value="have_bath" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4683" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="3199" />
+			<int key="@@case_index" value="14" />
+		</event>
+		<event>
+			<int key="index" value="3200" />
+			<string key="concept:name" value="go_bathroom_sink" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-31T00:06:00+00:00" />
+			<string key="Activity" value="go_bathroom_sink" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4684" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="3200" />
+			<int key="@@case_index" value="14" />
+		</event>
+		<event>
+			<int key="index" value="3201" />
+			<string key="concept:name" value="brush_teeth" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-31T00:06:00+00:00" />
+			<string key="Activity" value="brush_teeth" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4685" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="3201" />
+			<int key="@@case_index" value="14" />
+		</event>
+		<event>
+			<int key="index" value="3203" />
+			<string key="concept:name" value="brush_teeth" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-31T00:10:00+00:00" />
+			<string key="Activity" value="brush_teeth" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4687" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="3203" />
+			<int key="@@case_index" value="14" />
+		</event>
+		<event>
+			<int key="index" value="3204" />
+			<string key="concept:name" value="go_bed" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-31T00:10:00+00:00" />
+			<string key="Activity" value="go_bed" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4688" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="3204" />
+			<int key="@@case_index" value="14" />
+		</event>
+		<event>
+			<int key="index" value="3205" />
+			<string key="concept:name" value="go_bed" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-31T00:11:00+00:00" />
+			<string key="Activity" value="go_bed" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4689" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="3205" />
+			<int key="@@case_index" value="14" />
+		</event>
+		<event>
+			<int key="index" value="3206" />
+			<string key="concept:name" value="sleep_in_bed" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-31T00:11:00+00:00" />
+			<string key="Activity" value="sleep_in_bed" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4690" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="3206" />
+			<int key="@@case_index" value="14" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2020-03-31 00:00:00+00:00" />
+		<string key="traceId" value="353" />
+		<event>
+			<int key="index" value="3226" />
+			<string key="concept:name" value="go_bed" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-31T04:31:00+00:00" />
+			<string key="Activity" value="go_bed" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4703" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="3226" />
+			<int key="@@case_index" value="15" />
+		</event>
+		<event>
+			<int key="index" value="3314" />
+			<string key="concept:name" value="go_bed" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-31T22:28:00+00:00" />
+			<string key="Activity" value="go_bed" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4788" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="3314" />
+			<int key="@@case_index" value="15" />
+		</event>
+		<event>
+			<int key="index" value="3316" />
+			<string key="concept:name" value="sleep_in_bed" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T01:14:00+00:00" />
+			<string key="Activity" value="sleep_in_bed" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4790" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="3316" />
+			<int key="@@case_index" value="15" />
+		</event>
+		<event>
+			<int key="index" value="3317" />
+			<string key="concept:name" value="go_wardrobe" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T01:14:00+00:00" />
+			<string key="Activity" value="go_wardrobe" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4791" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="3317" />
+			<int key="@@case_index" value="15" />
+		</event>
+		<event>
+			<int key="index" value="3318" />
+			<string key="concept:name" value="change_clothes" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T01:14:00+00:00" />
+			<string key="Activity" value="change_clothes" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4792" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="3318" />
+			<int key="@@case_index" value="15" />
+		</event>
+		<event>
+			<int key="index" value="3320" />
+			<string key="concept:name" value="change_clothes" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T01:17:00+00:00" />
+			<string key="Activity" value="change_clothes" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4794" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="3320" />
+			<int key="@@case_index" value="15" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2020-04-01 00:00:00+00:00" />
+		<string key="traceId" value="363" />
+		<event>
+			<int key="index" value="3646" />
+			<string key="concept:name" value="go_wardrobe" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T21:33:00+00:00" />
+			<string key="Activity" value="go_wardrobe" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5130" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="3646" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<int key="index" value="3647" />
+			<string key="concept:name" value="get_clothes" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T21:33:00+00:00" />
+			<string key="Activity" value="get_clothes" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5131" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="3647" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<int key="index" value="3649" />
+			<string key="concept:name" value="get_clothes" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T21:34:00+00:00" />
+			<string key="Activity" value="get_clothes" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5133" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="3649" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<int key="index" value="3650" />
+			<string key="concept:name" value="go_bathtub" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T21:34:00+00:00" />
+			<string key="Activity" value="go_bathtub" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5134" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="3650" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<int key="index" value="3651" />
+			<string key="concept:name" value="go_bathtub" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T21:35:00+00:00" />
+			<string key="Activity" value="go_bathtub" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5135" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="3651" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<int key="index" value="3652" />
+			<string key="concept:name" value="have_bath" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T21:35:00+00:00" />
+			<string key="Activity" value="have_bath" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5136" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="3652" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<int key="index" value="3654" />
+			<string key="concept:name" value="have_bath" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T21:54:00+00:00" />
+			<string key="Activity" value="have_bath" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5138" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="3654" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<int key="index" value="3655" />
+			<string key="concept:name" value="go_bathroom_sink" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T21:54:00+00:00" />
+			<string key="Activity" value="go_bathroom_sink" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5139" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="3655" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<int key="index" value="3656" />
+			<string key="concept:name" value="brush_teeth" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T21:54:00+00:00" />
+			<string key="Activity" value="brush_teeth" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5140" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="3656" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<int key="index" value="3658" />
+			<string key="concept:name" value="brush_teeth" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T21:59:00+00:00" />
+			<string key="Activity" value="brush_teeth" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5142" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="3658" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<int key="index" value="3659" />
+			<string key="concept:name" value="go_bed" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T21:59:00+00:00" />
+			<string key="Activity" value="go_bed" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5143" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="3659" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<int key="index" value="3660" />
+			<string key="concept:name" value="sleep_in_bed" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T21:59:00+00:00" />
+			<string key="Activity" value="sleep_in_bed" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5144" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="3660" />
+			<int key="@@case_index" value="16" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2020-04-02 00:00:00+00:00" />
+		<string key="traceId" value="386" />
+		<event>
+			<int key="index" value="3708" />
+			<string key="concept:name" value="go_bed" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-02T19:04:00+00:00" />
+			<string key="Activity" value="go_bed" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5192" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="3708" />
+			<int key="@@case_index" value="17" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2020-04-03 00:00:00+00:00" />
+		<string key="traceId" value="389" />
+		<event>
+			<int key="index" value="3758" />
+			<string key="concept:name" value="go_bed" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-03T08:00:00+00:00" />
+			<string key="Activity" value="go_bed" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5247" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="3758" />
+			<int key="@@case_index" value="18" />
+		</event>
+		<event>
+			<int key="index" value="3764" />
+			<string key="concept:name" value="go_bed" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-03T08:01:00+00:00" />
+			<string key="Activity" value="go_bed" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5248" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="3764" />
+			<int key="@@case_index" value="18" />
+		</event>
+		<event>
+			<int key="index" value="3800" />
+			<string key="concept:name" value="go_bed" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-03T18:54:00+00:00" />
+			<string key="Activity" value="go_bed" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5285" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="3800" />
+			<int key="@@case_index" value="18" />
+		</event>
+		<event>
+			<int key="index" value="3803" />
+			<string key="concept:name" value="sleep_in_bed" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-03T21:25:00+00:00" />
+			<string key="Activity" value="sleep_in_bed" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5287" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="3803" />
+			<int key="@@case_index" value="18" />
+		</event>
+		<event>
+			<int key="index" value="3804" />
+			<string key="concept:name" value="go_wardrobe" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-03T21:25:00+00:00" />
+			<string key="Activity" value="go_wardrobe" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5288" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="3804" />
+			<int key="@@case_index" value="18" />
+		</event>
+		<event>
+			<int key="index" value="3805" />
+			<string key="concept:name" value="change_clothes" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-03T21:25:00+00:00" />
+			<string key="Activity" value="change_clothes" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5289" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="3805" />
+			<int key="@@case_index" value="18" />
+		</event>
+		<event>
+			<int key="index" value="3807" />
+			<string key="concept:name" value="change_clothes" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-03T21:29:00+00:00" />
+			<string key="Activity" value="change_clothes" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5291" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="3807" />
+			<int key="@@case_index" value="18" />
+		</event>
+		<event>
+			<int key="index" value="3863" />
+			<string key="concept:name" value="go_wardrobe" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-04T00:56:00+00:00" />
+			<string key="Activity" value="go_wardrobe" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5347" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="3863" />
+			<int key="@@case_index" value="18" />
+		</event>
+		<event>
+			<int key="index" value="3864" />
+			<string key="concept:name" value="go_wardrobe" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-04T00:57:00+00:00" />
+			<string key="Activity" value="go_wardrobe" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5348" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="3864" />
+			<int key="@@case_index" value="18" />
+		</event>
+		<event>
+			<int key="index" value="3865" />
+			<string key="concept:name" value="get_clothes" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-04T00:57:00+00:00" />
+			<string key="Activity" value="get_clothes" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5349" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="3865" />
+			<int key="@@case_index" value="18" />
+		</event>
+		<event>
+			<int key="index" value="3867" />
+			<string key="concept:name" value="get_clothes" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-04T00:58:00+00:00" />
+			<string key="Activity" value="get_clothes" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5351" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="3867" />
+			<int key="@@case_index" value="18" />
+		</event>
+		<event>
+			<int key="index" value="3868" />
+			<string key="concept:name" value="go_bathtub" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-04T00:58:00+00:00" />
+			<string key="Activity" value="go_bathtub" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5352" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="3868" />
+			<int key="@@case_index" value="18" />
+		</event>
+		<event>
+			<int key="index" value="3869" />
+			<string key="concept:name" value="have_bath" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-04T00:58:00+00:00" />
+			<string key="Activity" value="have_bath" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5353" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="3869" />
+			<int key="@@case_index" value="18" />
+		</event>
+		<event>
+			<int key="index" value="3871" />
+			<string key="concept:name" value="have_bath" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-04T01:21:00+00:00" />
+			<string key="Activity" value="have_bath" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5355" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="3871" />
+			<int key="@@case_index" value="18" />
+		</event>
+		<event>
+			<int key="index" value="3872" />
+			<string key="concept:name" value="go_bathroom_sink" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-04T01:21:00+00:00" />
+			<string key="Activity" value="go_bathroom_sink" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5356" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="3872" />
+			<int key="@@case_index" value="18" />
+		</event>
+		<event>
+			<int key="index" value="3873" />
+			<string key="concept:name" value="brush_teeth" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-04T01:21:00+00:00" />
+			<string key="Activity" value="brush_teeth" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5357" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="3873" />
+			<int key="@@case_index" value="18" />
+		</event>
+		<event>
+			<int key="index" value="3875" />
+			<string key="concept:name" value="brush_teeth" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-04T01:26:00+00:00" />
+			<string key="Activity" value="brush_teeth" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5359" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="3875" />
+			<int key="@@case_index" value="18" />
+		</event>
+		<event>
+			<int key="index" value="3876" />
+			<string key="concept:name" value="go_bed" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-04T01:26:00+00:00" />
+			<string key="Activity" value="go_bed" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5360" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="3876" />
+			<int key="@@case_index" value="18" />
+		</event>
+		<event>
+			<int key="index" value="3877" />
+			<string key="concept:name" value="sleep_in_bed" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-04T01:26:00+00:00" />
+			<string key="Activity" value="sleep_in_bed" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5361" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="3877" />
+			<int key="@@case_index" value="18" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2020-04-04 00:00:00+00:00" />
+		<string key="traceId" value="400" />
+		<event>
+			<int key="index" value="3905" />
+			<string key="concept:name" value="go_bed" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-04T11:59:00+00:00" />
+			<string key="Activity" value="go_bed" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5390" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="3905" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<int key="index" value="3908" />
+			<string key="concept:name" value="sleep_in_bed" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-04T17:22:00+00:00" />
+			<string key="Activity" value="sleep_in_bed" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5392" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="3908" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<int key="index" value="3909" />
+			<string key="concept:name" value="go_wardrobe" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-04T17:22:00+00:00" />
+			<string key="Activity" value="go_wardrobe" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5393" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="3909" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<int key="index" value="3910" />
+			<string key="concept:name" value="change_clothes" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-04T17:22:00+00:00" />
+			<string key="Activity" value="change_clothes" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5394" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="3910" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<int key="index" value="3912" />
+			<string key="concept:name" value="change_clothes" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-04T17:26:00+00:00" />
+			<string key="Activity" value="change_clothes" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5396" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="3912" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<int key="index" value="4119" />
+			<string key="concept:name" value="go_wardrobe" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T00:07:00+00:00" />
+			<string key="Activity" value="go_wardrobe" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5603" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="4119" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<int key="index" value="4120" />
+			<string key="concept:name" value="get_clothes" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T00:07:00+00:00" />
+			<string key="Activity" value="get_clothes" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5604" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="4120" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<int key="index" value="4122" />
+			<string key="concept:name" value="get_clothes" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T00:08:00+00:00" />
+			<string key="Activity" value="get_clothes" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5606" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="4122" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<int key="index" value="4123" />
+			<string key="concept:name" value="go_bathtub" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T00:08:00+00:00" />
+			<string key="Activity" value="go_bathtub" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5607" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="4123" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<int key="index" value="4124" />
+			<string key="concept:name" value="go_bathtub" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T00:09:00+00:00" />
+			<string key="Activity" value="go_bathtub" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5608" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="4124" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<int key="index" value="4125" />
+			<string key="concept:name" value="have_bath" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T00:09:00+00:00" />
+			<string key="Activity" value="have_bath" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5609" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="4125" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<int key="index" value="4127" />
+			<string key="concept:name" value="have_bath" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T00:28:00+00:00" />
+			<string key="Activity" value="have_bath" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5611" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="4127" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<int key="index" value="4128" />
+			<string key="concept:name" value="go_bathroom_sink" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T00:28:00+00:00" />
+			<string key="Activity" value="go_bathroom_sink" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5612" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="4128" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<int key="index" value="4129" />
+			<string key="concept:name" value="brush_teeth" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T00:28:00+00:00" />
+			<string key="Activity" value="brush_teeth" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5613" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="4129" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<int key="index" value="4131" />
+			<string key="concept:name" value="brush_teeth" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T00:33:00+00:00" />
+			<string key="Activity" value="brush_teeth" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5615" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="4131" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<int key="index" value="4132" />
+			<string key="concept:name" value="go_bed" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T00:33:00+00:00" />
+			<string key="Activity" value="go_bed" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5616" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="4132" />
+			<int key="@@case_index" value="19" />
+		</event>
+		<event>
+			<int key="index" value="4133" />
+			<string key="concept:name" value="sleep_in_bed" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T00:33:00+00:00" />
+			<string key="Activity" value="sleep_in_bed" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5617" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="4133" />
+			<int key="@@case_index" value="19" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2020-04-05 00:00:00+00:00" />
+		<string key="traceId" value="418" />
+		<event>
+			<int key="index" value="4135" />
+			<string key="concept:name" value="sleep_in_bed" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T06:21:00+00:00" />
+			<string key="Activity" value="sleep_in_bed" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5619" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="4135" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<int key="index" value="4136" />
+			<string key="concept:name" value="go_wardrobe" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T06:21:00+00:00" />
+			<string key="Activity" value="go_wardrobe" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5620" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="4136" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<int key="index" value="4137" />
+			<string key="concept:name" value="change_clothes" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T06:21:00+00:00" />
+			<string key="Activity" value="change_clothes" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5621" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="4137" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<int key="index" value="4139" />
+			<string key="concept:name" value="change_clothes" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T06:25:00+00:00" />
+			<string key="Activity" value="change_clothes" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5623" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="4139" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<int key="index" value="4677" />
+			<string key="concept:name" value="go_wardrobe" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T22:59:00+00:00" />
+			<string key="Activity" value="go_wardrobe" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="6161" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="4677" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<int key="index" value="4678" />
+			<string key="concept:name" value="go_wardrobe" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T23:00:00+00:00" />
+			<string key="Activity" value="go_wardrobe" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="6162" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="4678" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<int key="index" value="4679" />
+			<string key="concept:name" value="get_clothes" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T23:00:00+00:00" />
+			<string key="Activity" value="get_clothes" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="6163" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="4679" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<int key="index" value="4681" />
+			<string key="concept:name" value="get_clothes" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T23:01:00+00:00" />
+			<string key="Activity" value="get_clothes" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="6165" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="4681" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<int key="index" value="4682" />
+			<string key="concept:name" value="go_bathtub" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T23:01:00+00:00" />
+			<string key="Activity" value="go_bathtub" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="6166" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="4682" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<int key="index" value="4683" />
+			<string key="concept:name" value="have_bath" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T23:01:00+00:00" />
+			<string key="Activity" value="have_bath" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="6167" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="4683" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<int key="index" value="4685" />
+			<string key="concept:name" value="have_bath" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T23:31:00+00:00" />
+			<string key="Activity" value="have_bath" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="6169" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="4685" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<int key="index" value="4686" />
+			<string key="concept:name" value="go_bathroom_sink" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T23:31:00+00:00" />
+			<string key="Activity" value="go_bathroom_sink" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="6170" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="4686" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<int key="index" value="4687" />
+			<string key="concept:name" value="brush_teeth" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T23:31:00+00:00" />
+			<string key="Activity" value="brush_teeth" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="6171" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="4687" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<int key="index" value="4689" />
+			<string key="concept:name" value="brush_teeth" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T23:37:00+00:00" />
+			<string key="Activity" value="brush_teeth" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="6173" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="4689" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<int key="index" value="4690" />
+			<string key="concept:name" value="go_bed" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T23:37:00+00:00" />
+			<string key="Activity" value="go_bed" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="6174" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="4690" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<int key="index" value="4691" />
+			<string key="concept:name" value="sleep_in_bed" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T23:37:00+00:00" />
+			<string key="Activity" value="sleep_in_bed" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="6175" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="4691" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<int key="index" value="4693" />
+			<string key="concept:name" value="go_to start" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-06T00:00:00+00:00" />
+			<string key="Activity" value="go_to start" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="6177" />
+			<string key="reference:case:concept:name" value="prepared_sleep" />
+			<int key="@@index" value="4693" />
+			<int key="@@case_index" value="20" />
+		</event>
+	</trace>
+</log>

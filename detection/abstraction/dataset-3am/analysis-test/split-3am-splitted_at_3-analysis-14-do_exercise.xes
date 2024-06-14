@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<extension name="Lifecycle" prefix="lifecycle" uri="http://www.xes-standard.org/lifecycle.xesext" />
+	<extension name="Organizational" prefix="org" uri="http://www.xes-standard.org/org.xesext" />
+	<string key="origin" value="csv" />
+	<trace>
+		<string key="concept:name" value="singleton" />
+		<string key="traceId" value="141" />
+		<event>
+			<string key="concept:name" value="go_exercise_place" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T04:55:00+00:00" />
+			<string key="Activity" value="go_exercise_place" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1908" />
+			<string key="reference:case:concept:name" value="exercise" />
+			<int key="@@index" value="424" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="concept:name" value="do_exercise" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T04:55:00+00:00" />
+			<string key="Activity" value="do_exercise" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="1909" />
+			<string key="reference:case:concept:name" value="exercise" />
+			<int key="@@index" value="425" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="concept:name" value="do_exercise" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-18T05:30:00+00:00" />
+			<string key="Activity" value="do_exercise" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="1911" />
+			<string key="reference:case:concept:name" value="exercise" />
+			<int key="@@index" value="427" />
+			<int key="@@case_index" value="2" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_exercise_place" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T04:20:00+00:00" />
+			<string key="Activity" value="go_exercise_place" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2624" />
+			<string key="reference:case:concept:name" value="exercise" />
+			<int key="@@index" value="1140" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="do_exercise" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T04:20:00+00:00" />
+			<string key="Activity" value="do_exercise" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="2625" />
+			<string key="reference:case:concept:name" value="exercise" />
+			<int key="@@index" value="1141" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="do_exercise" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-22T04:57:00+00:00" />
+			<string key="Activity" value="do_exercise" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="2627" />
+			<string key="reference:case:concept:name" value="exercise" />
+			<int key="@@index" value="1143" />
+			<int key="@@case_index" value="6" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_exercise_place" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T05:56:00+00:00" />
+			<string key="Activity" value="go_exercise_place" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3462" />
+			<string key="reference:case:concept:name" value="exercise" />
+			<int key="@@index" value="1978" />
+			<int key="@@case_index" value="9" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_exercise_place" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T05:57:00+00:00" />
+			<string key="Activity" value="go_exercise_place" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3463" />
+			<string key="reference:case:concept:name" value="exercise" />
+			<int key="@@index" value="1979" />
+			<int key="@@case_index" value="9" />
+		</event>
+		<event>
+			<string key="concept:name" value="do_exercise" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T05:57:00+00:00" />
+			<string key="Activity" value="do_exercise" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="3464" />
+			<string key="reference:case:concept:name" value="exercise" />
+			<int key="@@index" value="1980" />
+			<int key="@@case_index" value="9" />
+		</event>
+		<event>
+			<string key="concept:name" value="do_exercise" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-25T06:32:00+00:00" />
+			<string key="Activity" value="do_exercise" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="3466" />
+			<string key="reference:case:concept:name" value="exercise" />
+			<int key="@@index" value="1982" />
+			<int key="@@case_index" value="9" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_exercise_place" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-28T22:24:00+00:00" />
+			<string key="Activity" value="go_exercise_place" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4050" />
+			<string key="reference:case:concept:name" value="exercise" />
+			<int key="@@index" value="2566" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<string key="concept:name" value="do_exercise" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-28T22:24:00+00:00" />
+			<string key="Activity" value="do_exercise" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4051" />
+			<string key="reference:case:concept:name" value="exercise" />
+			<int key="@@index" value="2567" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<string key="concept:name" value="do_exercise" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-03-28T22:55:00+00:00" />
+			<string key="Activity" value="do_exercise" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4053" />
+			<string key="reference:case:concept:name" value="exercise" />
+			<int key="@@index" value="2569" />
+			<int key="@@case_index" value="12" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_exercise_place" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T05:56:00+00:00" />
+			<string key="Activity" value="go_exercise_place" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4946" />
+			<string key="reference:case:concept:name" value="exercise" />
+			<int key="@@index" value="3462" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="do_exercise" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T05:56:00+00:00" />
+			<string key="Activity" value="do_exercise" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="4947" />
+			<string key="reference:case:concept:name" value="exercise" />
+			<int key="@@index" value="3463" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="do_exercise" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-01T06:20:00+00:00" />
+			<string key="Activity" value="do_exercise" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="4949" />
+			<string key="reference:case:concept:name" value="exercise" />
+			<int key="@@index" value="3465" />
+			<int key="@@case_index" value="16" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_exercise_place" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T08:15:00+00:00" />
+			<string key="Activity" value="go_exercise_place" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5669" />
+			<string key="reference:case:concept:name" value="exercise" />
+			<int key="@@index" value="4185" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="go_exercise_place" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T08:16:00+00:00" />
+			<string key="Activity" value="go_exercise_place" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5670" />
+			<string key="reference:case:concept:name" value="exercise" />
+			<int key="@@index" value="4186" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="do_exercise" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T08:16:00+00:00" />
+			<string key="Activity" value="do_exercise" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="start" />
+			<string key="eventId" value="5671" />
+			<string key="reference:case:concept:name" value="exercise" />
+			<int key="@@index" value="4187" />
+			<int key="@@case_index" value="20" />
+		</event>
+		<event>
+			<string key="concept:name" value="do_exercise" />
+			<string key="org:resource" value="0" />
+			<date key="time:timestamp" value="2020-04-05T08:47:00+00:00" />
+			<string key="Activity" value="do_exercise" />
+			<string key="Resource" value="0" />
+			<string key="lifecycle:transition" value="complete" />
+			<string key="eventId" value="5673" />
+			<string key="reference:case:concept:name" value="exercise" />
+			<int key="@@index" value="4189" />
+			<int key="@@case_index" value="20" />
+		</event>
+	</trace>
+</log>
