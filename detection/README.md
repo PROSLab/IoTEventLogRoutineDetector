@@ -1,6 +1,6 @@
 # Routine Detector - Detection
 
-The project refers to the community detection parte of the Routine Detector approach.
+The project refers to the community detection part of the Routine Detector approach.
 
 ## Requirements
 The environment require Python `3.10.x`.
