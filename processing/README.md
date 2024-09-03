@@ -1,4 +1,4 @@
-# Routine Detector - Processng
+# Routine Detector - Processing
 
 The project refers to the IoT event processing part of the Routine Detector approach.
 
